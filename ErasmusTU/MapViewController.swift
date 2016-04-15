@@ -27,14 +27,15 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         self.locationManager.requestWhenInUseAuthorization()  //request current location
         self.locationManager.startUpdatingLocation() //update location
         self.Map.showsUserLocation = true
+        self.Map.showsCompass = true
         
         // Do any additional setup after loading the view, typically from a nib.
-        self.tabBarController?.tabBar.hidden = true
-        var location = CLLocationCoordinate2DMake(47.069267, 15.450321)
+        //self.tabBarController?.tabBar.hidden = true
+      /*  var location = CLLocationCoordinate2DMake(47.069267, 15.450321)
         var span = MKCoordinateSpanMake(0.1, 0.1)
         var region = MKCoordinateRegion(center: location, span: span)
         
-        Map.setRegion(region, animated: true)
+        Map.setRegion(region, animated: true)*/
         
         
         var location_alte = CLLocationCoordinate2DMake(47.069267, 15.450321)
@@ -60,7 +61,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         Map.addAnnotation(annotation_alte)
         Map.addAnnotation(annotation_neue)
         Map.addAnnotation(annotation_inff)
-        
 
         
         
@@ -88,6 +88,14 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         print("Error in map: " + error.localizedDescription)
     }
+    
+    
+    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+        print("Annotation slected")
+    }
+    
+    
+    
     
     }
     

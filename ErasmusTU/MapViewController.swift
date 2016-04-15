@@ -11,12 +11,22 @@ import MapKit
 import UIKit
 import CoreLocation
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     @IBOutlet weak var tabBar: UITabBarItem!
     @IBOutlet weak var Map: MKMapView!
+    
+    let locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        self.locationManager.delegate = self
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest //best Accuracy location
+        self.locationManager.requestWhenInUseAuthorization()  //request current location
+        self.locationManager.startUpdatingLocation() //update location
+        self.Map.showsUserLocation = true
         
         // Do any additional setup after loading the view, typically from a nib.
         self.tabBarController?.tabBar.hidden = true
@@ -51,7 +61,7 @@ class MapViewController: UIViewController {
         Map.addAnnotation(annotation_neue)
         Map.addAnnotation(annotation_inff)
         
-        
+
         
         
         
@@ -63,4 +73,30 @@ class MapViewController: UIViewController {
     }
     
     
-}
+    
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+        let location = locations.last
+        let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+        self.Map.setRegion(region, animated: true)
+        self.locationManager.stopUpdatingLocation()
+        
+    }
+    
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        print("Error in map: " + error.localizedDescription)
+    }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

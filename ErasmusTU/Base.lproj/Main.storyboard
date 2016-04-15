@@ -46,7 +46,6 @@
         <!--Useful-->
         <scene sceneID="CpA-2o-hYR">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hKQ-zC-A5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Useful" id="8xR-V4-DxW" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TPe-fS-C75"/>
@@ -59,13 +58,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Useful" image="second" id="H78-D2-OZV"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hKQ-zC-A5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="762" y="111"/>
         </scene>
         <!--Free Time-->
         <scene sceneID="gPq-S3-OuK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Unt-LL-1Ll" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Free Time" id="pWt-Ug-TMa" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D0X-us-YWM"/>
@@ -78,13 +77,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Free Time" image="second" id="OYz-sM-c4x"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Unt-LL-1Ll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="764" y="791"/>
         </scene>
         <!--Map-->
         <scene sceneID="xlg-SB-MVw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vAP-tU-F8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Map" wantsFullScreenLayout="YES" hidesBottomBarWhenPushed="YES" id="H2l-fU-91c" customClass="MapViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NYk-qd-CWb"/>
@@ -112,6 +111,7 @@
                         <outlet property="tabBar" destination="NOw-cE-L8s" id="go1-l7-vZh"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vAP-tU-F8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="764" y="1567"/>
         </scene>

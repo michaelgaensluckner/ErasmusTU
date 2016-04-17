@@ -13,6 +13,8 @@
 		990C6D551CBF94D80085F70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D531CBF94D80085F70E /* Main.storyboard */; };
 		990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D561CBF94D80085F70E /* Assets.xcassets */; };
 		990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */; };
+		995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */; };
+		995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E76B01CC3CC70004C2C85 /* Freetime.swift */; };
 		99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FBEB611CBFCEC1001E5946 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		990C6D561CBF94D80085F70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990C6D591CBF94D80085F70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		990C6D5B1CBF94D80085F70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TUMapAnnotations.plist; path = ../TUMapAnnotations.plist; sourceTree = "<group>"; };
+		995E76B01CC3CC70004C2C85 /* Freetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Freetime.swift; sourceTree = "<group>"; };
 		99FBEB611CBFCEC1001E5946 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +66,9 @@
 				990C6D4F1CBF94D70085F70E /* FirstViewController.swift */,
 				990C6D511CBF94D70085F70E /* SecondViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
+				995E76B01CC3CC70004C2C85 /* Freetime.swift */,
 				99FBEB611CBFCEC1001E5946 /* MapViewController.swift */,
+				995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */,
 				990C6D561CBF94D80085F70E /* Assets.xcassets */,
 				990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */,
 				990C6D5B1CBF94D80085F70E /* Info.plist */,
@@ -136,6 +142,7 @@
 			files = (
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
 				990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */,
+				995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +158,7 @@
 				990C6D4E1CBF94D70085F70E /* AppDelegate.swift in Sources */,
 				990C6D501CBF94D70085F70E /* FirstViewController.swift in Sources */,
 				99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */,
+				995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

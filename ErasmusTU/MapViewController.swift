@@ -16,6 +16,9 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     @IBOutlet weak var tabBar: UITabBarItem!
     @IBOutlet weak var Map: MKMapView!
     
+    @IBOutlet var LongPress: UILongPressGestureRecognizer!
+    
+    
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -28,44 +31,18 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         self.locationManager.startUpdatingLocation() //update location
         self.Map.showsUserLocation = true
         self.Map.showsCompass = true
-        
-        // Do any additional setup after loading the view, typically from a nib.
-        //self.tabBarController?.tabBar.hidden = true
-      /*  var location = CLLocationCoordinate2DMake(47.069267, 15.450321)
-        var span = MKCoordinateSpanMake(0.1, 0.1)
-        var region = MKCoordinateRegion(center: location, span: span)
-        
-        Map.setRegion(region, animated: true)*/
+    
+                
+        // get Annotations from plist
+        let annotations = getMapAnnotations()
         
         
-        var location_alte = CLLocationCoordinate2DMake(47.069267, 15.450321)
-        var location_neue = CLLocationCoordinate2DMake(47.064952,15.452515)
-        var location_inff = CLLocationCoordinate2DMake(47.058465, 15.458775)
+       // annotations.pinTintColor = UIColor.greenColor()
+        // Add mappoints to Map
+        Map.addAnnotations(annotations)
 
-        var annotation_alte = MKPointAnnotation()
-        annotation_alte.coordinate = location_alte
-        annotation_alte.title = "TU Graz"
-        annotation_alte.subtitle = "Alte Technik"
-        
-        var annotation_neue = MKPointAnnotation()
-        annotation_neue.coordinate = location_neue
-        annotation_neue.title = "TU Graz"
-        annotation_neue.subtitle = "Neue Technik"
-        
-        var annotation_inff = MKPointAnnotation()
-        annotation_inff.coordinate = location_inff
-        annotation_inff.title = "TU Graz"
-        annotation_inff.subtitle = "Inffeldgründe"
-       
-        
-        Map.addAnnotation(annotation_alte)
-        Map.addAnnotation(annotation_neue)
-        Map.addAnnotation(annotation_inff)
 
-        
-        
-        
-    }
+            }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -96,14 +73,50 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     
     
+    func getMapAnnotations() -> [Annotation]
+    {
+        var annotations:Array = [Annotation]()
+    
+        //load plist file
+        var anno_array: NSArray?
+        if let path = NSBundle.mainBundle().pathForResource("TUMapAnnotations", ofType: "plist") {
+            anno_array = NSArray(contentsOfFile: path)
+        }
+    
+        //iterate and create annotations
+        if let items = anno_array {
+            for item in items {
+                let lat = item.valueForKey("latitude") as! Double
+                let long = item.valueForKey("longitude")as! Double
+                let annotation = Annotation(latitude: lat, longitude: long)
+                annotation.title = item.valueForKey("title") as? String
+                annotations.append(annotation)
+            }
+        }
+    
+    return annotations
+    }
+
     
     }
+
+
+class Annotation: NSObject, MKAnnotation {
+    var title: String?
+    var subtitle: String?
+    var latitude: Double
+    var longitude:Double
     
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
     
-    
-    
-    
-    
+    init(latitude: Double, longitude: Double) {
+        self.latitude = latitude
+        self.longitude = longitude
+    }
+}
+
     
     
     

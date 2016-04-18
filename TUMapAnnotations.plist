@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>TU Alte Technik</string>
+		<key>latitude</key>
+		<real>47.069267</real>
+		<key>longitude</key>
+		<real>15.450321</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>TU Neue Technik</string>
+		<key>latitude</key>
+		<real>47.064952</real>
+		<key>longitude</key>
+		<real>15.452515</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>TU Inffeldgründe</string>
+		<key>latitude</key>
+		<real>47.058465</real>
+		<key>longitude</key>
+		<real>15.458775</real>
+	</dict>
+</array>
+</plist>

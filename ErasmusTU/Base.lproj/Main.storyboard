@@ -36,7 +36,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wZq-Od-Ip8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="828" y="-2210"/>
+            <point key="canvasLocation" x="780" y="-1310"/>
         </scene>
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
@@ -136,7 +136,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1658" y="-2210"/>
+            <point key="canvasLocation" x="1522" y="-1310"/>
         </scene>
         <!--Must Do View Controller-->
         <scene sceneID="WF2-o5-0N9">
@@ -325,7 +325,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qV8-Dj-EOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2452" y="-3086"/>
+            <point key="canvasLocation" x="2268" y="-1318"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tZi-4x-xhK">
@@ -356,7 +356,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pcS-7N-eC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3240" y="-4195"/>
+            <point key="canvasLocation" x="3024" y="-1339"/>
         </scene>
         <!--TU-->
         <scene sceneID="wg7-f3-ORb">
@@ -491,7 +491,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyc-MI-sWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="669" y="861"/>
+            <point key="canvasLocation" x="770" y="861"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OEm-ho-CF1">

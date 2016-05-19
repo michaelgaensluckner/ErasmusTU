@@ -40,6 +40,23 @@
 		995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */; };
 		995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E76B01CC3CC70004C2C85 /* Freetime.swift */; };
 		99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FBEB611CBFCEC1001E5946 /* MapViewController.swift */; };
+		D06436861CEB427100AEAE1E /* Alte.gif in Resources */ = {isa = PBXBuildFile; fileRef = D06436851CEB427100AEAE1E /* Alte.gif */; };
+		D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */; };
+		D064368C1CEB6F1100AEAE1E /* NeueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */; };
+		D064368E1CEB6F7500AEAE1E /* InfeldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064368D1CEB6F7500AEAE1E /* InfeldViewController.swift */; };
+		D06436901CEB781F00AEAE1E /* Gitte.png in Resources */ = {isa = PBXBuildFile; fileRef = D064368F1CEB781F00AEAE1E /* Gitte.png */; };
+		D06436921CEB785700AEAE1E /* Barbara.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436911CEB785700AEAE1E /* Barbara.png */; };
+		D06436941CEB786C00AEAE1E /* maria.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436931CEB786C00AEAE1E /* maria.png */; };
+		D06436961CEB788100AEAE1E /* anja.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436951CEB788100AEAE1E /* anja.png */; };
+		D06436981CEB807800AEAE1E /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436971CEB807800AEAE1E /* call.png */; };
+		D064369A1CEB818300AEAE1E /* call1.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436991CEB818300AEAE1E /* call1.png */; };
+		D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */; };
+		D0CDDD8E1CED07960015E19A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CDDD8D1CED07960015E19A /* MessageUI.framework */; };
+		D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */; };
+		D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */; };
+		D0CDDD951CED9BF60015E19A /* registerCourse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD941CED9BF60015E19A /* registerCourse.pdf */; };
+		D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */; };
+		D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD981CEDA3E30015E19A /* TUonline.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +95,25 @@
 		995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TUMapAnnotations.plist; path = ../TUMapAnnotations.plist; sourceTree = "<group>"; };
 		995E76B01CC3CC70004C2C85 /* Freetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Freetime.swift; sourceTree = "<group>"; };
 		99FBEB611CBFCEC1001E5946 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D06436851CEB427100AEAE1E /* Alte.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Alte.gif; sourceTree = "<group>"; };
+		D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlteControllerViewController.swift; sourceTree = "<group>"; };
+		D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeueViewController.swift; sourceTree = "<group>"; };
+		D064368D1CEB6F7500AEAE1E /* InfeldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfeldViewController.swift; sourceTree = "<group>"; };
+		D064368F1CEB781F00AEAE1E /* Gitte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gitte.png; sourceTree = "<group>"; };
+		D06436911CEB785700AEAE1E /* Barbara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbara.png; sourceTree = "<group>"; };
+		D06436931CEB786C00AEAE1E /* maria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maria.png; sourceTree = "<group>"; };
+		D06436951CEB788100AEAE1E /* anja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anja.png; sourceTree = "<group>"; };
+		D06436971CEB807800AEAE1E /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		D06436991CEB818300AEAE1E /* call1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call1.png; sourceTree = "<group>"; };
+		D064369B1CEB829D00AEAE1E /* Map */ = {isa = PBXFileReference; explicitFileType = image.png; path = Map; sourceTree = "<group>"; };
+		D064369C1CEB82C000AEAE1E /* email */ = {isa = PBXFileReference; explicitFileType = image.png; path = email; sourceTree = "<group>"; };
+		D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternationalOfficeViewController.swift; sourceTree = "<group>"; };
+		D0CDDD8D1CED07960015E19A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUOnlineViewController.swift; sourceTree = "<group>"; };
+		D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseRegistrationViewController.swift; path = ../CourseRegistrationViewController.swift; sourceTree = "<group>"; };
+		D0CDDD941CED9BF60015E19A /* registerCourse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = registerCourse.pdf; path = ../../../Downloads/registerCourse.pdf; sourceTree = "<group>"; };
+		D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUTutorialViewController.swift; sourceTree = "<group>"; };
+		D0CDDD981CEDA3E30015E19A /* TUonline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TUonline.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CDDD8E1CED07960015E19A /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +160,7 @@
 		990C6D411CBF94D70085F70E = {
 			isa = PBXGroup;
 			children = (
+				D0CDDD8D1CED07960015E19A /* MessageUI.framework */,
 				990C6D4C1CBF94D70085F70E /* ErasmusTU */,
 				990C6D4B1CBF94D70085F70E /* Products */,
 			);
@@ -141,19 +179,53 @@
 			children = (
 				990C6D4D1CBF94D70085F70E /* AppDelegate.swift */,
 				990C6D4F1CBF94D70085F70E /* FirstViewController.swift */,
+				D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */,
 				0BE6FE5F1CDFA25900A5849A /* MustDoViewController.swift */,
+				D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */,
+				D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */,
 				990C6D511CBF94D70085F70E /* SecondViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
+				D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */,
+				D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */,
+				D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */,
+				D064368D1CEB6F7500AEAE1E /* InfeldViewController.swift */,
 				0BE6FE611CDFAAD100A5849A /* RegistrationWithGrazViewController.swift */,
 				995E76B01CC3CC70004C2C85 /* Freetime.swift */,
 				99FBEB611CBFCEC1001E5946 /* MapViewController.swift */,
-				995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */,
-				990C6D561CBF94D80085F70E /* Assets.xcassets */,
 				990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */,
+				995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */,
 				990C6D5B1CBF94D80085F70E /* Info.plist */,
+				990C6D561CBF94D80085F70E /* Assets.xcassets */,
+				D0CDDD931CED9BD60015E19A /* PDF */,
+				D06436841CEB41E300AEAE1E /* Images */,
 				0BE6FE281CDF70D900A5849A /* SF-UI */,
 			);
 			path = ErasmusTU;
+			sourceTree = "<group>";
+		};
+		D06436841CEB41E300AEAE1E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D064368F1CEB781F00AEAE1E /* Gitte.png */,
+				D06436971CEB807800AEAE1E /* call.png */,
+				D06436991CEB818300AEAE1E /* call1.png */,
+				D064369C1CEB82C000AEAE1E /* email */,
+				D06436951CEB788100AEAE1E /* anja.png */,
+				D064369B1CEB829D00AEAE1E /* Map */,
+				D06436911CEB785700AEAE1E /* Barbara.png */,
+				D06436931CEB786C00AEAE1E /* maria.png */,
+				D06436851CEB427100AEAE1E /* Alte.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D0CDDD931CED9BD60015E19A /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				D0CDDD981CEDA3E30015E19A /* TUonline.pdf */,
+				D0CDDD941CED9BF60015E19A /* registerCourse.pdf */,
+			);
+			name = PDF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +292,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06436961CEB788100AEAE1E /* anja.png in Resources */,
+				D06436941CEB786C00AEAE1E /* maria.png in Resources */,
+				D06436921CEB785700AEAE1E /* Barbara.png in Resources */,
 				0BE6FE491CDF70D900A5849A /* SF-UI-Text-Bold.otf in Resources */,
 				0BE6FE411CDF70D900A5849A /* SF-UI-Display-Bold.otf in Resources */,
 				0BE6FE4E1CDF70D900A5849A /* SF-UI-Text-LightItalic.otf in Resources */,
@@ -233,14 +308,20 @@
 				0BE6FE401CDF70D900A5849A /* SF-UI-Display-Black.otf in Resources */,
 				0BE6FE501CDF70D900A5849A /* SF-UI-Text-MediumItalic.otf in Resources */,
 				0BE6FE541CDF70D900A5849A /* SF-UI-Text-SemiboldItalic.otf in Resources */,
+				D0CDDD951CED9BF60015E19A /* registerCourse.pdf in Resources */,
 				0BE6FE511CDF70D900A5849A /* SF-UI-Text-Regular.otf in Resources */,
+				D06436901CEB781F00AEAE1E /* Gitte.png in Resources */,
+				D06436861CEB427100AEAE1E /* Alte.gif in Resources */,
 				0BE6FE431CDF70D900A5849A /* SF-UI-Display-Light.otf in Resources */,
 				995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */,
 				0BE6FE4F1CDF70D900A5849A /* SF-UI-Text-Medium.otf in Resources */,
 				0BE6FE471CDF70D900A5849A /* SF-UI-Display-Thin.otf in Resources */,
+				D06436981CEB807800AEAE1E /* call.png in Resources */,
 				0BE6FE4A1CDF70D900A5849A /* SF-UI-Text-BoldItalic.otf in Resources */,
 				0BE6FE461CDF70D900A5849A /* SF-UI-Display-Semibold.otf in Resources */,
 				0BE6FE451CDF70D900A5849A /* SF-UI-Display-Regular.otf in Resources */,
+				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
+				D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */,
 				0BE6FE481CDF70D900A5849A /* SF-UI-Display-Ultralight.otf in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
 				0BE6FE421CDF70D900A5849A /* SF-UI-Display-Heavy.otf in Resources */,
@@ -256,13 +337,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
 				990C6D521CBF94D70085F70E /* SecondViewController.swift in Sources */,
 				990C6D4E1CBF94D70085F70E /* AppDelegate.swift in Sources */,
 				0BE6FE621CDFAAD100A5849A /* RegistrationWithGrazViewController.swift in Sources */,
+				D064368E1CEB6F7500AEAE1E /* InfeldViewController.swift in Sources */,
+				D064368C1CEB6F1100AEAE1E /* NeueViewController.swift in Sources */,
 				990C6D501CBF94D70085F70E /* FirstViewController.swift in Sources */,
 				99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */,
+				D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */,
+				D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */,
 				0BE6FE601CDFA25900A5849A /* MustDoViewController.swift in Sources */,
+				D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */,
 				995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */,
+				D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

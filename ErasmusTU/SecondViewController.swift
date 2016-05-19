@@ -21,5 +21,34 @@ class SecondViewController: UIViewController {
     }
 
 
+    @IBAction func CampusButton(sender: UIButton) {
+    }
+    
+    
+    
+    @IBAction func OfficeButton(sender: UIButton) {
+    }
+    
+    
+    
+    @IBAction func TUonlineButton(sender: UIButton) {
+    }
+    
+    
+    @IBAction func CalendarButton(sender: UIButton) {
+    }
+    
+    
+    @IBAction func Department(sender: UIButton) {
+    }
+    
+    
+    @IBAction func Courses(sender: UIButton) {
+    }
+    
+    
+    
+    
+
 }
 

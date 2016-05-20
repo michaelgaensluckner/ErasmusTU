@@ -38,8 +38,6 @@
 		990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */; };
 		995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */; };
 		995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E76B01CC3CC70004C2C85 /* Freetime.swift */; };
-		99B0E1A11CEEFF5D001478DF /* Freetime-Restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99B0E1A01CEEFF5D001478DF /* Freetime-Restaurants.plist */; };
-		99B0E1A31CEF131B001478DF /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B0E1A21CEF131B001478DF /* MapOptions.swift */; };
 		99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FBEB611CBFCEC1001E5946 /* MapViewController.swift */; };
 		D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */; };
 		D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */; };
@@ -57,7 +55,6 @@
 		D0CDDD8E1CED07960015E19A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CDDD8D1CED07960015E19A /* MessageUI.framework */; };
 		D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */; };
 		D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */; };
-		D0CDDD951CED9BF60015E19A /* registerCourse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD941CED9BF60015E19A /* registerCourse.pdf */; };
 		D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */; };
 		D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD981CEDA3E30015E19A /* TUonline.pdf */; };
 		D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD9A1CEDBAFA0015E19A /* email1.png */; };
@@ -75,6 +72,7 @@
 		D0CDDE001CEE0E750015E19A /* Chemical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF51CEE0E750015E19A /* Chemical.png */; };
 		D0CDDE011CEE0E750015E19A /* Fisics.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF61CEE0E750015E19A /* Fisics.png */; };
 		D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDE021CEE749D0015E19A /* phone-call.png */; };
+		D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CF34991CEF79BB0080F784 /* registerCourse.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,7 +110,6 @@
 		995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TUMapAnnotations.plist; path = ../TUMapAnnotations.plist; sourceTree = "<group>"; };
 		995E76B01CC3CC70004C2C85 /* Freetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Freetime.swift; sourceTree = "<group>"; };
 		99B0E1A01CEEFF5D001478DF /* Freetime-Restaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Freetime-Restaurants.plist"; sourceTree = "<group>"; };
-		99B0E1A21CEF131B001478DF /* MapOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
 		99FBEB611CBFCEC1001E5946 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TUMainViewController.swift; path = ../TUMainViewController.swift; sourceTree = "<group>"; };
 		D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentCoordViewController.swift; sourceTree = "<group>"; };
@@ -132,7 +129,6 @@
 		D0CDDD8D1CED07960015E19A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUOnlineViewController.swift; sourceTree = "<group>"; };
 		D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseRegistrationViewController.swift; path = ../CourseRegistrationViewController.swift; sourceTree = "<group>"; };
-		D0CDDD941CED9BF60015E19A /* registerCourse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = registerCourse.pdf; path = ../../../Downloads/registerCourse.pdf; sourceTree = "<group>"; };
 		D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUTutorialViewController.swift; sourceTree = "<group>"; };
 		D0CDDD981CEDA3E30015E19A /* TUonline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TUonline.pdf; sourceTree = "<group>"; };
 		D0CDDD9A1CEDBAFA0015E19A /* email1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email1.png; sourceTree = "<group>"; };
@@ -150,6 +146,7 @@
 		D0CDDDF51CEE0E750015E19A /* Chemical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemical.png; sourceTree = "<group>"; };
 		D0CDDDF61CEE0E750015E19A /* Fisics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fisics.png; sourceTree = "<group>"; };
 		D0CDDE021CEE749D0015E19A /* phone-call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-call.png"; sourceTree = "<group>"; };
+		D0CF34991CEF79BB0080F784 /* registerCourse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = registerCourse.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,7 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				D0CDDD981CEDA3E30015E19A /* TUonline.pdf */,
-				D0CDDD941CED9BF60015E19A /* registerCourse.pdf */,
+				D0CF34991CEF79BB0080F784 /* registerCourse.pdf */,
 			);
 			name = PDF;
 			sourceTree = "<group>";
@@ -362,6 +359,7 @@
 				D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */,
 				0BE6FE411CDF70D900A5849A /* SF-UI-Display-Bold.otf in Resources */,
 				0BE6FE4E1CDF70D900A5849A /* SF-UI-Text-LightItalic.otf in Resources */,
+				D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */,
 				0BE6FE4B1CDF70D900A5849A /* SF-UI-Text-Heavy.otf in Resources */,
 				D0CDDDFE1CEE0E750015E19A /* Biomedical.png in Resources */,
 				0BE6FE4C1CDF70D900A5849A /* SF-UI-Text-HeavyItalic.otf in Resources */,
@@ -379,7 +377,6 @@
 				D0CDDDFC1CEE0E750015E19A /* Enviromental.png in Resources */,
 				0BE6FE541CDF70D900A5849A /* SF-UI-Text-SemiboldItalic.otf in Resources */,
 				D0CDDE011CEE0E750015E19A /* Fisics.png in Resources */,
-				D0CDDD951CED9BF60015E19A /* registerCourse.pdf in Resources */,
 				D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */,
 				0BE6FE511CDF70D900A5849A /* SF-UI-Text-Regular.otf in Resources */,
 				D06436901CEB781F00AEAE1E /* Gitte.png in Resources */,

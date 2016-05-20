@@ -36,12 +36,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wZq-Od-Ip8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="780" y="-1310"/>
+            <point key="canvasLocation" x="788" y="-1318"/>
         </scene>
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
                 <viewController title="Home" id="9pv-A4-QxB" customClass="FirstViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
@@ -135,6 +134,7 @@
                         <outlet property="MustDoButton" destination="abR-jj-atw" id="1EF-HF-CP0"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1522" y="-1310"/>
         </scene>

@@ -33,13 +33,14 @@
 		0BE6FE621CDFAAD100A5849A /* RegistrationWithGrazViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE6FE611CDFAAD100A5849A /* RegistrationWithGrazViewController.swift */; };
 		990C6D4E1CBF94D70085F70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990C6D4D1CBF94D70085F70E /* AppDelegate.swift */; };
 		990C6D501CBF94D70085F70E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990C6D4F1CBF94D70085F70E /* FirstViewController.swift */; };
-		990C6D521CBF94D70085F70E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990C6D511CBF94D70085F70E /* SecondViewController.swift */; };
 		990C6D551CBF94D80085F70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D531CBF94D80085F70E /* Main.storyboard */; };
 		990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D561CBF94D80085F70E /* Assets.xcassets */; };
 		990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */; };
 		995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */; };
 		995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E76B01CC3CC70004C2C85 /* Freetime.swift */; };
 		99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FBEB611CBFCEC1001E5946 /* MapViewController.swift */; };
+		D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */; };
+		D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */; };
 		D06436861CEB427100AEAE1E /* Alte.gif in Resources */ = {isa = PBXBuildFile; fileRef = D06436851CEB427100AEAE1E /* Alte.gif */; };
 		D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */; };
 		D064368C1CEB6F1100AEAE1E /* NeueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */; };
@@ -57,6 +58,21 @@
 		D0CDDD951CED9BF60015E19A /* registerCourse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD941CED9BF60015E19A /* registerCourse.pdf */; };
 		D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */; };
 		D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD981CEDA3E30015E19A /* TUonline.pdf */; };
+		D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD9A1CEDBAFA0015E19A /* email1.png */; };
+		D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */; };
+		D0CDDDEB1CEE05990015E19A /* Arquitectura.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDEA1CEE05990015E19A /* Arquitectura.png */; };
+		D0CDDDF71CEE0E750015E19A /* Biologuy.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDEC1CEE0E750015E19A /* Biologuy.png */; };
+		D0CDDDF81CEE0E750015E19A /* Maths.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDED1CEE0E750015E19A /* Maths.png */; };
+		D0CDDDF91CEE0E750015E19A /* Chemistry.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDEE1CEE0E750015E19A /* Chemistry.png */; };
+		D0CDDDFA1CEE0E750015E19A /* Informatics.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDEF1CEE0E750015E19A /* Informatics.png */; };
+		D0CDDDFB1CEE0E750015E19A /* Civil.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF01CEE0E750015E19A /* Civil.png */; };
+		D0CDDDFC1CEE0E750015E19A /* Enviromental.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF11CEE0E750015E19A /* Enviromental.png */; };
+		D0CDDDFD1CEE0E750015E19A /* Mechanical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF21CEE0E750015E19A /* Mechanical.png */; };
+		D0CDDDFE1CEE0E750015E19A /* Biomedical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF31CEE0E750015E19A /* Biomedical.png */; };
+		D0CDDDFF1CEE0E750015E19A /* Electrical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF41CEE0E750015E19A /* Electrical.png */; };
+		D0CDDE001CEE0E750015E19A /* Chemical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF51CEE0E750015E19A /* Chemical.png */; };
+		D0CDDE011CEE0E750015E19A /* Fisics.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF61CEE0E750015E19A /* Fisics.png */; };
+		D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDE021CEE749D0015E19A /* phone-call.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,7 +103,6 @@
 		990C6D4A1CBF94D70085F70E /* ErasmusTU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErasmusTU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		990C6D4D1CBF94D70085F70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		990C6D4F1CBF94D70085F70E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		990C6D511CBF94D70085F70E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		990C6D541CBF94D80085F70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		990C6D561CBF94D80085F70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990C6D591CBF94D80085F70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +110,8 @@
 		995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TUMapAnnotations.plist; path = ../TUMapAnnotations.plist; sourceTree = "<group>"; };
 		995E76B01CC3CC70004C2C85 /* Freetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Freetime.swift; sourceTree = "<group>"; };
 		99FBEB611CBFCEC1001E5946 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TUMainViewController.swift; path = ../TUMainViewController.swift; sourceTree = "<group>"; };
+		D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentCoordViewController.swift; sourceTree = "<group>"; };
 		D06436851CEB427100AEAE1E /* Alte.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Alte.gif; sourceTree = "<group>"; };
 		D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlteControllerViewController.swift; sourceTree = "<group>"; };
 		D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeueViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +131,21 @@
 		D0CDDD941CED9BF60015E19A /* registerCourse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = registerCourse.pdf; path = ../../../Downloads/registerCourse.pdf; sourceTree = "<group>"; };
 		D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUTutorialViewController.swift; sourceTree = "<group>"; };
 		D0CDDD981CEDA3E30015E19A /* TUonline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TUonline.pdf; sourceTree = "<group>"; };
+		D0CDDD9A1CEDBAFA0015E19A /* email1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email1.png; sourceTree = "<group>"; };
+		D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-locatie.png"; sourceTree = "<group>"; };
+		D0CDDDEA1CEE05990015E19A /* Arquitectura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arquitectura.png; sourceTree = "<group>"; };
+		D0CDDDEC1CEE0E750015E19A /* Biologuy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Biologuy.png; sourceTree = "<group>"; };
+		D0CDDDED1CEE0E750015E19A /* Maths.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maths.png; sourceTree = "<group>"; };
+		D0CDDDEE1CEE0E750015E19A /* Chemistry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemistry.png; sourceTree = "<group>"; };
+		D0CDDDEF1CEE0E750015E19A /* Informatics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Informatics.png; sourceTree = "<group>"; };
+		D0CDDDF01CEE0E750015E19A /* Civil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Civil.png; sourceTree = "<group>"; };
+		D0CDDDF11CEE0E750015E19A /* Enviromental.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enviromental.png; sourceTree = "<group>"; };
+		D0CDDDF21CEE0E750015E19A /* Mechanical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mechanical.png; sourceTree = "<group>"; };
+		D0CDDDF31CEE0E750015E19A /* Biomedical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Biomedical.png; sourceTree = "<group>"; };
+		D0CDDDF41CEE0E750015E19A /* Electrical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electrical.png; sourceTree = "<group>"; };
+		D0CDDDF51CEE0E750015E19A /* Chemical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemical.png; sourceTree = "<group>"; };
+		D0CDDDF61CEE0E750015E19A /* Fisics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fisics.png; sourceTree = "<group>"; };
+		D0CDDE021CEE749D0015E19A /* phone-call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-call.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,9 +214,10 @@
 				D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */,
 				0BE6FE5F1CDFA25900A5849A /* MustDoViewController.swift */,
 				D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */,
+				D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */,
 				D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */,
-				990C6D511CBF94D70085F70E /* SecondViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
+				D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */,
 				D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */,
 				D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */,
 				D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */,
@@ -206,14 +239,26 @@
 		D06436841CEB41E300AEAE1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D064368F1CEB781F00AEAE1E /* Gitte.png */,
+				D0CDDDEC1CEE0E750015E19A /* Biologuy.png */,
+				D0CDDDED1CEE0E750015E19A /* Maths.png */,
+				D0CDDDEE1CEE0E750015E19A /* Chemistry.png */,
+				D0CDDDEF1CEE0E750015E19A /* Informatics.png */,
+				D0CDDDF01CEE0E750015E19A /* Civil.png */,
+				D0CDDE021CEE749D0015E19A /* phone-call.png */,
+				D0CDDDF11CEE0E750015E19A /* Enviromental.png */,
+				D0CDDDF21CEE0E750015E19A /* Mechanical.png */,
+				D0CDDDF31CEE0E750015E19A /* Biomedical.png */,
+				D0CDDDF41CEE0E750015E19A /* Electrical.png */,
+				D0CDDDF51CEE0E750015E19A /* Chemical.png */,
+				D0CDDDF61CEE0E750015E19A /* Fisics.png */,
+				D0CDDDEA1CEE05990015E19A /* Arquitectura.png */,
+				D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */,
+				D0CDDD9A1CEDBAFA0015E19A /* email1.png */,
 				D06436971CEB807800AEAE1E /* call.png */,
 				D06436991CEB818300AEAE1E /* call1.png */,
 				D064369C1CEB82C000AEAE1E /* email */,
-				D06436951CEB788100AEAE1E /* anja.png */,
+				D0CDDD9E1CEDD44F0015E19A /* Office */,
 				D064369B1CEB829D00AEAE1E /* Map */,
-				D06436911CEB785700AEAE1E /* Barbara.png */,
-				D06436931CEB786C00AEAE1E /* maria.png */,
 				D06436851CEB427100AEAE1E /* Alte.gif */,
 			);
 			name = Images;
@@ -226,6 +271,17 @@
 				D0CDDD941CED9BF60015E19A /* registerCourse.pdf */,
 			);
 			name = PDF;
+			sourceTree = "<group>";
+		};
+		D0CDDD9E1CEDD44F0015E19A /* Office */ = {
+			isa = PBXGroup;
+			children = (
+				D06436951CEB788100AEAE1E /* anja.png */,
+				D06436911CEB785700AEAE1E /* Barbara.png */,
+				D06436931CEB786C00AEAE1E /* maria.png */,
+				D064368F1CEB781F00AEAE1E /* Gitte.png */,
+			);
+			name = Office;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,32 +348,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CDDDFF1CEE0E750015E19A /* Electrical.png in Resources */,
+				D0CDDDFB1CEE0E750015E19A /* Civil.png in Resources */,
 				D06436961CEB788100AEAE1E /* anja.png in Resources */,
 				D06436941CEB786C00AEAE1E /* maria.png in Resources */,
 				D06436921CEB785700AEAE1E /* Barbara.png in Resources */,
 				0BE6FE491CDF70D900A5849A /* SF-UI-Text-Bold.otf in Resources */,
+				D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */,
 				0BE6FE411CDF70D900A5849A /* SF-UI-Display-Bold.otf in Resources */,
 				0BE6FE4E1CDF70D900A5849A /* SF-UI-Text-LightItalic.otf in Resources */,
 				0BE6FE4B1CDF70D900A5849A /* SF-UI-Text-Heavy.otf in Resources */,
+				D0CDDDFE1CEE0E750015E19A /* Biomedical.png in Resources */,
 				0BE6FE4C1CDF70D900A5849A /* SF-UI-Text-HeavyItalic.otf in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
+				D0CDDDF81CEE0E750015E19A /* Maths.png in Resources */,
 				0BE6FE521CDF70D900A5849A /* SF-UI-Text-RegularItalic.otf in Resources */,
 				0BE6FE441CDF70D900A5849A /* SF-UI-Display-Medium.otf in Resources */,
 				0BE6FE3F1CDF70D900A5849A /* License Agreement for SF UI Font.pdf in Resources */,
 				990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */,
+				D0CDDDEB1CEE05990015E19A /* Arquitectura.png in Resources */,
 				0BE6FE401CDF70D900A5849A /* SF-UI-Display-Black.otf in Resources */,
 				0BE6FE501CDF70D900A5849A /* SF-UI-Text-MediumItalic.otf in Resources */,
+				D0CDDDFA1CEE0E750015E19A /* Informatics.png in Resources */,
+				D0CDDE001CEE0E750015E19A /* Chemical.png in Resources */,
+				D0CDDDFC1CEE0E750015E19A /* Enviromental.png in Resources */,
 				0BE6FE541CDF70D900A5849A /* SF-UI-Text-SemiboldItalic.otf in Resources */,
+				D0CDDE011CEE0E750015E19A /* Fisics.png in Resources */,
 				D0CDDD951CED9BF60015E19A /* registerCourse.pdf in Resources */,
+				D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */,
 				0BE6FE511CDF70D900A5849A /* SF-UI-Text-Regular.otf in Resources */,
 				D06436901CEB781F00AEAE1E /* Gitte.png in Resources */,
 				D06436861CEB427100AEAE1E /* Alte.gif in Resources */,
 				0BE6FE431CDF70D900A5849A /* SF-UI-Display-Light.otf in Resources */,
 				995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */,
+				D0CDDDF71CEE0E750015E19A /* Biologuy.png in Resources */,
 				0BE6FE4F1CDF70D900A5849A /* SF-UI-Text-Medium.otf in Resources */,
 				0BE6FE471CDF70D900A5849A /* SF-UI-Display-Thin.otf in Resources */,
+				D0CDDDF91CEE0E750015E19A /* Chemistry.png in Resources */,
 				D06436981CEB807800AEAE1E /* call.png in Resources */,
 				0BE6FE4A1CDF70D900A5849A /* SF-UI-Text-BoldItalic.otf in Resources */,
+				D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */,
 				0BE6FE461CDF70D900A5849A /* SF-UI-Display-Semibold.otf in Resources */,
 				0BE6FE451CDF70D900A5849A /* SF-UI-Display-Regular.otf in Resources */,
 				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
@@ -325,6 +395,7 @@
 				0BE6FE481CDF70D900A5849A /* SF-UI-Display-Ultralight.otf in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
 				0BE6FE421CDF70D900A5849A /* SF-UI-Display-Heavy.otf in Resources */,
+				D0CDDDFD1CEE0E750015E19A /* Mechanical.png in Resources */,
 				0BE6FE4D1CDF70D900A5849A /* SF-UI-Text-Light.otf in Resources */,
 				0BE6FE531CDF70D900A5849A /* SF-UI-Text-Semibold.otf in Resources */,
 			);
@@ -338,9 +409,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
-				990C6D521CBF94D70085F70E /* SecondViewController.swift in Sources */,
 				990C6D4E1CBF94D70085F70E /* AppDelegate.swift in Sources */,
 				0BE6FE621CDFAAD100A5849A /* RegistrationWithGrazViewController.swift in Sources */,
+				D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */,
 				D064368E1CEB6F7500AEAE1E /* InfeldViewController.swift in Sources */,
 				D064368C1CEB6F1100AEAE1E /* NeueViewController.swift in Sources */,
 				990C6D501CBF94D70085F70E /* FirstViewController.swift in Sources */,
@@ -350,6 +421,7 @@
 				0BE6FE601CDFA25900A5849A /* MustDoViewController.swift in Sources */,
 				D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */,
 				995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */,
+				D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */,
 				D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +539,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ErasmusTU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = at.tugraz.ErasmusTU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +555,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ErasmusTU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = at.tugraz.ErasmusTU;
 				PRODUCT_NAME = "$(TARGET_NAME)";

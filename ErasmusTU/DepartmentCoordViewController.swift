@@ -1,31 +1,19 @@
 //
-//  AlteControllerViewController.swift
+//  DepartmentCoordViewController.swift
 //  ErasmusTU
 //
-//  Created by Julia Martinez Ferrer on 17/05/16.
+//  Created by Julia Martinez Ferrer on 20/05/16.
 //  Copyright © 2016 Michael Gänsluckner. All rights reserved.
 //
 
 import UIKit
 
-class AlteControllerViewController: UIViewController {
-    @IBOutlet var label1: UILabel!
+class DepartmentCoordViewController: UIViewController {
 
- 
-    @IBAction func AlteSegment(sender: UISegmentedControl) {
-         let selectedIndex: Int = sender.selectedSegmentIndex
-        if (selectedIndex == 1){
-            label1.text="Go to NEUE"
-            //performSegueWithIdentifier("AlteToNeue", sender: self)
-        }
-        if (selectedIndex == 2){
-            label1.text="Go to INFELD"
-            //performSegueWithIdentifier("AlteToInfeld", sender: self)
-        }
-    }
-    
+    @IBOutlet var Scroll: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        Scroll.contentSize.height = 1000
 
         // Do any additional setup after loading the view.
     }

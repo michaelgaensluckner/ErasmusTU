@@ -19,6 +19,14 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     @IBOutlet var LongPress: UILongPressGestureRecognizer!
     
     
+
+    
+    @IBOutlet weak var OptionContainer: UIView!
+    
+    @IBAction func optionButtonPress(sender: AnyObject) {
+      
+    }
+    
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {

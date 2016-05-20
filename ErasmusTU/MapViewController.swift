@@ -38,7 +38,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         self.locationManager.requestWhenInUseAuthorization()  //request current location
         self.locationManager.startUpdatingLocation() //update location
         self.Map.showsUserLocation = true
-        self.Map.showsCompass = true
+        if #available(iOS 9.0, *) {
+            self.Map.showsCompass = true
+        } else {
+            // Fallback on earlier versions
+        }
     
                 
         // get Annotations from plist

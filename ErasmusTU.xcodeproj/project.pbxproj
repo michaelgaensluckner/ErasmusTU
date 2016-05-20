@@ -39,6 +39,8 @@
 		990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */; };
 		995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */; };
 		995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E76B01CC3CC70004C2C85 /* Freetime.swift */; };
+		99B0E1A11CEEFF5D001478DF /* Freetime-Restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99B0E1A01CEEFF5D001478DF /* Freetime-Restaurants.plist */; };
+		99B0E1A31CEF131B001478DF /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B0E1A21CEF131B001478DF /* MapOptions.swift */; };
 		99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FBEB611CBFCEC1001E5946 /* MapViewController.swift */; };
 		D06436861CEB427100AEAE1E /* Alte.gif in Resources */ = {isa = PBXBuildFile; fileRef = D06436851CEB427100AEAE1E /* Alte.gif */; };
 		D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */; };
@@ -94,6 +96,8 @@
 		990C6D5B1CBF94D80085F70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TUMapAnnotations.plist; path = ../TUMapAnnotations.plist; sourceTree = "<group>"; };
 		995E76B01CC3CC70004C2C85 /* Freetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Freetime.swift; sourceTree = "<group>"; };
+		99B0E1A01CEEFF5D001478DF /* Freetime-Restaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Freetime-Restaurants.plist"; sourceTree = "<group>"; };
+		99B0E1A21CEF131B001478DF /* MapOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
 		99FBEB611CBFCEC1001E5946 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D06436851CEB427100AEAE1E /* Alte.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Alte.gif; sourceTree = "<group>"; };
 		D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlteControllerViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 				D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */,
 				990C6D511CBF94D70085F70E /* SecondViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
+				99B0E1A21CEF131B001478DF /* MapOptions.swift */,
 				D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */,
 				D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */,
 				D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */,
@@ -194,6 +199,7 @@
 				99FBEB611CBFCEC1001E5946 /* MapViewController.swift */,
 				990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */,
 				995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */,
+				99B0E1A01CEEFF5D001478DF /* Freetime-Restaurants.plist */,
 				990C6D5B1CBF94D80085F70E /* Info.plist */,
 				990C6D561CBF94D80085F70E /* Assets.xcassets */,
 				D0CDDD931CED9BD60015E19A /* PDF */,
@@ -301,6 +307,7 @@
 				0BE6FE4B1CDF70D900A5849A /* SF-UI-Text-Heavy.otf in Resources */,
 				0BE6FE4C1CDF70D900A5849A /* SF-UI-Text-HeavyItalic.otf in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
+				99B0E1A11CEEFF5D001478DF /* Freetime-Restaurants.plist in Resources */,
 				0BE6FE521CDF70D900A5849A /* SF-UI-Text-RegularItalic.otf in Resources */,
 				0BE6FE441CDF70D900A5849A /* SF-UI-Display-Medium.otf in Resources */,
 				0BE6FE3F1CDF70D900A5849A /* License Agreement for SF UI Font.pdf in Resources */,
@@ -339,6 +346,7 @@
 			files = (
 				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
 				990C6D521CBF94D70085F70E /* SecondViewController.swift in Sources */,
+				99B0E1A31CEF131B001478DF /* MapOptions.swift in Sources */,
 				990C6D4E1CBF94D70085F70E /* AppDelegate.swift in Sources */,
 				0BE6FE621CDFAAD100A5849A /* RegistrationWithGrazViewController.swift in Sources */,
 				D064368E1CEB6F7500AEAE1E /* InfeldViewController.swift in Sources */,

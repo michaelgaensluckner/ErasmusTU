@@ -1,29 +1,15 @@
 //
-//  AlteControllerViewController.swift
+//  RegisterCourseViewController.swift
 //  ErasmusTU
 //
-//  Created by Julia Martinez Ferrer on 17/05/16.
-//  Copyright © 2016 Michael Gänsluckner. All rights reserved.
+//  Created by Taehyung Kim on 2016. 5. 20..
+//  Copyright © 2016년 Michael Gänsluckner. All rights reserved.
 //
 
 import UIKit
 
-class AlteControllerViewController: UIViewController {
-    @IBOutlet var label1: UILabel!
+class RegisterCourseViewController: UIViewController {
 
- 
-    @IBAction func AlteSegment(sender: UISegmentedControl) {
-         let selectedIndex: Int = sender.selectedSegmentIndex
-        if (selectedIndex == 1){
-            label1.text="Go to NEUE"
-            performSegueWithIdentifier("AlteToNeue", sender: self)
-        }
-        if (selectedIndex == 2){
-            label1.text="Go to INFELD"
-            //performSegueWithIdentifier("AlteToInfeld", sender: self)
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

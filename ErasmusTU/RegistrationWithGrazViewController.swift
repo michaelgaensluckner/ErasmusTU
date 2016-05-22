@@ -2,7 +2,7 @@
 //  RegistrationWithGrazViewController.swift
 //  ErasmusTU
 //
-//  Created by 맥북 on 2016. 5. 8..
+//  Created by Taehyung Kim on 2016. 5. 8..
 //  Copyright © 2016년 Michael Gänsluckner. All rights reserved.
 //
 

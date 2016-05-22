@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B64ECF21CEF90A3007330A5 /* ResidencePermitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECF11CEF90A3007330A5 /* ResidencePermitViewController.swift */; };
+		0B64ECF41CEF9156007330A5 /* StudentUnionFeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECF31CEF9156007330A5 /* StudentUnionFeeViewController.swift */; };
+		0B64ECF61CEF927D007330A5 /* SendVisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECF51CEF927D007330A5 /* SendVisaViewController.swift */; };
+		0B64ECF81CEF9332007330A5 /* RegisterCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECF71CEF9332007330A5 /* RegisterCourseViewController.swift */; };
+		0B64ECFA1CEF9DCD007330A5 /* MeldezettelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECF91CEF9DCD007330A5 /* MeldezettelViewController.swift */; };
+		0B64ECFE1CF00789007330A5 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECFD1CF00789007330A5 /* KDCircularProgress.swift */; };
+		0B64ED001CF070BA007330A5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECFF1CF070BA007330A5 /* SettingViewController.swift */; };
+		0BB6E3AA1CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6E3A91CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift */; };
+		0BB6E3AC1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6E3AB1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift */; };
+		0BB6E3AE1CF0E14400203411 /* meldezettel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BB6E3AD1CF0E14400203411 /* meldezettel.jpg */; };
+		0BB6E3B01CF0E24C00203411 /* meldezettel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB6E3AF1CF0E24C00203411 /* meldezettel.png */; };
 		0BE6FE3F1CDF70D900A5849A /* License Agreement for SF UI Font.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0BE6FE291CDF70D900A5849A /* License Agreement for SF UI Font.pdf */; };
 		0BE6FE401CDF70D900A5849A /* SF-UI-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BE6FE2A1CDF70D900A5849A /* SF-UI-Display-Black.otf */; };
 		0BE6FE411CDF70D900A5849A /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BE6FE2B1CDF70D900A5849A /* SF-UI-Display-Bold.otf */; };
@@ -76,6 +87,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B64ECF11CEF90A3007330A5 /* ResidencePermitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidencePermitViewController.swift; sourceTree = "<group>"; };
+		0B64ECF31CEF9156007330A5 /* StudentUnionFeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentUnionFeeViewController.swift; sourceTree = "<group>"; };
+		0B64ECF51CEF927D007330A5 /* SendVisaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendVisaViewController.swift; sourceTree = "<group>"; };
+		0B64ECF71CEF9332007330A5 /* RegisterCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCourseViewController.swift; sourceTree = "<group>"; };
+		0B64ECF91CEF9DCD007330A5 /* MeldezettelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeldezettelViewController.swift; sourceTree = "<group>"; };
+		0B64ECFD1CF00789007330A5 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		0B64ECFF1CF070BA007330A5 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0BB6E3A91CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationOfRegistrationViewController.swift; sourceTree = "<group>"; };
+		0BB6E3AB1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatteStudentIDViewController.swift; sourceTree = "<group>"; };
+		0BB6E3AD1CF0E14400203411 /* meldezettel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meldezettel.jpg; sourceTree = "<group>"; };
+		0BB6E3AF1CF0E24C00203411 /* meldezettel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meldezettel.png; sourceTree = "<group>"; };
 		0BE6FE291CDF70D900A5849A /* License Agreement for SF UI Font.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "License Agreement for SF UI Font.pdf"; sourceTree = "<group>"; };
 		0BE6FE2A1CDF70D900A5849A /* SF-UI-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Black.otf"; sourceTree = "<group>"; };
 		0BE6FE2B1CDF70D900A5849A /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
@@ -214,16 +236,26 @@
 				990C6D4F1CBF94D70085F70E /* FirstViewController.swift */,
 				D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */,
 				0BE6FE5F1CDFA25900A5849A /* MustDoViewController.swift */,
+				0B64ECFD1CF00789007330A5 /* KDCircularProgress.swift */,
 				D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */,
 				D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */,
 				D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
+				0BB6E3AF1CF0E24C00203411 /* meldezettel.png */,
+				0BB6E3AB1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift */,
+				0BB6E3A91CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift */,
+				0B64ECFF1CF070BA007330A5 /* SettingViewController.swift */,
+				0B64ECF91CEF9DCD007330A5 /* MeldezettelViewController.swift */,
+				0B64ECF71CEF9332007330A5 /* RegisterCourseViewController.swift */,
+				0B64ECF51CEF927D007330A5 /* SendVisaViewController.swift */,
+				0B64ECF31CEF9156007330A5 /* StudentUnionFeeViewController.swift */,
 				D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */,
 				D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */,
 				D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */,
 				D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */,
 				D064368D1CEB6F7500AEAE1E /* InfeldViewController.swift */,
 				0BE6FE611CDFAAD100A5849A /* RegistrationWithGrazViewController.swift */,
+				0B64ECF11CEF90A3007330A5 /* ResidencePermitViewController.swift */,
 				995E76B01CC3CC70004C2C85 /* Freetime.swift */,
 				99FBEB611CBFCEC1001E5946 /* MapViewController.swift */,
 				990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */,
@@ -241,6 +273,7 @@
 		D06436841CEB41E300AEAE1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0BB6E3AD1CF0E14400203411 /* meldezettel.jpg */,
 				D0CDDDEC1CEE0E750015E19A /* Biologuy.png */,
 				D0CDDDED1CEE0E750015E19A /* Maths.png */,
 				D0CDDDEE1CEE0E750015E19A /* Chemistry.png */,
@@ -363,6 +396,7 @@
 				0BE6FE4B1CDF70D900A5849A /* SF-UI-Text-Heavy.otf in Resources */,
 				D0CDDDFE1CEE0E750015E19A /* Biomedical.png in Resources */,
 				0BE6FE4C1CDF70D900A5849A /* SF-UI-Text-HeavyItalic.otf in Resources */,
+				0BB6E3B01CF0E24C00203411 /* meldezettel.png in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
 				D0CDDDF81CEE0E750015E19A /* Maths.png in Resources */,
 				0BE6FE521CDF70D900A5849A /* SF-UI-Text-RegularItalic.otf in Resources */,
@@ -390,6 +424,7 @@
 				D06436981CEB807800AEAE1E /* call.png in Resources */,
 				0BE6FE4A1CDF70D900A5849A /* SF-UI-Text-BoldItalic.otf in Resources */,
 				D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */,
+				0BB6E3AE1CF0E14400203411 /* meldezettel.jpg in Resources */,
 				0BE6FE461CDF70D900A5849A /* SF-UI-Display-Semibold.otf in Resources */,
 				0BE6FE451CDF70D900A5849A /* SF-UI-Display-Regular.otf in Resources */,
 				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
@@ -410,13 +445,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B64ECFA1CEF9DCD007330A5 /* MeldezettelViewController.swift in Sources */,
+				0B64ED001CF070BA007330A5 /* SettingViewController.swift in Sources */,
+				0BB6E3AC1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift in Sources */,
+				0B64ECF21CEF90A3007330A5 /* ResidencePermitViewController.swift in Sources */,
 				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
 				990C6D4E1CBF94D70085F70E /* AppDelegate.swift in Sources */,
 				0BE6FE621CDFAAD100A5849A /* RegistrationWithGrazViewController.swift in Sources */,
 				D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */,
+				0B64ECFE1CF00789007330A5 /* KDCircularProgress.swift in Sources */,
 				D064368E1CEB6F7500AEAE1E /* InfeldViewController.swift in Sources */,
 				D064368C1CEB6F1100AEAE1E /* NeueViewController.swift in Sources */,
 				990C6D501CBF94D70085F70E /* FirstViewController.swift in Sources */,
+				0BB6E3AA1CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift in Sources */,
+				0B64ECF81CEF9332007330A5 /* RegisterCourseViewController.swift in Sources */,
+				0B64ECF41CEF9156007330A5 /* StudentUnionFeeViewController.swift in Sources */,
 				99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */,
 				D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */,
 				D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */,
@@ -425,6 +468,7 @@
 				995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */,
 				D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */,
 				D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */,
+				0B64ECF61CEF927D007330A5 /* SendVisaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +585,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ErasmusTU/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = at.tugraz.ErasmusTU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,7 +601,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ErasmusTU/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = at.tugraz.ErasmusTU;
 				PRODUCT_NAME = "$(TARGET_NAME)";

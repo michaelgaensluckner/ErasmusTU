@@ -34,11 +34,13 @@ class TUMainViewController: UIViewController {
         OnlineButton.layer.cornerRadius = 5
         DepartmentButton.layer.cornerRadius = 5
         CourseButton.layer.cornerRadius = 5
+        
         label1.layer.cornerRadius = 5
         label2.layer.cornerRadius = 5
         label3.layer.cornerRadius = 5
         label4.layer.cornerRadius = 5
         label5.layer.cornerRadius = 5
+        
         label1.layer.masksToBounds=true
         label2.layer.masksToBounds=true
         label3.layer.masksToBounds=true

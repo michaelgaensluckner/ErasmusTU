@@ -33,8 +33,6 @@
 		D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */; };
 		D06436861CEB427100AEAE1E /* Alte.gif in Resources */ = {isa = PBXBuildFile; fileRef = D06436851CEB427100AEAE1E /* Alte.gif */; };
 		D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */; };
-		D064368C1CEB6F1100AEAE1E /* NeueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */; };
-		D064368E1CEB6F7500AEAE1E /* InfeldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064368D1CEB6F7500AEAE1E /* InfeldViewController.swift */; };
 		D06436901CEB781F00AEAE1E /* Gitte.png in Resources */ = {isa = PBXBuildFile; fileRef = D064368F1CEB781F00AEAE1E /* Gitte.png */; };
 		D06436921CEB785700AEAE1E /* Barbara.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436911CEB785700AEAE1E /* Barbara.png */; };
 		D06436941CEB786C00AEAE1E /* maria.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436931CEB786C00AEAE1E /* maria.png */; };
@@ -42,27 +40,17 @@
 		D06436981CEB807800AEAE1E /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436971CEB807800AEAE1E /* call.png */; };
 		D064369A1CEB818300AEAE1E /* call1.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436991CEB818300AEAE1E /* call1.png */; };
 		D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */; };
-		D0CDDD8E1CED07960015E19A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CDDD8D1CED07960015E19A /* MessageUI.framework */; };
 		D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */; };
 		D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */; };
 		D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */; };
 		D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD981CEDA3E30015E19A /* TUonline.pdf */; };
 		D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD9A1CEDBAFA0015E19A /* email1.png */; };
 		D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */; };
-		D0CDDDEB1CEE05990015E19A /* Arquitectura.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDEA1CEE05990015E19A /* Arquitectura.png */; };
-		D0CDDDF71CEE0E750015E19A /* Biologuy.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDEC1CEE0E750015E19A /* Biologuy.png */; };
-		D0CDDDF81CEE0E750015E19A /* Maths.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDED1CEE0E750015E19A /* Maths.png */; };
-		D0CDDDF91CEE0E750015E19A /* Chemistry.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDEE1CEE0E750015E19A /* Chemistry.png */; };
-		D0CDDDFA1CEE0E750015E19A /* Informatics.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDEF1CEE0E750015E19A /* Informatics.png */; };
-		D0CDDDFB1CEE0E750015E19A /* Civil.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF01CEE0E750015E19A /* Civil.png */; };
-		D0CDDDFC1CEE0E750015E19A /* Enviromental.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF11CEE0E750015E19A /* Enviromental.png */; };
-		D0CDDDFD1CEE0E750015E19A /* Mechanical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF21CEE0E750015E19A /* Mechanical.png */; };
-		D0CDDDFE1CEE0E750015E19A /* Biomedical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF31CEE0E750015E19A /* Biomedical.png */; };
-		D0CDDDFF1CEE0E750015E19A /* Electrical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF41CEE0E750015E19A /* Electrical.png */; };
-		D0CDDE001CEE0E750015E19A /* Chemical.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF51CEE0E750015E19A /* Chemical.png */; };
-		D0CDDE011CEE0E750015E19A /* Fisics.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDDF61CEE0E750015E19A /* Fisics.png */; };
 		D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDE021CEE749D0015E19A /* phone-call.png */; };
 		D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CF34991CEF79BB0080F784 /* registerCourse.pdf */; };
+		D0DE5F9A1CF45247004FA3A2 /* Infeldgasse.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0DE5F991CF45247004FA3A2 /* Infeldgasse.gif */; };
+		D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0DE5F9B1CF45269004FA3A2 /* Neue.gif */; };
+		D0DE5F9E1CF4542C004FA3A2 /* DepartmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE5F9D1CF4542C004FA3A2 /* DepartmentInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,38 +82,25 @@
 		D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentCoordViewController.swift; sourceTree = "<group>"; };
 		D06436851CEB427100AEAE1E /* Alte.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Alte.gif; sourceTree = "<group>"; };
 		D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlteControllerViewController.swift; sourceTree = "<group>"; };
-		D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeueViewController.swift; sourceTree = "<group>"; };
-		D064368D1CEB6F7500AEAE1E /* InfeldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfeldViewController.swift; sourceTree = "<group>"; };
 		D064368F1CEB781F00AEAE1E /* Gitte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gitte.png; sourceTree = "<group>"; };
 		D06436911CEB785700AEAE1E /* Barbara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbara.png; sourceTree = "<group>"; };
 		D06436931CEB786C00AEAE1E /* maria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maria.png; sourceTree = "<group>"; };
 		D06436951CEB788100AEAE1E /* anja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anja.png; sourceTree = "<group>"; };
 		D06436971CEB807800AEAE1E /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
 		D06436991CEB818300AEAE1E /* call1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call1.png; sourceTree = "<group>"; };
-		D064369B1CEB829D00AEAE1E /* Map */ = {isa = PBXFileReference; explicitFileType = image.png; path = Map; sourceTree = "<group>"; };
 		D064369C1CEB82C000AEAE1E /* email */ = {isa = PBXFileReference; explicitFileType = image.png; path = email; sourceTree = "<group>"; };
 		D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternationalOfficeViewController.swift; sourceTree = "<group>"; };
-		D0CDDD8D1CED07960015E19A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUOnlineViewController.swift; sourceTree = "<group>"; };
 		D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseRegistrationViewController.swift; path = ../CourseRegistrationViewController.swift; sourceTree = "<group>"; };
 		D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUTutorialViewController.swift; sourceTree = "<group>"; };
 		D0CDDD981CEDA3E30015E19A /* TUonline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TUonline.pdf; sourceTree = "<group>"; };
 		D0CDDD9A1CEDBAFA0015E19A /* email1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email1.png; sourceTree = "<group>"; };
 		D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-locatie.png"; sourceTree = "<group>"; };
-		D0CDDDEA1CEE05990015E19A /* Arquitectura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arquitectura.png; sourceTree = "<group>"; };
-		D0CDDDEC1CEE0E750015E19A /* Biologuy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Biologuy.png; sourceTree = "<group>"; };
-		D0CDDDED1CEE0E750015E19A /* Maths.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maths.png; sourceTree = "<group>"; };
-		D0CDDDEE1CEE0E750015E19A /* Chemistry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemistry.png; sourceTree = "<group>"; };
-		D0CDDDEF1CEE0E750015E19A /* Informatics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Informatics.png; sourceTree = "<group>"; };
-		D0CDDDF01CEE0E750015E19A /* Civil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Civil.png; sourceTree = "<group>"; };
-		D0CDDDF11CEE0E750015E19A /* Enviromental.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enviromental.png; sourceTree = "<group>"; };
-		D0CDDDF21CEE0E750015E19A /* Mechanical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mechanical.png; sourceTree = "<group>"; };
-		D0CDDDF31CEE0E750015E19A /* Biomedical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Biomedical.png; sourceTree = "<group>"; };
-		D0CDDDF41CEE0E750015E19A /* Electrical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electrical.png; sourceTree = "<group>"; };
-		D0CDDDF51CEE0E750015E19A /* Chemical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemical.png; sourceTree = "<group>"; };
-		D0CDDDF61CEE0E750015E19A /* Fisics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fisics.png; sourceTree = "<group>"; };
 		D0CDDE021CEE749D0015E19A /* phone-call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-call.png"; sourceTree = "<group>"; };
 		D0CF34991CEF79BB0080F784 /* registerCourse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = registerCourse.pdf; sourceTree = "<group>"; };
+		D0DE5F991CF45247004FA3A2 /* Infeldgasse.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Infeldgasse.gif; sourceTree = "<group>"; };
+		D0DE5F9B1CF45269004FA3A2 /* Neue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Neue.gif; sourceTree = "<group>"; };
+		D0DE5F9D1CF4542C004FA3A2 /* DepartmentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0CDDD8E1CED07960015E19A /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +117,6 @@
 		990C6D411CBF94D70085F70E = {
 			isa = PBXGroup;
 			children = (
-				D0CDDD8D1CED07960015E19A /* MessageUI.framework */,
 				990C6D4C1CBF94D70085F70E /* ErasmusTU */,
 				990C6D4B1CBF94D70085F70E /* Products */,
 			);
@@ -167,7 +140,6 @@
 				0B64ECFD1CF00789007330A5 /* KDCircularProgress.swift */,
 				D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */,
 				D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */,
-				D064368B1CEB6F1100AEAE1E /* NeueViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
 				0BB6E3AB1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift */,
 				0BB6E3A91CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift */,
@@ -177,10 +149,10 @@
 				0B64ECF51CEF927D007330A5 /* SendVisaViewController.swift */,
 				0B64ECF31CEF9156007330A5 /* StudentUnionFeeViewController.swift */,
 				D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */,
+				D0DE5F9D1CF4542C004FA3A2 /* DepartmentInfoViewController.swift */,
 				D0CDDD961CEDA2FB0015E19A /* TUTutorialViewController.swift */,
 				D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */,
 				D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */,
-				D064368D1CEB6F7500AEAE1E /* InfeldViewController.swift */,
 				0BE6FE611CDFAAD100A5849A /* RegistrationWithGrazViewController.swift */,
 				0B64ECF11CEF90A3007330A5 /* ResidencePermitViewController.swift */,
 				99FBEB611CBFCEC1001E5946 /* MapViewController.swift */,
@@ -207,20 +179,14 @@
 				D0CDDDEF1CEE0E750015E19A /* Informatics.png */,
 				D0CDDDF01CEE0E750015E19A /* Civil.png */,
 				D0CDDE021CEE749D0015E19A /* phone-call.png */,
-				D0CDDDF11CEE0E750015E19A /* Enviromental.png */,
-				D0CDDDF21CEE0E750015E19A /* Mechanical.png */,
-				D0CDDDF31CEE0E750015E19A /* Biomedical.png */,
-				D0CDDDF41CEE0E750015E19A /* Electrical.png */,
-				D0CDDDF51CEE0E750015E19A /* Chemical.png */,
-				D0CDDDF61CEE0E750015E19A /* Fisics.png */,
-				D0CDDDEA1CEE05990015E19A /* Arquitectura.png */,
 				D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */,
 				D0CDDD9A1CEDBAFA0015E19A /* email1.png */,
+				D0DE5F9B1CF45269004FA3A2 /* Neue.gif */,
+				D0DE5F991CF45247004FA3A2 /* Infeldgasse.gif */,
 				D06436971CEB807800AEAE1E /* call.png */,
 				D06436991CEB818300AEAE1E /* call1.png */,
 				D064369C1CEB82C000AEAE1E /* email */,
 				D0CDDD9E1CEDD44F0015E19A /* Office */,
-				D064369B1CEB829D00AEAE1E /* Map */,
 				D06436851CEB427100AEAE1E /* Alte.gif */,
 			);
 			name = Images;
@@ -310,8 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0CDDDFF1CEE0E750015E19A /* Electrical.png in Resources */,
-				D0CDDDFB1CEE0E750015E19A /* Civil.png in Resources */,
 				D06436961CEB788100AEAE1E /* anja.png in Resources */,
 				D06436941CEB786C00AEAE1E /* maria.png in Resources */,
 				D06436921CEB785700AEAE1E /* Barbara.png in Resources */,
@@ -336,6 +300,7 @@
 				D06436981CEB807800AEAE1E /* call.png in Resources */,
 				D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */,
 				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
+				D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */,
 				D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
 				D0CDDDFD1CEE0E750015E19A /* Mechanical.png in Resources */,
@@ -355,12 +320,11 @@
 				99FCDA2E1CF44A9E0094D373 /* RestaurantView.swift in Sources */,
 				0B64ECF21CEF90A3007330A5 /* ResidencePermitViewController.swift in Sources */,
 				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
+				D0DE5F9E1CF4542C004FA3A2 /* DepartmentInfoViewController.swift in Sources */,
 				990C6D4E1CBF94D70085F70E /* AppDelegate.swift in Sources */,
 				0BE6FE621CDFAAD100A5849A /* RegistrationWithGrazViewController.swift in Sources */,
 				D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */,
 				0B64ECFE1CF00789007330A5 /* KDCircularProgress.swift in Sources */,
-				D064368E1CEB6F7500AEAE1E /* InfeldViewController.swift in Sources */,
-				D064368C1CEB6F1100AEAE1E /* NeueViewController.swift in Sources */,
 				990C6D501CBF94D70085F70E /* FirstViewController.swift in Sources */,
 				0BB6E3AA1CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift in Sources */,
 				0B64ECF81CEF9332007330A5 /* RegisterCourseViewController.swift in Sources */,

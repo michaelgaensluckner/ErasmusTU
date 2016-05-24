@@ -153,7 +153,7 @@
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DSD-Sd-kWy" customClass="KDCircularProgress" customModule="ErasmusTU" customModuleProvider="target">
                                 <rect key="frame" x="11" y="107" width="177" height="168"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="65%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6W-AF-XnU">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6W-AF-XnU">
                                         <rect key="frame" x="3" y="3" width="171" height="162"/>
                                         <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="29"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -162,7 +162,7 @@
                                 </subviews>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="angle">
-                                        <real key="value" value="240"/>
+                                        <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
                                         <real key="value" value="270"/>
@@ -242,7 +242,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="second" id="acW-dT-cKf"/>
-                    <navigationItem key="navigationItem" id="yhe-an-6DW"/>
+                    <navigationItem key="navigationItem" id="yhe-an-6DW">
+                        <barButtonItem key="backBarButtonItem" title=" " id="E6W-e7-eVL"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="AchievmentsButton" destination="sg2-cN-ehW" id="uQQ-Ds-Egv"/>
                         <outlet property="Button_Background" destination="tEJ-48-gxl" id="y9l-ce-eeS"/>
@@ -2772,6 +2774,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n0H-wz-NAy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.32549019610000002" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="Yzk-p8-E4Z"/>

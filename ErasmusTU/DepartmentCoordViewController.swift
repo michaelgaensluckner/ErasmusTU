@@ -10,7 +10,7 @@ import UIKit
 
 class DepartmentCoordViewController: UIViewController {
     
-    var  dataToTransfer: String = "none"
+    var  dataToTransfer: String = ""
     
     @IBOutlet var Scroll: UIScrollView!
     

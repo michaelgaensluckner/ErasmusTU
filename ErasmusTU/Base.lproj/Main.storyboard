@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -3646,7 +3645,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I0p-Si-3OY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1816" y="74"/>
+            <point key="canvasLocation" x="1256" y="218"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YpM-uM-47e">
@@ -3664,7 +3663,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e5P-SW-Btn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2514" y="66"/>
+            <point key="canvasLocation" x="2950" y="30"/>
         </scene>
     </scenes>
     <resources>

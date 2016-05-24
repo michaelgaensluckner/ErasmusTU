@@ -13,11 +13,9 @@ import UIKit
 class MapOption : UITableViewController {
     
     var Array = [String]()
-    var checked = [Bool]()
     
     override func viewDidLoad() {
         Array = ["University","Freetime","Useful"]
-        checked = [true,false,false]
         if (!UIAccessibilityIsReduceTransparencyEnabled()) {
             tableView.backgroundColor = UIColor.clearColor()
             let blurEffect = UIBlurEffect(style: .Light)
@@ -38,9 +36,9 @@ class MapOption : UITableViewController {
         
         cell.textLabel?.text = Array[indexPath.row]
         
-        if !checked[indexPath.row] {
+        if !OptionsArray[indexPath.row] {
             cell.accessoryType = .None
-        } else if checked[indexPath.row] {
+        } else if OptionsArray[indexPath.row] {
             cell.accessoryType = .Checkmark
         }
         
@@ -52,10 +50,10 @@ class MapOption : UITableViewController {
         if let cell = tableView.cellForRowAtIndexPath(indexPath) {
             if cell.accessoryType == .Checkmark {
                 cell.accessoryType = .None
-                checked[indexPath.row] = false
+                OptionsArray[indexPath.row] = false
             } else {
                 cell.accessoryType = .Checkmark
-                checked[indexPath.row] = true
+                OptionsArray[indexPath.row] = true
             }
         }
     }

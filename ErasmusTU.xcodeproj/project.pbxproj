@@ -26,6 +26,9 @@
 		995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */; };
 		995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E76B01CC3CC70004C2C85 /* Freetime.swift */; };
 		99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FBEB611CBFCEC1001E5946 /* MapViewController.swift */; };
+		99FCDA2A1CF308150094D373 /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCDA291CF308150094D373 /* MapOptions.swift */; };
+		99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */; };
+		99FCDA2E1CF44A9E0094D373 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */; };
 		D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */; };
 		D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */; };
 		D06436861CEB427100AEAE1E /* Alte.gif in Resources */ = {isa = PBXBuildFile; fileRef = D06436851CEB427100AEAE1E /* Alte.gif */; };
@@ -71,8 +74,10 @@
 		990C6D5B1CBF94D80085F70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TUMapAnnotations.plist; path = ../TUMapAnnotations.plist; sourceTree = "<group>"; };
 		995E76B01CC3CC70004C2C85 /* Freetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Freetime.swift; sourceTree = "<group>"; };
-		99B0E1A01CEEFF5D001478DF /* Freetime-Restaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Freetime-Restaurants.plist"; sourceTree = "<group>"; };
 		99FBEB611CBFCEC1001E5946 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		99FCDA291CF308150094D373 /* MapOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
+		99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FreetimeAnnotations.plist; sourceTree = "<group>"; };
+		99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 		D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TUMainViewController.swift; path = ../TUMainViewController.swift; sourceTree = "<group>"; };
 		D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentCoordViewController.swift; sourceTree = "<group>"; };
 		D06436851CEB427100AEAE1E /* Alte.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Alte.gif; sourceTree = "<group>"; };
@@ -150,12 +155,14 @@
 				D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */,
 				0BE6FE611CDFAAD100A5849A /* RegistrationWithGrazViewController.swift */,
 				0B64ECF11CEF90A3007330A5 /* ResidencePermitViewController.swift */,
-				995E76B01CC3CC70004C2C85 /* Freetime.swift */,
 				99FBEB611CBFCEC1001E5946 /* MapViewController.swift */,
-				990C6D5B1CBF94D80085F70E /* Info.plist */,
+				99FCDA291CF308150094D373 /* MapOptions.swift */,
+				995E76B01CC3CC70004C2C85 /* Freetime.swift */,
+				99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */,
 				990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */,
+				99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */,
 				995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */,
-				99B0E1A01CEEFF5D001478DF /* Freetime-Restaurants.plist */,
+				990C6D5B1CBF94D80085F70E /* Info.plist */,
 				990C6D561CBF94D80085F70E /* Assets.xcassets */,
 				D0CDDD931CED9BD60015E19A /* PDF */,
 				D06436841CEB41E300AEAE1E /* Images */,
@@ -166,6 +173,11 @@
 		D06436841CEB41E300AEAE1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D0CDDDEC1CEE0E750015E19A /* Biologuy.png */,
+				D0CDDDED1CEE0E750015E19A /* Maths.png */,
+				D0CDDDEE1CEE0E750015E19A /* Chemistry.png */,
+				D0CDDDEF1CEE0E750015E19A /* Informatics.png */,
+				D0CDDDF01CEE0E750015E19A /* Civil.png */,
 				D0CDDE021CEE749D0015E19A /* phone-call.png */,
 				D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */,
 				D0CDDD9A1CEDBAFA0015E19A /* email1.png */,
@@ -269,19 +281,29 @@
 				D06436921CEB785700AEAE1E /* Barbara.png in Resources */,
 				D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */,
 				D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */,
+				D0CDDDFE1CEE0E750015E19A /* Biomedical.png in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
+				D0CDDDF81CEE0E750015E19A /* Maths.png in Resources */,
+				99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */,
 				990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */,
+				D0CDDDEB1CEE05990015E19A /* Arquitectura.png in Resources */,
+				D0CDDDFA1CEE0E750015E19A /* Informatics.png in Resources */,
+				D0CDDE001CEE0E750015E19A /* Chemical.png in Resources */,
+				D0CDDDFC1CEE0E750015E19A /* Enviromental.png in Resources */,
+				D0CDDE011CEE0E750015E19A /* Fisics.png in Resources */,
 				D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */,
 				D06436901CEB781F00AEAE1E /* Gitte.png in Resources */,
 				D06436861CEB427100AEAE1E /* Alte.gif in Resources */,
 				995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */,
-				D0DE5F9A1CF45247004FA3A2 /* Infeldgasse.gif in Resources */,
+				D0CDDDF71CEE0E750015E19A /* Biologuy.png in Resources */,
+				D0CDDDF91CEE0E750015E19A /* Chemistry.png in Resources */,
 				D06436981CEB807800AEAE1E /* call.png in Resources */,
 				D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */,
 				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
 				D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */,
 				D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
+				D0CDDDFD1CEE0E750015E19A /* Mechanical.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +317,7 @@
 				0B64ECFA1CEF9DCD007330A5 /* MeldezettelViewController.swift in Sources */,
 				0B64ED001CF070BA007330A5 /* SettingViewController.swift in Sources */,
 				0BB6E3AC1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift in Sources */,
+				99FCDA2E1CF44A9E0094D373 /* RestaurantView.swift in Sources */,
 				0B64ECF21CEF90A3007330A5 /* ResidencePermitViewController.swift in Sources */,
 				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
 				D0DE5F9E1CF4542C004FA3A2 /* DepartmentInfoViewController.swift in Sources */,
@@ -308,6 +331,7 @@
 				0B64ECF41CEF9156007330A5 /* StudentUnionFeeViewController.swift in Sources */,
 				99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */,
 				D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */,
+				99FCDA2A1CF308150094D373 /* MapOptions.swift in Sources */,
 				D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */,
 				0BE6FE601CDFA25900A5849A /* MustDoViewController.swift in Sources */,
 				D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */,

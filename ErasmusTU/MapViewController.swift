@@ -11,7 +11,10 @@ import MapKit
 import UIKit
 import CoreLocation
 
-class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+var OptionsArray = [true,false,false]
+var valueToPass = ""
+
+class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UIPopoverPresentationControllerDelegate {
     
     @IBOutlet weak var tabBar: UITabBarItem!
     @IBOutlet weak var Map: MKMapView!
@@ -19,19 +22,35 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     @IBOutlet var LongPress: UILongPressGestureRecognizer!
     
     
-
+    func popoverPresentationControllerDidDismissPopover(popoverPresentationController: UIPopoverPresentationController) {
+        self.Map.removeAnnotations(self.Map.annotations)
+        if OptionsArray[0] == true
+        {
+            let annotationsUni = getUniAnnotations()
+            Map.addAnnotations(annotationsUni)
+        }
+        if OptionsArray[1] == true
+        {
+            let annotationsFree = getFreeAnnotations()
+            Map.addAnnotations(annotationsFree)
+        }
+        if OptionsArray[2] == true
+        {
+            //let annotations = getUseAnnotations()
+            //Map.addAnnotations(annotations)
+        }
+        
+    }
+    
     
     @IBOutlet weak var OptionContainer: UIView!
     
-    @IBAction func optionButtonPress(sender: AnyObject) {
-      
-    }
+
     
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest //best Accuracy location
@@ -46,21 +65,34 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
                 
         // get Annotations from plist
-        let annotations = getMapAnnotations()
-        
+        let annotations = getUniAnnotations()
+
         
        // annotations.pinTintColor = UIColor.greenColor()
         // Add mappoints to Map
         Map.addAnnotations(annotations)
 
 
-            }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showPopover"
+        {
+            let popoverViewController = segue.destinationViewController
+            
+            popoverViewController.popoverPresentationController?.delegate = self
+        }
+    }
+    
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+        return UIModalPresentationStyle.None
+    }
     
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -85,7 +117,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     
     
-    func getMapAnnotations() -> [Annotation]
+    func getUniAnnotations() -> [Annotation]
     {
         var annotations:Array = [Annotation]()
     
@@ -109,8 +141,59 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     return annotations
     }
 
-    
+    func getFreeAnnotations() -> [Annotation]
+    {
+        var annotations:Array = [Annotation]()
+        
+        //load plist file
+        var anno_array: NSArray?
+        if let path = NSBundle.mainBundle().pathForResource("FreetimeAnnotations", ofType: "plist") {
+            anno_array = NSArray(contentsOfFile: path)
+        }
+
+        //iterate and create annotations
+        if let items = anno_array {
+            for item in items {
+                let lat = item.valueForKey("latitude") as! Double
+                let long = item.valueForKey("longitude")as! Double
+                let annotation = Annotation(latitude: lat, longitude: long)
+                annotation.title = item.valueForKey("title") as? String
+                annotation.subtitle = item.valueForKey("subtitle") as? String
+                annotations.append(annotation)
+            }
+        }
+        
+        return annotations
     }
+    
+    
+    func getUseAnnotations() -> [Annotation]
+    {
+        var annotations:Array = [Annotation]()
+        
+        //load plist file
+        var anno_array: NSArray?
+        if let path = NSBundle.mainBundle().pathForResource("UsefulAnnotations", ofType: "plist") {
+            anno_array = NSArray(contentsOfFile: path)
+        }
+        
+        //iterate and create annotations
+        if let items = anno_array {
+            for item in items {
+                let lat = item.valueForKey("latitude") as! Double
+                let long = item.valueForKey("longitude")as! Double
+                let annotation = Annotation(latitude: lat, longitude: long)
+                annotation.title = item.valueForKey("title") as? String
+                annotation.subtitle = item.valueForKey("subtitle") as? String
+                annotations.append(annotation)
+            }
+        }
+        
+        return annotations
+    }
+    
+    
+}
 
 
 class Annotation: NSObject, MKAnnotation {

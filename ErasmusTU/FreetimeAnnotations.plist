@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Culture Exchange</string>
+		<key>subtitle</key>
+		<string>Restaurant</string>
+		<key>adress</key>
+		<string>Grazbachgasse 47, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.064505</real>
+		<key>longitude</key>
+		<real>15.44305</real>
+		<key>link</key>
+		<string>https://www.facebook.com/cultureexchangegraz/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Area 5</string>
+		<key>subtitle</key>
+		<string>Restaurant</string>
+		<key>adress</key>
+		<string>Jakominiplatz 12, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.067496</real>
+		<key>longitude</key>
+		<real>15.443857</real>
+		<key>link</key>
+		<string>http://www.diebausatzlokale.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Propeller</string>
+		<key>subtitle</key>
+		<string>Restaurant</string>
+		<key>adress</key>
+		<string>Zinzendorfgasse 17, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.075651</real>
+		<key>longitude</key>
+		<real>15.448288</real>
+		<key>link</key>
+		<string>http://www.propeller.co.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Parkhouse</string>
+		<key>subtitle</key>
+		<string>Cafe</string>
+		<key>adress</key>
+		<string>Stadtpark 2, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.073926</real>
+		<key>longitude</key>
+		<real>15.4442</real>
+		<key>link</key>
+		<string>http://www.parkhouse.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Aiola Upstairs</string>
+		<key>subtitle</key>
+		<string>Restaurant, Cafe</string>
+		<key>adress</key>
+		<string>Schloßberg 2, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.07397</real>
+		<key>longitude</key>
+		<real>15.437642</real>
+		<key>link</key>
+		<string>http://www.aiola.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Three Monkeys</string>
+		<key>subtitle</key>
+		<string>Bar, Club</string>
+		<key>adress</key>
+		<string>Elisabethstraße 31, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.075334</real>
+		<key>longitude</key>
+		<real>15.45181</real>
+		<key>link</key>
+		<string>http://www.three-monkeys.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Flann O&apos;Brien</string>
+		<key>subtitle</key>
+		<string>Irish Pub</string>
+		<key>adress</key>
+		<string>Paradeisgasse 1, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.071306</real>
+		<key>longitude</key>
+		<real>15.436107</real>
+		<key>link</key>
+		<string>http://www.flannobrien.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PPC Graz</string>
+		<key>subtitle</key>
+		<string>Club, Event Location</string>
+		<key>adress</key>
+		<string>Neubaugasse 6,8020 Graz</string>
+		<key>latitude</key>
+		<real>47.075883</real>
+		<key>longitude</key>
+		<real>15.431555</real>
+		<key>link</key>
+		<string>http://www.popculture.at/</string>
+	</dict>
+</array>
+</plist>

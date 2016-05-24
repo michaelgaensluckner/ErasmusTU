@@ -9,23 +9,38 @@
 import UIKit
 
 class AlteControllerViewController: UIViewController {
-    @IBOutlet var label1: UILabel!
+    
+    @IBOutlet var InfeldView: UIView!
+    @IBOutlet var AlteView: UIView!
 
+    @IBOutlet var NeueView: UIView!
  
     @IBAction func AlteSegment(sender: UISegmentedControl) {
          let selectedIndex: Int = sender.selectedSegmentIndex
-        if (selectedIndex == 1){
-            label1.text="Go to NEUE"
-            //performSegueWithIdentifier("AlteToNeue", sender: self)
+        if (selectedIndex == 0){
+            AlteView.hidden=false
+            NeueView.hidden=true
+            InfeldView.hidden=true
+        }
+            if (selectedIndex == 1){
+            AlteView.hidden=true
+            NeueView.hidden=false
+            InfeldView.hidden=true
+        
+            
         }
         if (selectedIndex == 2){
-            label1.text="Go to INFELD"
-            //performSegueWithIdentifier("AlteToInfeld", sender: self)
+            AlteView.hidden=true
+            NeueView.hidden=true
+            InfeldView.hidden=false
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        AlteView.hidden=false
+        NeueView.hidden=true
+        InfeldView.hidden=true
 
         // Do any additional setup after loading the view.
     }

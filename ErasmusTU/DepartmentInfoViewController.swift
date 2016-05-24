@@ -1,17 +1,30 @@
 //
-//  NeueViewController.swift
+//  DepartmentInfoViewController.swift
 //  ErasmusTU
 //
-//  Created by Julia Martinez Ferrer on 17/05/16.
+//  Created by Julia Martinez Ferrer on 23/05/16.
 //  Copyright © 2016 Michael Gänsluckner. All rights reserved.
 //
 
 import UIKit
 
-class NeueViewController: UIViewController {
-
+class DepartmentInfoViewController: UIViewController {
+    var incomingData: String = ""
+    
+    
+    @IBOutlet var WebView: UIWebView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+       
+           
+        let url = NSURL (string: incomingData );
+        let requestObj = NSURLRequest(URL: url!);
+        WebView.loadRequest(requestObj);
+          
 
         // Do any additional setup after loading the view.
     }

@@ -9,16 +9,16 @@
 import UIKit
 
 class TUOnlineViewController: UIViewController {
-
+    
     @IBOutlet var WebPage: UIWebView!
     
-    
+    let dpath: String = "https://online.tugraz.at/tug_online/webnav.ini"
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
         // Do any additional setup after loading the view, typically from a nib.
-        let url = NSURL (string: "https://online.tugraz.at/tug_online/webnav.ini");
+        let url = NSURL (string: dpath );
         let requestObj = NSURLRequest(URL: url!);
         WebPage.loadRequest(requestObj);
         // Do any additional setup after loading the view.

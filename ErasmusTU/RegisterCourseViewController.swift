@@ -1,14 +1,14 @@
 //
-//  RegistrationWithGrazViewController.swift
+//  RegisterCourseViewController.swift
 //  ErasmusTU
 //
-//  Created by Taehyung Kim on 2016. 5. 8..
+//  Created by Taehyung Kim on 2016. 5. 20..
 //  Copyright © 2016년 Michael Gänsluckner. All rights reserved.
 //
 
 import UIKit
 
-class RegistrationWithGrazViewController: UIViewController {
+class RegisterCourseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

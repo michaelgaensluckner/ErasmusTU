@@ -12,7 +12,7 @@ import UIKit
 import CoreLocation
 
 var OptionsArray = [true,false,false]
-
+var valueToPass = ""
 
 class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UIPopoverPresentationControllerDelegate {
     

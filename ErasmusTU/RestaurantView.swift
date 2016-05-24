@@ -9,7 +9,10 @@
 import Foundation
 import UIKit
 
+
 class RestaurantView: UIViewController {
+    
+    var passedValue = freetimeItem()
     
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var labelSubtitle: UILabel!
@@ -19,7 +22,15 @@ class RestaurantView: UIViewController {
     
     
     override func viewDidLoad() {
-        //self.labelTitle.text = "asd"
+        self.labelTitle.text = passedValue.title
+        self.labelSubtitle.text = passedValue.subtitle
+        self.labelAdress.text = passedValue.adress
+        self.labelLink.text = passedValue.link
+        
+
+
+        
+        
         
     }
     

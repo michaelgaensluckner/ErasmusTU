@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -608,7 +607,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SVr-Qu-GLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3827" y="-1148"/>
+            <point key="canvasLocation" x="5451" y="-1148"/>
         </scene>
         <!--Meldezettel View Controller-->
         <scene sceneID="nvO-ma-lMo">
@@ -2357,6 +2356,67 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
             </objects>
             <point key="canvasLocation" x="1008" y="-2969"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="FUM-Iz-EQr">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IfW-3E-bKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Rjk-99-aV1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nmE-NW-KHj"/>
+                        <viewControllerLayoutGuide type="bottom" id="gfA-OY-IQx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IjD-3S-0A9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXA-oS-jck">
+                                <rect key="frame" x="174" y="159" width="252" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="252" id="fmh-37-f0M"/>
+                                    <constraint firstAttribute="height" constant="70" id="peS-X5-qSD"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Restaurants/Bars">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eXM-b4-zeV" kind="show" id="sBW-hy-N28"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EyO-8z-Vgo">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Freetime" id="IL6-jg-m3m"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ru4-Ka-JlP">
+                                <rect key="frame" x="412" y="159" width="14" height="70"/>
+                                <color key="backgroundColor" red="0.27450980390000002" green="0.4039215686" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="oLb-cT-qBN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="EXA-oS-jck" firstAttribute="trailing" secondItem="ru4-Ka-JlP" secondAttribute="trailing" id="4A8-B5-8bS"/>
+                            <constraint firstItem="EXA-oS-jck" firstAttribute="top" secondItem="ru4-Ka-JlP" secondAttribute="top" id="6BH-i9-6Zg"/>
+                            <constraint firstItem="EXA-oS-jck" firstAttribute="centerX" secondItem="IjD-3S-0A9" secondAttribute="centerX" id="Dqk-qN-l3V"/>
+                            <constraint firstItem="EXA-oS-jck" firstAttribute="bottom" secondItem="ru4-Ka-JlP" secondAttribute="bottom" id="Fzf-MQ-4VP"/>
+                            <constraint firstItem="EXA-oS-jck" firstAttribute="centerX" secondItem="EyO-8z-Vgo" secondAttribute="centerX" id="Jok-uE-d6u"/>
+                            <constraint firstItem="gfA-OY-IQx" firstAttribute="top" secondItem="EXA-oS-jck" secondAttribute="bottom" constant="322" id="XQz-9V-vZR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dph-wT-SWx"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1622" y="-497"/>
+        </scene>
         <!--Useful-->
         <scene sceneID="CpA-2o-hYR">
             <objects>
@@ -2376,90 +2436,26 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
             </objects>
             <point key="canvasLocation" x="314" y="223"/>
         </scene>
-        <!--Freetime-->
+        <!--Restaurants/Bars-->
         <scene sceneID="qby-Jw-Cvr">
             <objects>
-                <tableViewController id="eXM-b4-zeV" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="4" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vXW-9M-ctX" customClass="TableView">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dyc-MI-sWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="eXM-b4-zeV" customClass="FreetimeViewController" customModule="ErasmusTU" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="center" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="4" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vXW-9M-ctX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="dJV-kx-t68">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dJV-kx-t68" id="Efh-4Q-WS2">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="ESN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeC-EI-b3b">
-                                            <rect key="frame" x="39" y="11" width="33" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="oeC-EI-b3b" firstAttribute="centerY" secondItem="Efh-4Q-WS2" secondAttribute="centerY" id="rbM-cr-fc1"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="iLt-LD-NZr">
-                                <rect key="frame" x="0.0" y="72" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iLt-LD-NZr" id="lQW-HP-FNA">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Sports" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pai-qa-4Md">
-                                            <rect key="frame" x="37" y="11" width="51" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="pai-qa-4Md" firstAttribute="centerY" secondItem="lQW-HP-FNA" secondAttribute="centerY" id="ydd-hZ-oAp"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="UnL-XA-OBs">
-                                <rect key="frame" x="0.0" y="116" width="600" height="44"/>
+                            <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FreetimeCell" id="UnL-XA-OBs">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UnL-XA-OBs" id="Xo4-v4-P1m">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Travel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICz-Ye-wWm">
-                                            <rect key="frame" x="36" y="11" width="46" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="ICz-Ye-wWm" firstAttribute="centerY" secondItem="Xo4-v4-P1m" secondAttribute="centerY" id="IQS-Lj-GEF"/>
-                                    </constraints>
                                 </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="m8I-qO-yay">
-                                <rect key="frame" x="0.0" y="160" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m8I-qO-yay" id="QUE-tl-vx5">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Bars/Restaurants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmI-fx-AF7">
-                                            <rect key="frame" x="35" y="11" width="131" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="nmI-fx-AF7" firstAttribute="centerY" secondItem="QUE-tl-vx5" secondAttribute="centerY" id="Dsh-zO-Orp"/>
-                                    </constraints>
-                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="LuI-Zm-4aS" kind="show" id="KHs-oy-o4P"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -2467,11 +2463,69 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                             <outlet property="delegate" destination="eXM-b4-zeV" id="uHU-3N-pav"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Freetime" image="second" id="8TR-nr-deQ"/>
+                    <navigationItem key="navigationItem" title="Restaurants/Bars" id="RdS-lC-8ST"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dyc-MI-sWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="650" y="-691"/>
+            <point key="canvasLocation" x="2329" y="-497"/>
+        </scene>
+        <!--Restaurant View-->
+        <scene sceneID="glQ-DW-bhu">
+            <objects>
+                <viewController id="LuI-Zm-4aS" customClass="RestaurantView" customModule="ErasmusTU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rpc-DZ-gZw"/>
+                        <viewControllerLayoutGuide type="bottom" id="vnP-ao-FBW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1mY-QS-8Gr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcZ-3U-Cme">
+                                <rect key="frame" x="283" y="133" width="34" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Title"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omo-s5-Tpj">
+                                <rect key="frame" x="271" y="178" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Adress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phS-WF-EOJ">
+                                <rect key="frame" x="274" y="224" width="53" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYv-4t-BQw">
+                                <rect key="frame" x="285" y="268" width="32" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="trailing" secondItem="fYv-4t-BQw" secondAttribute="trailing" id="KCx-KD-dG0"/>
+                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="leading" secondItem="1mY-QS-8Gr" secondAttribute="leadingMargin" constant="263" id="Lkr-96-18i"/>
+                            <constraint firstItem="omo-s5-Tpj" firstAttribute="top" secondItem="pcZ-3U-Cme" secondAttribute="bottom" constant="24" id="MIS-2b-QNF"/>
+                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="top" secondItem="Rpc-DZ-gZw" secondAttribute="bottom" constant="69" id="jea-VC-1wn"/>
+                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="trailing" secondItem="omo-s5-Tpj" secondAttribute="trailing" constant="-13" id="nkE-5g-n2X"/>
+                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="trailing" secondItem="phS-WF-EOJ" secondAttribute="trailing" constant="-10" id="yfJ-v2-Pve"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelAdress" destination="phS-WF-EOJ" id="ntY-Xo-IIp"/>
+                        <outlet property="labelLink" destination="fYv-4t-BQw" id="H5l-ya-WDx"/>
+                        <outlet property="labelSubtitle" destination="omo-s5-Tpj" id="J0n-Hu-5wS"/>
+                        <outlet property="labelTitle" destination="pcZ-3U-Cme" id="42h-OU-x9Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GQn-hO-1Ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3028" y="-499"/>
         </scene>
         <!--Course Registration-->
         <scene sceneID="tPh-0h-SsW">
@@ -2596,28 +2650,21 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                 <rect key="frame" x="551" y="502" width="36" height="37"/>
                                 <state key="normal" image="first"/>
                                 <connections>
-                                    <action selector="optionButtonPress:" destination="H2l-fU-91c" eventType="touchUpInside" id="kPh-IW-fB0"/>
+                                    <segue destination="RbT-Io-y3K" kind="popoverPresentation" identifier="showPopover" popoverAnchorView="xdO-Xf-9hD" id="qpL-dH-q3i">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
-                            <containerView opaque="NO" clipsSubviews="YES" contentMode="center" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U5N-xi-Zn1">
-                                <rect key="frame" x="322" y="384" width="240" height="128"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="RbT-Io-y3K" kind="embed" id="LVi-tg-2h8"/>
-                                </connections>
-                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uYf-al-c90" firstAttribute="width" secondItem="7h2-Yo-sPo" secondAttribute="width" id="1Se-Eb-g88"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xdO-Xf-9hD" secondAttribute="trailing" constant="-7" id="FbB-B5-La0"/>
-                            <constraint firstItem="U5N-xi-Zn1" firstAttribute="top" secondItem="uYf-al-c90" secondAttribute="bottom" constant="-216" id="Itp-R7-EuM"/>
                             <constraint firstItem="1qM-Kn-9Y4" firstAttribute="top" secondItem="xdO-Xf-9hD" secondAttribute="bottom" constant="12" id="Kn1-l1-BVs"/>
                             <constraint firstItem="xdO-Xf-9hD" firstAttribute="leading" secondItem="uYf-al-c90" secondAttribute="trailing" constant="-49" id="Kzn-3C-f6o"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="centerY" secondItem="7h2-Yo-sPo" secondAttribute="centerY" id="Vfj-BI-sOI"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="height" secondItem="7h2-Yo-sPo" secondAttribute="height" id="Z90-pu-ZTX"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="centerX" secondItem="7h2-Yo-sPo" secondAttribute="centerX" id="kFu-pa-WP6"/>
-                            <constraint firstItem="U5N-xi-Zn1" firstAttribute="leading" secondItem="uYf-al-c90" secondAttribute="trailing" constant="-278" id="ugA-87-w9A"/>
                             <constraint firstItem="xdO-Xf-9hD" firstAttribute="top" secondItem="uYf-al-c90" secondAttribute="bottom" constant="-98" id="x0y-D9-a3M"/>
                         </constraints>
                     </view>
@@ -2634,18 +2681,19 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
         <!--Map Option-->
         <scene sceneID="wMG-CA-17Q">
             <objects>
-                <tableViewController id="RbT-Io-y3K" customClass="MapOption" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaG-RD-HJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController autoresizesArchivedViewToFullSize="NO" id="RbT-Io-y3K" customClass="MapOption" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cfQ-eP-kdh">
-                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="sEZ-mo-MVA">
-                                <rect key="frame" x="0.0" y="28" width="240" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="200" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sEZ-mo-MVA" id="XkM-Sg-CJA">
-                                    <rect key="frame" x="0.0" y="0.0" width="240" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -2656,10 +2704,12 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                             <outlet property="delegate" destination="RbT-Io-y3K" id="Bhp-du-ptR"/>
                         </connections>
                     </tableView>
+                    <value key="contentSizeForViewInPopover" type="size" width="200" height="130"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="200" height="130"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vaG-RD-HJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1242" y="2308"/>
+            <point key="canvasLocation" x="1092" y="2030"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="rDS-7L-mgZ">
@@ -2757,7 +2807,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <segue destination="Akh-ny-wdB" kind="relationship" relationship="viewControllers" id="iaN-5T-LKN"/>
                         <segue destination="dQ2-P4-n2x" kind="relationship" relationship="viewControllers" id="wud-cU-QXa"/>
                         <segue destination="8xR-V4-DxW" kind="relationship" relationship="viewControllers" id="UFh-CX-t8p"/>
-                        <segue destination="eXM-b4-zeV" kind="relationship" relationship="viewControllers" id="7si-bw-NzM"/>
+                        <segue destination="B97-6a-CmK" kind="relationship" relationship="viewControllers" id="TSf-QR-NhT"/>
                         <segue destination="H2l-fU-91c" kind="relationship" relationship="viewControllers" id="Djp-sO-CqV"/>
                     </connections>
                 </tabBarController>
@@ -2765,41 +2815,24 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
             </objects>
             <point key="canvasLocation" x="-568" y="142"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="X5m-VR-zTd">
+        <!--Freetime-->
+        <scene sceneID="Q5V-ol-ggV">
             <objects>
-                <viewController id="v7e-H3-dlO" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lCk-cP-0wD"/>
-                        <viewControllerLayoutGuide type="bottom" id="x9P-c8-Ggd"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yaS-QI-ucp">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="I0p-Si-3OY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B97-6a-CmK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Freetime" id="B57-Ey-4ll"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="apF-Ac-GQs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Rjk-99-aV1" kind="relationship" relationship="rootViewController" id="tpv-5b-McM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p5b-WU-EJx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1816" y="74"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="YpM-uM-47e">
-            <objects>
-                <viewController id="fdd-Me-mb5" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hXO-9B-2s2"/>
-                        <viewControllerLayoutGuide type="bottom" id="OvM-d8-ZyP"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7lq-xY-PVX">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="e5P-SW-Btn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2514" y="66"/>
+            <point key="canvasLocation" x="810" y="-497"/>
         </scene>
     </scenes>
     <resources>

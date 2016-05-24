@@ -10,6 +10,24 @@ import UIKit
 
 class DepartmentCoordViewController: UIViewController {
     
+    @IBOutlet var label1: UILabel!
+    @IBOutlet var label2: UILabel!
+    @IBOutlet var label3: UILabel!
+    @IBOutlet var label4: UILabel!
+    @IBOutlet var label5: UILabel!
+    @IBOutlet var label6: UILabel!
+    @IBOutlet var label7: UILabel!
+    
+    @IBOutlet var label8: UILabel!
+    
+    @IBOutlet var label9: UILabel!
+    
+    @IBOutlet var label10: UILabel!
+    
+    @IBOutlet var label11: UILabel!
+    
+    @IBOutlet var lable12: UILabel!
+    
     var  dataToTransfer: String = ""
     
     @IBOutlet var Scroll: UIScrollView!
@@ -114,7 +132,21 @@ class DepartmentCoordViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Scroll.contentSize.height = 1000
-
+        
+        label1.layer.cornerRadius=5
+        label2.layer.cornerRadius=5
+        label3.layer.cornerRadius=5
+        label4.layer.cornerRadius=5
+        label5.layer.cornerRadius=5
+        label6.layer.cornerRadius=5
+        label7.layer.cornerRadius=5
+        label8.layer.cornerRadius=5
+        label9.layer.cornerRadius=5
+        label10.layer.cornerRadius=5
+        label11.layer.cornerRadius=5
+        lable12.layer.cornerRadius=5
+        
+        
         
         
         

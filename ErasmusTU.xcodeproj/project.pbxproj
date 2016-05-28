@@ -48,7 +48,6 @@
 		D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */; };
 		D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDE021CEE749D0015E19A /* phone-call.png */; };
 		D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CF34991CEF79BB0080F784 /* registerCourse.pdf */; };
-		D0DE5F9A1CF45247004FA3A2 /* Infeldgasse.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0DE5F991CF45247004FA3A2 /* Infeldgasse.gif */; };
 		D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0DE5F9B1CF45269004FA3A2 /* Neue.gif */; };
 		D0DE5F9E1CF4542C004FA3A2 /* DepartmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE5F9D1CF4542C004FA3A2 /* DepartmentInfoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -157,8 +156,8 @@
 				0B64ECF11CEF90A3007330A5 /* ResidencePermitViewController.swift */,
 				99FBEB611CBFCEC1001E5946 /* MapViewController.swift */,
 				99FCDA291CF308150094D373 /* MapOptions.swift */,
-				995E76B01CC3CC70004C2C85 /* Freetime.swift */,
 				99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */,
+				995E76B01CC3CC70004C2C85 /* Freetime.swift */,
 				990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */,
 				99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */,
 				995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */,
@@ -173,11 +172,6 @@
 		D06436841CEB41E300AEAE1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D0CDDDEC1CEE0E750015E19A /* Biologuy.png */,
-				D0CDDDED1CEE0E750015E19A /* Maths.png */,
-				D0CDDDEE1CEE0E750015E19A /* Chemistry.png */,
-				D0CDDDEF1CEE0E750015E19A /* Informatics.png */,
-				D0CDDDF01CEE0E750015E19A /* Civil.png */,
 				D0CDDE021CEE749D0015E19A /* phone-call.png */,
 				D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */,
 				D0CDDD9A1CEDBAFA0015E19A /* email1.png */,
@@ -281,29 +275,19 @@
 				D06436921CEB785700AEAE1E /* Barbara.png in Resources */,
 				D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */,
 				D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */,
-				D0CDDDFE1CEE0E750015E19A /* Biomedical.png in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
-				D0CDDDF81CEE0E750015E19A /* Maths.png in Resources */,
 				99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */,
 				990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */,
-				D0CDDDEB1CEE05990015E19A /* Arquitectura.png in Resources */,
-				D0CDDDFA1CEE0E750015E19A /* Informatics.png in Resources */,
-				D0CDDE001CEE0E750015E19A /* Chemical.png in Resources */,
-				D0CDDDFC1CEE0E750015E19A /* Enviromental.png in Resources */,
-				D0CDDE011CEE0E750015E19A /* Fisics.png in Resources */,
 				D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */,
 				D06436901CEB781F00AEAE1E /* Gitte.png in Resources */,
 				D06436861CEB427100AEAE1E /* Alte.gif in Resources */,
 				995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */,
-				D0CDDDF71CEE0E750015E19A /* Biologuy.png in Resources */,
-				D0CDDDF91CEE0E750015E19A /* Chemistry.png in Resources */,
 				D06436981CEB807800AEAE1E /* call.png in Resources */,
 				D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */,
 				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
 				D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */,
 				D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
-				D0CDDDFD1CEE0E750015E19A /* Mechanical.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

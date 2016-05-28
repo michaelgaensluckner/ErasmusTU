@@ -11,7 +11,7 @@ import MapKit
 import UIKit
 import CoreLocation
 
-var OptionsArray = [true,false,false]
+var OptionsArray = [true,false]
 var valueToPass = ""
 
 class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UIPopoverPresentationControllerDelegate {
@@ -33,11 +33,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         {
             let annotationsFree = getFreeAnnotations()
             Map.addAnnotations(annotationsFree)
-        }
-        if OptionsArray[2] == true
-        {
-            //let annotations = getUseAnnotations()
-            //Map.addAnnotations(annotations)
         }
         
     }

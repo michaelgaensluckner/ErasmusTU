@@ -18,6 +18,8 @@ struct freetimeItem{
     var link = ""
 }
 
+let lightestGrayColor = UIColor(red: 224, green: 224, blue: 224, alpha: 1)
+
 class FreetimeViewController: UITableViewController {
     
 
@@ -54,6 +56,7 @@ class FreetimeViewController: UITableViewController {
     
     override func viewDidLoad() {
      getItems()
+        self.tableView.backgroundColor = lightestGrayColor
     }
     
     
@@ -65,10 +68,9 @@ class FreetimeViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-       // var cell = tableView.dequeueReusableCellWithIdentifier("FreetimeCell", forIndexPath: indexPath) as! UITableViewCell
         let cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("FreetimeCell", forIndexPath: indexPath) as UITableViewCell!
 
-        cell.layer.cornerRadius = 10
+        cell.layer.cornerRadius = 8
         cell.layer.borderWidth = 1
         cell.layer.backgroundColor = UIColor.whiteColor().CGColor
         cell.layer.masksToBounds = true
@@ -88,7 +90,7 @@ class FreetimeViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 60.0
+        return 42.0
     }
     
     override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

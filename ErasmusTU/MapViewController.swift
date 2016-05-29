@@ -13,13 +13,13 @@ import CoreLocation
 
 var OptionsArray = [true,false]
 var valueToPass = ""
+var showAnnotation = Annotation.self
 
 class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UIPopoverPresentationControllerDelegate {
     
     @IBOutlet weak var tabBar: UITabBarItem!
     @IBOutlet weak var Map: MKMapView!
     
-    @IBOutlet var LongPress: UILongPressGestureRecognizer!
     
     
     func popoverPresentationControllerDidDismissPopover(popoverPresentationController: UIPopoverPresentationController) {
@@ -36,10 +36,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
         
     }
-    
-    
-    @IBOutlet weak var OptionContainer: UIView!
-    
 
     
     let locationManager = CLLocationManager()
@@ -59,12 +55,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
     
                 
-        // get Annotations from plist
         let annotations = getUniAnnotations()
 
-        
-       // annotations.pinTintColor = UIColor.greenColor()
-        // Add mappoints to Map
         Map.addAnnotations(annotations)
 
 
@@ -103,11 +95,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         print("Error in map: " + error.localizedDescription)
-    }
-    
-    
-    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
-        print("Annotation slected")
     }
     
     
@@ -185,6 +172,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
         
         return annotations
+    }
+    
+    func showAnnotation(annotationPassed: Annotation ){
+        //Map.addAnnotation(annotationPassed)
     }
     
     

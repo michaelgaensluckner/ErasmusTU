@@ -3010,18 +3010,18 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
         <scene sceneID="qby-Jw-Cvr">
             <objects>
                 <tableViewController id="eXM-b4-zeV" customClass="FreetimeViewController" customModule="ErasmusTU" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="center" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="4" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vXW-9M-ctX">
-                        <rect key="frame" x="0.0" y="0.0" width="245" height="600"/>
+                    <tableView key="view" clipsSubviews="YES" contentMode="center" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="4" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vXW-9M-ctX">
+                        <rect key="frame" x="0.0" y="0.0" width="442" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexTrackingBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FreetimeCell" id="UnL-XA-OBs">
-                                <rect key="frame" x="0.0" y="28" width="245" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="442" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UnL-XA-OBs" id="Xo4-v4-P1m">
-                                    <rect key="frame" x="0.0" y="0.0" width="245" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="442" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -3054,11 +3054,8 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ibZ-VJ-Vvc">
-                                <rect key="frame" x="15" y="0.0" width="245" height="600"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="Ndw-aa-uPp"/>
-                                </constraints>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibZ-VJ-Vvc">
+                                <rect key="frame" x="15" y="0.0" width="442" height="600"/>
                                 <connections>
                                     <segue destination="eXM-b4-zeV" kind="embed" id="TuB-Xs-UUK"/>
                                 </connections>
@@ -3067,16 +3064,14 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ibZ-VJ-Vvc" secondAttribute="trailing" constant="340" id="1Un-R6-ODc"/>
-                            <constraint firstAttribute="bottom" secondItem="ibZ-VJ-Vvc" secondAttribute="bottom" id="22n-1P-UlJ"/>
                             <constraint firstAttribute="trailing" secondItem="ibZ-VJ-Vvc" secondAttribute="trailing" constant="335" id="2Vg-U3-2QK"/>
-                            <constraint firstItem="ibZ-VJ-Vvc" firstAttribute="leading" secondItem="p6v-69-TZS" secondAttribute="leadingMargin" constant="15" id="3Cm-4d-ssL"/>
                             <constraint firstItem="ibZ-VJ-Vvc" firstAttribute="leading" secondItem="p6v-69-TZS" secondAttribute="leadingMargin" constant="15" id="5qs-Ob-BWi"/>
+                            <constraint firstItem="ibZ-VJ-Vvc" firstAttribute="top" secondItem="p6v-69-TZS" secondAttribute="top" id="6HZ-0e-GpV"/>
                             <constraint firstAttribute="trailing" secondItem="ibZ-VJ-Vvc" secondAttribute="trailing" constant="340" id="JnN-Fx-MDZ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ibZ-VJ-Vvc" secondAttribute="trailing" id="Mwe-yk-25Z"/>
-                            <constraint firstItem="ibZ-VJ-Vvc" firstAttribute="leading" secondItem="p6v-69-TZS" secondAttribute="leadingMargin" constant="15" id="YDk-hh-9Lc"/>
-                            <constraint firstItem="ibZ-VJ-Vvc" firstAttribute="leading" secondItem="p6v-69-TZS" secondAttribute="leadingMargin" constant="15" id="aET-L1-NeM"/>
+                            <constraint firstAttribute="trailing" secondItem="ibZ-VJ-Vvc" secondAttribute="trailing" constant="143" id="TeF-TF-Yf7"/>
+                            <constraint firstItem="ibZ-VJ-Vvc" firstAttribute="leading" secondItem="p6v-69-TZS" secondAttribute="leading" constant="15" id="hFZ-jV-r11"/>
                             <constraint firstAttribute="trailing" secondItem="ibZ-VJ-Vvc" secondAttribute="trailing" constant="340" id="hYs-P6-ZL1"/>
-                            <constraint firstItem="ibZ-VJ-Vvc" firstAttribute="top" secondItem="p6v-69-TZS" secondAttribute="top" id="ja0-Ms-MA9"/>
+                            <constraint firstAttribute="bottom" secondItem="ibZ-VJ-Vvc" secondAttribute="bottom" id="kBe-IM-Rdb"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -3091,7 +3086,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bn2-iC-rZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2363" y="-509"/>
+            <point key="canvasLocation" x="2351" y="-509"/>
         </scene>
         <!--Restaurant View-->
         <scene sceneID="glQ-DW-bhu">
@@ -3102,55 +3097,81 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <viewControllerLayoutGuide type="bottom" id="vnP-ao-FBW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1mY-QS-8Gr">
-                        <rect key="frame" x="0.0" y="0.0" width="245" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="442" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcZ-3U-Cme">
-                                <rect key="frame" x="279" y="133" width="34" height="21"/>
+                                <rect key="frame" x="204" y="61" width="34" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="Title"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omo-s5-Tpj">
-                                <rect key="frame" x="267" y="178" width="59" height="21"/>
+                                <rect key="frame" x="192" y="90" width="59" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Adress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phS-WF-EOJ">
-                                <rect key="frame" x="270" y="224" width="53" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Adress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phS-WF-EOJ">
+                                <rect key="frame" x="195" y="289" width="53" height="21"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYv-4t-BQw">
-                                <rect key="frame" x="281" y="268" width="32" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DxL-yw-D9r">
+                                <rect key="frame" x="11" y="354" width="422" height="226"/>
+                                <connections>
+                                    <outlet property="delegate" destination="LuI-Zm-4aS" id="d0G-FP-nGV"/>
+                                </connections>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5T-Aq-9AW">
+                                <rect key="frame" x="197" y="314" width="50" height="33"/>
+                                <state key="normal" image="icon-locatie-small.png"/>
+                                <connections>
+                                    <action selector="adressButton:" destination="LuI-Zm-4aS" eventType="touchUpInside" id="63E-sT-TLB"/>
+                                    <segue destination="H2l-fU-91c" kind="push" id="fac-3d-L5L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8T-CN-9W6">
+                                <rect key="frame" x="199" y="193" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonLinkPress:" destination="LuI-Zm-4aS" eventType="touchUpInside" id="y3G-H5-aEk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="trailing" secondItem="fYv-4t-BQw" secondAttribute="trailing" id="KCx-KD-dG0"/>
-                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="leading" secondItem="1mY-QS-8Gr" secondAttribute="leadingMargin" constant="263" id="Lkr-96-18i"/>
-                            <constraint firstItem="omo-s5-Tpj" firstAttribute="top" secondItem="pcZ-3U-Cme" secondAttribute="bottom" constant="24" id="MIS-2b-QNF"/>
-                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="top" secondItem="Rpc-DZ-gZw" secondAttribute="bottom" constant="69" id="jea-VC-1wn"/>
-                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="trailing" secondItem="omo-s5-Tpj" secondAttribute="trailing" constant="-13" id="nkE-5g-n2X"/>
-                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="trailing" secondItem="phS-WF-EOJ" secondAttribute="trailing" constant="-10" id="yfJ-v2-Pve"/>
+                            <constraint firstItem="omo-s5-Tpj" firstAttribute="top" secondItem="pcZ-3U-Cme" secondAttribute="bottom" constant="8" symbolic="YES" id="B8S-0p-Wcf"/>
+                            <constraint firstItem="Y5T-Aq-9AW" firstAttribute="top" secondItem="phS-WF-EOJ" secondAttribute="bottom" constant="4" id="FBr-dm-liQ"/>
+                            <constraint firstItem="phS-WF-EOJ" firstAttribute="centerX" secondItem="DxL-yw-D9r" secondAttribute="centerX" id="Fwg-XU-a9R"/>
+                            <constraint firstItem="vnP-ao-FBW" firstAttribute="top" secondItem="DxL-yw-D9r" secondAttribute="bottom" constant="10" id="PJL-Ne-A02"/>
+                            <constraint firstItem="phS-WF-EOJ" firstAttribute="top" secondItem="J8T-CN-9W6" secondAttribute="bottom" constant="66" id="QMX-rW-aqe"/>
+                            <constraint firstItem="J8T-CN-9W6" firstAttribute="centerX" secondItem="omo-s5-Tpj" secondAttribute="centerX" id="Qt3-vi-bHE"/>
+                            <constraint firstItem="phS-WF-EOJ" firstAttribute="centerY" secondItem="1mY-QS-8Gr" secondAttribute="centerY" id="Roe-rS-1Ea"/>
+                            <constraint firstItem="Y5T-Aq-9AW" firstAttribute="centerX" secondItem="phS-WF-EOJ" secondAttribute="centerX" id="S6Y-Qg-jdu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DxL-yw-D9r" secondAttribute="trailing" constant="-10" id="Wh8-wi-b1K"/>
+                            <constraint firstItem="J8T-CN-9W6" firstAttribute="centerX" secondItem="phS-WF-EOJ" secondAttribute="centerX" id="cjh-R9-cqg"/>
+                            <constraint firstItem="DxL-yw-D9r" firstAttribute="leading" secondItem="1mY-QS-8Gr" secondAttribute="leadingMargin" constant="-10" id="cnW-GB-0L1"/>
+                            <constraint firstItem="DxL-yw-D9r" firstAttribute="top" secondItem="phS-WF-EOJ" secondAttribute="bottom" constant="44" id="nAd-ci-bsL"/>
+                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="top" secondItem="Rpc-DZ-gZw" secondAttribute="bottom" constant="61" id="ppw-UH-djf"/>
+                            <constraint firstItem="omo-s5-Tpj" firstAttribute="centerX" secondItem="pcZ-3U-Cme" secondAttribute="centerX" id="xvg-ak-vye"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Map" destination="DxL-yw-D9r" id="nVb-Ug-isi"/>
+                        <outlet property="buttonAdress" destination="Y5T-Aq-9AW" id="xs3-dJ-ncb"/>
+                        <outlet property="buttonLink" destination="J8T-CN-9W6" id="JQx-bW-OFz"/>
                         <outlet property="labelAdress" destination="phS-WF-EOJ" id="ntY-Xo-IIp"/>
-                        <outlet property="labelLink" destination="fYv-4t-BQw" id="H5l-ya-WDx"/>
                         <outlet property="labelSubtitle" destination="omo-s5-Tpj" id="J0n-Hu-5wS"/>
                         <outlet property="labelTitle" destination="pcZ-3U-Cme" id="42h-OU-x9Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GQn-hO-1Ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3374" y="-509"/>
+            <point key="canvasLocation" x="3574" y="-515"/>
         </scene>
         <!--Course Registration-->
         <scene sceneID="tPh-0h-SsW">
@@ -3739,15 +3760,15 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <viewControllerLayoutGuide type="bottom" id="1qM-Kn-9Y4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7h2-Yo-sPo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="442" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="442" height="600"/>
                                 <gestureRecognizers/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Xf-9hD">
-                                <rect key="frame" x="551" y="502" width="36" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Xf-9hD">
+                                <rect key="frame" x="393" y="502" width="36" height="37"/>
                                 <state key="normal" image="first"/>
                                 <connections>
                                     <segue destination="RbT-Io-y3K" kind="popoverPresentation" identifier="showPopover" popoverAnchorView="xdO-Xf-9hD" id="qpL-dH-q3i">
@@ -3769,6 +3790,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="second" id="NOw-cE-L8s"/>
+                    <navigationItem key="navigationItem" id="a2A-Ln-Rpg"/>
                     <connections>
                         <outlet property="Map" destination="uYf-al-c90" id="C7n-pM-0Xj"/>
                         <outlet property="tabBar" destination="NOw-cE-L8s" id="go1-l7-vZh"/>
@@ -3975,11 +3997,12 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
         <image name="Neue.gif" width="800" height="600"/>
         <image name="email1.png" width="256" height="256"/>
         <image name="first" width="30" height="30"/>
+        <image name="icon-locatie-small.png" width="50" height="33"/>
         <image name="icon-locatie.png" width="300" height="196"/>
         <image name="phone-call.png" width="256" height="256"/>
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7rL-Kl-mK9"/>
+        <segue reference="fac-3d-L5L"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -80,7 +80,8 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         let cellHeight: CGFloat = 42.0
         let greenLabel = UILabel(frame: CGRectMake(40, 60, 30, 42))
         greenLabel.center = CGPoint(x: view.bounds.width, y: cellHeight / 2.0)
-        greenLabel.backgroundColor = UIColor.greenColor()
+        let myColor = UIColor(red: 21/255.0, green: 96/255.0, blue: 132/255.0, alpha: 1.0)
+        greenLabel.backgroundColor = myColor
         cell.addSubview(greenLabel)
         
         

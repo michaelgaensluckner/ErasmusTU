@@ -27,7 +27,6 @@ class RestaurantView: UIViewController,  MKMapViewDelegate {
         let annotationToPass = Annotation(latitude: passedValue.latitude, longitude: passedValue.longitude)
         annotationToPass.title = passedValue.title as String
         annotationToPass.subtitle = passedValue.subtitle as String
-        MapViewController().showAnnotation(annotationToPass)
     }
     
     
@@ -65,7 +64,7 @@ class RestaurantView: UIViewController,  MKMapViewDelegate {
         annotation.subtitle = passedValue.subtitle as String
         
         let center = CLLocationCoordinate2D(latitude: lat, longitude: lon)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
         self.Map.setRegion(region, animated: true)
         
        Map.addAnnotation(annotation)
@@ -73,6 +72,12 @@ class RestaurantView: UIViewController,  MKMapViewDelegate {
         
         
         
+    }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {        
+        showAnnotation = passedValue
+        segueMap = true
     }
     
 }

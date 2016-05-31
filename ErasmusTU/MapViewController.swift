@@ -13,7 +13,8 @@ import CoreLocation
 
 var OptionsArray = [true,false]
 var valueToPass = ""
-var showAnnotation = Annotation.self
+var showAnnotation = freetimeItem()
+var segueMap = false
 
 class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UIPopoverPresentationControllerDelegate {
     
@@ -54,10 +55,20 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             // Fallback on earlier versions
         }
     
-                
-        let annotations = getUniAnnotations()
-
-        Map.addAnnotations(annotations)
+        
+        
+        if (segueMap == true){
+            let singleAnnotation = Annotation(latitude: showAnnotation.latitude, longitude: showAnnotation.longitude)
+            singleAnnotation.title = showAnnotation.title
+            singleAnnotation.subtitle = showAnnotation.subtitle
+            Map.addAnnotation(singleAnnotation)
+        }
+        else{
+          let annotations = getUniAnnotations()
+            Map.addAnnotations(annotations)
+        }
+        segueMap = false
+        
 
 
     }
@@ -174,9 +185,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         return annotations
     }
     
-    func showAnnotation(annotationPassed: Annotation ){
-        //Map.addAnnotation(annotationPassed)
-    }
     
     
 }

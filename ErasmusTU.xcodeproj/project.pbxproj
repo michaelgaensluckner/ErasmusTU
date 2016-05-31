@@ -23,6 +23,7 @@
 		990C6D551CBF94D80085F70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D531CBF94D80085F70E /* Main.storyboard */; };
 		990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D561CBF94D80085F70E /* Assets.xcassets */; };
 		990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */; };
+		9937C4D01CFDB87300F6FF8B /* Freetime Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9937C4CF1CFDB87300F6FF8B /* Freetime Scene.swift */; };
 		995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */; };
 		995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E76B01CC3CC70004C2C85 /* Freetime.swift */; };
 		997928131CFB224E00141BCB /* icon-locatie-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 997928121CFB224E00141BCB /* icon-locatie-small.png */; };
@@ -72,6 +73,7 @@
 		990C6D561CBF94D80085F70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990C6D591CBF94D80085F70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		990C6D5B1CBF94D80085F70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9937C4CF1CFDB87300F6FF8B /* Freetime Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Freetime Scene.swift"; sourceTree = "<group>"; };
 		995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TUMapAnnotations.plist; path = ../TUMapAnnotations.plist; sourceTree = "<group>"; };
 		995E76B01CC3CC70004C2C85 /* Freetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Freetime.swift; sourceTree = "<group>"; };
 		997928121CFB224E00141BCB /* icon-locatie-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-locatie-small.png"; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				99FCDA291CF308150094D373 /* MapOptions.swift */,
 				99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */,
 				995E76B01CC3CC70004C2C85 /* Freetime.swift */,
+				9937C4CF1CFDB87300F6FF8B /* Freetime Scene.swift */,
 				990C6D581CBF94D80085F70E /* LaunchScreen.storyboard */,
 				99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */,
 				995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */,
@@ -306,6 +309,7 @@
 				0B64ED001CF070BA007330A5 /* SettingViewController.swift in Sources */,
 				0BB6E3AC1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift in Sources */,
 				99FCDA2E1CF44A9E0094D373 /* RestaurantView.swift in Sources */,
+				9937C4D01CFDB87300F6FF8B /* Freetime Scene.swift in Sources */,
 				0B64ECF21CEF90A3007330A5 /* ResidencePermitViewController.swift in Sources */,
 				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
 				D0DE5F9E1CF4542C004FA3A2 /* DepartmentInfoViewController.swift in Sources */,

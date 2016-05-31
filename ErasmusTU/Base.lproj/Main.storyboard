@@ -156,7 +156,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="65%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6W-AF-XnU">
                                         <rect key="frame" x="3" y="3" width="171" height="162"/>
                                         <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="29"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -2898,10 +2898,10 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
             </objects>
             <point key="canvasLocation" x="594" y="-2317"/>
         </scene>
-        <!--View Controller-->
+        <!--Freetime Scene-->
         <scene sceneID="FUM-Iz-EQr">
             <objects>
-                <viewController id="Rjk-99-aV1" sceneMemberID="viewController">
+                <viewController id="Rjk-99-aV1" customClass="FreetimeScene" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nmE-NW-KHj"/>
                         <viewControllerLayoutGuide type="bottom" id="gfA-OY-IQx"/>
@@ -2947,7 +2947,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ru4-Ka-JlP">
                                 <rect key="frame" x="412" y="159" width="14" height="70"/>
-                                <color key="backgroundColor" red="0.27450980390000002" green="0.4039215686" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.082352941176470587" green="0.37647058823529411" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="14" id="oLb-cT-qBN"/>
                                 </constraints>
@@ -2957,7 +2957,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YdT-Iw-1cP">
                                 <rect key="frame" x="412" y="251" width="14" height="70"/>
-                                <color key="backgroundColor" red="0.27450980390000002" green="0.4039215686" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="14" id="fDB-rD-7r9"/>
                                 </constraints>
@@ -2982,6 +2982,11 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dph-wT-SWx"/>
+                    <connections>
+                        <outlet property="RestBlueLabel" destination="ru4-Ka-JlP" id="lOr-sd-yrI"/>
+                        <outlet property="RestButton" destination="EXA-oS-jck" id="qlu-af-pCQ"/>
+                        <outlet property="SportButton" destination="Juk-3u-vJA" id="3am-Y3-ObR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IfW-3E-bKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3104,20 +3109,20 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                 <rect key="frame" x="204" y="61" width="34" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="Title"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omo-s5-Tpj">
                                 <rect key="frame" x="192" y="90" width="59" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Adress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phS-WF-EOJ">
                                 <rect key="frame" x="195" y="289" width="53" height="21"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DxL-yw-D9r">
@@ -3131,7 +3136,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                 <state key="normal" image="icon-locatie-small.png"/>
                                 <connections>
                                     <action selector="adressButton:" destination="LuI-Zm-4aS" eventType="touchUpInside" id="63E-sT-TLB"/>
-                                    <segue destination="H2l-fU-91c" kind="push" id="fac-3d-L5L"/>
+                                    <segue destination="H2l-fU-91c" kind="show" id="fac-3d-L5L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8T-CN-9W6">
@@ -3239,7 +3244,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="ST1-QW-sSu"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3254,7 +3259,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="UTD-Hq-UeT"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3269,7 +3274,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="Ngp-Uq-voL"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3284,7 +3289,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="tLi-zj-L7u"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3299,7 +3304,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="ud1-YK-9k8"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3314,7 +3319,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="sJL-Gw-Zn2"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3329,7 +3334,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="jjz-rI-6mT"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3344,7 +3349,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="MEy-xG-OfP"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3359,7 +3364,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="8q3-kV-Xug"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXn-AM-RDJ">
@@ -3369,7 +3374,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="6Lm-QR-Vvw"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3384,7 +3389,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="NDo-Cb-5w6"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3525,7 +3530,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="13" id="id5-K7-CgY"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -3754,7 +3759,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
         <!--Map-->
         <scene sceneID="xlg-SB-MVw">
             <objects>
-                <viewController title="Map" wantsFullScreenLayout="YES" hidesBottomBarWhenPushed="YES" id="H2l-fU-91c" customClass="MapViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Map" wantsFullScreenLayout="YES" id="H2l-fU-91c" customClass="MapViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NYk-qd-CWb"/>
                         <viewControllerLayoutGuide type="bottom" id="1qM-Kn-9Y4"/>
@@ -3860,13 +3865,13 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                             <constraint firstAttribute="width" constant="150" id="wop-L1-4wx"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="You are from:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8Q-iK-mFD">
                                         <rect key="frame" x="20" y="45" width="102" height="21"/>
                                         <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKO-h1-hMC">

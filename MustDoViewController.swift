@@ -241,18 +241,27 @@ class MustDoViewController: UIViewController {
         
         if(SettingOption.nationality == "EU Countries" || SettingOption.nationality == "Iceland/Norway" || SettingOption.nationality == "Switzerland"){
             MustDoVariables.sumTotal = 8
+            NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.sumTotal, forKey: "MustDoVariables_sumTotal")
+            NSUserDefaults.standardUserDefaults().synchronize()
 
         }
         else if(SettingOption.nationality == "Other Countries" && SettingOption.longstay){
             MustDoVariables.sumTotal = 10
+            NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.sumTotal, forKey: "MustDoVariables_sumTotal")
+            NSUserDefaults.standardUserDefaults().synchronize()
 
         }
         else if(SettingOption.nationality == "Other Countries" && !SettingOption.longstay){
             MustDoVariables.sumTotal = 8
+            NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.sumTotal, forKey: "MustDoVariables_sumTotal")
+            NSUserDefaults.standardUserDefaults().synchronize()
 
         }
         else{
             MustDoVariables.sumTotal = 12
+            NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.sumTotal, forKey: "MustDoVariables_sumTotal")
+            NSUserDefaults.standardUserDefaults().synchronize()
+
         }
 
     }

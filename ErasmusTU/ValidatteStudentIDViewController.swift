@@ -93,6 +93,12 @@ class ValidatteStudentIDViewController: UIViewController {
             }
             
         }
+        
+        NSUserDefaults.standardUserDefaults().setInteger(ValidateStudentIDTasks.Task_1, forKey: "ValidateStudentIDTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(ValidateStudentIDTasks.Task_2, forKey: "ValidateStudentIDTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.ValidateStudentID, forKey: "MustDoVariables_ValidateStudentID")
+        NSUserDefaults.standardUserDefaults().synchronize()
+        
     }
     
     @IBAction func Task_2_Pressed(sender: UIButton) {
@@ -120,6 +126,11 @@ class ValidatteStudentIDViewController: UIViewController {
             Task_2.alpha = 1
             Task_2_Done.hidden = true
         }
+        NSUserDefaults.standardUserDefaults().setInteger(ValidateStudentIDTasks.Task_1, forKey: "ValidateStudentIDTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(ValidateStudentIDTasks.Task_2, forKey: "ValidateStudentIDTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.ValidateStudentID, forKey: "MustDoVariables_ValidateStudentID")
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
     
     

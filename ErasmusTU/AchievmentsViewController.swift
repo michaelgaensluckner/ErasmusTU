@@ -25,6 +25,8 @@ class AchievmentsViewController: UIViewController {
     @IBOutlet var StudentUnionFee_Flag_1: UILabel!
     
     
+    
+    
     @IBOutlet var SendVisa_Button: UIButton!
     @IBOutlet var SendVisa_Flag_1: UILabel!
     @IBOutlet var ValidateStudentID_Button: UIButton!

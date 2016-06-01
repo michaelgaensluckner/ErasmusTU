@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5DB73F1CFE175300E85B99 /* AchievmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DB73E1CFE175300E85B99 /* AchievmentsViewController.swift */; };
+		0B5DB7411CFE29B100E85B99 /* HomeNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DB7401CFE29B100E85B99 /* HomeNavigationViewController.swift */; };
 		0B64ECF21CEF90A3007330A5 /* ResidencePermitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECF11CEF90A3007330A5 /* ResidencePermitViewController.swift */; };
 		0B64ECF41CEF9156007330A5 /* StudentUnionFeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECF31CEF9156007330A5 /* StudentUnionFeeViewController.swift */; };
 		0B64ECF61CEF927D007330A5 /* SendVisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B64ECF51CEF927D007330A5 /* SendVisaViewController.swift */; };
@@ -64,6 +66,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B5DB73E1CFE175300E85B99 /* AchievmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievmentsViewController.swift; sourceTree = "<group>"; };
+		0B5DB7401CFE29B100E85B99 /* HomeNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationViewController.swift; sourceTree = "<group>"; };
 		0B64ECF11CEF90A3007330A5 /* ResidencePermitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidencePermitViewController.swift; sourceTree = "<group>"; };
 		0B64ECF31CEF9156007330A5 /* StudentUnionFeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentUnionFeeViewController.swift; sourceTree = "<group>"; };
 		0B64ECF51CEF927D007330A5 /* SendVisaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendVisaViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 				D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */,
 				D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
+				0B5DB7401CFE29B100E85B99 /* HomeNavigationViewController.swift */,
+				0B5DB73E1CFE175300E85B99 /* AchievmentsViewController.swift */,
 				0BB6E3AB1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift */,
 				0BB6E3A91CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift */,
 				0B64ECFF1CF070BA007330A5 /* SettingViewController.swift */,
@@ -366,6 +372,8 @@
 				995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */,
 				D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */,
 				D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */,
+				0B5DB7411CFE29B100E85B99 /* HomeNavigationViewController.swift in Sources */,
+				0B5DB73F1CFE175300E85B99 /* AchievmentsViewController.swift in Sources */,
 				0B64ECF61CEF927D007330A5 /* SendVisaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

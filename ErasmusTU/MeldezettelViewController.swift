@@ -14,6 +14,21 @@ struct MeldezettelTasks{
     static var Task_3 = 0
 }
 
+class Station: NSObject, MKAnnotation {
+    var title: String?
+    var subtitle: String?
+    var latitude: Double
+    var longitude:Double
+    
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+    
+    init(latitude: Double, longitude: Double) {
+        self.latitude = latitude
+        self.longitude = longitude
+    }
+}
 
 class MeldezettelViewController: UIViewController {
 
@@ -29,19 +44,41 @@ class MeldezettelViewController: UIViewController {
     @IBOutlet var MapView: MKMapView!
     
     
-    let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
+    
+    let initialLocation = CLLocation(latitude: 47.068275 , longitude: 15.439096)
+
     let regionRadius: CLLocationDistance = 1000
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-            regionRadius * 2.0, regionRadius * 2.0)
+            regionRadius * 1.0, regionRadius * 1.0)
         MapView.setRegion(coordinateRegion, animated: true)
     }
     
-    
+    @IBAction func MapbuttonTapped(sender: AnyObject) {
+        
+        openMapForPlace()
+    }
+
+    func openMapForPlace() {
+        let latitute:CLLocationDegrees =  47.068275
+        let longitute:CLLocationDegrees =  15.439096
+        
+        let regionDistance:CLLocationDistance = 10000
+        let coordinates = CLLocationCoordinate2DMake(latitute, longitute)
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(MKCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(MKCoordinateSpan: regionSpan.span)
+        ]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "Graz City Service Center"
+        mapItem.openInMapsWithLaunchOptions(options)
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
         Task_1.layer.masksToBounds = true
         Task_1.layer.cornerRadius = 5
@@ -93,7 +130,8 @@ class MeldezettelViewController: UIViewController {
         }
         
         centerMapOnLocation(initialLocation)
-
+        let annotation = Station(latitude: 47.068275, longitude: 15.439096)
+        MapView.addAnnotation(annotation)
         
     }
     
@@ -132,6 +170,11 @@ class MeldezettelViewController: UIViewController {
                 Task_3_Done.hidden = true
             }
         }
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_1, forKey: "MeldezettelTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_2, forKey: "MeldezettelTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_3, forKey: "MeldezettelTasks_Task_3")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.Meldezettel, forKey: "MustDoVariables_Meldezettel")
+        NSUserDefaults.standardUserDefaults().synchronize()
     }
     
     @IBAction func Task_2_Pressed(sender: UIButton) {
@@ -166,6 +209,13 @@ class MeldezettelViewController: UIViewController {
                 Task_3_Done.hidden = true
             }
         }
+        
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_1, forKey: "MeldezettelTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_2, forKey: "MeldezettelTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_3, forKey: "MeldezettelTasks_Task_3")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.Meldezettel, forKey: "MustDoVariables_Meldezettel")
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
     @IBAction func Task_3_Pressed(sender: UIButton) {
         
@@ -199,6 +249,12 @@ class MeldezettelViewController: UIViewController {
             Task_3.alpha = 1
             Task_3_Done.hidden = true
         }
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_1, forKey: "MeldezettelTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_2, forKey: "MeldezettelTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MeldezettelTasks.Task_3, forKey: "MeldezettelTasks_Task_3")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.Meldezettel, forKey: "MustDoVariables_Meldezettel")
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
 
 

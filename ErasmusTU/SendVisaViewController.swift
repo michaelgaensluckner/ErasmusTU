@@ -91,6 +91,11 @@ class SendVisaViewController: UIViewController {
             }
             
         }
+        NSUserDefaults.standardUserDefaults().setInteger(SendVisaTasks.Task_1, forKey: "SendVisaTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(SendVisaTasks.Task_2, forKey: "SendVisaTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.SendVisa, forKey: "MustDoVariables_SendVisa")
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
 
     @IBAction func Task_2_Pressed(sender: UIButton) {
@@ -118,6 +123,11 @@ class SendVisaViewController: UIViewController {
             Task_2.alpha = 1
             Task_2_Done.hidden = true
         }
+        NSUserDefaults.standardUserDefaults().setInteger(SendVisaTasks.Task_1, forKey: "SendVisaTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(SendVisaTasks.Task_2, forKey: "SendVisaTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.SendVisa, forKey: "MustDoVariables_SendVisa")
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
     
     

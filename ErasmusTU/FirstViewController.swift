@@ -47,10 +47,42 @@ class FirstViewController: UIViewController {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        ValidateStudentIDTasks.Task_1 = NSUserDefaults.standardUserDefaults().integerForKey("ValidateStudentIDTasks_Task_1")
+        ValidateStudentIDTasks.Task_2 = NSUserDefaults.standardUserDefaults().integerForKey("ValidateStudentIDTasks_Task_2")
+
+        ConfirmationOfRegistration.Task_1 = NSUserDefaults.standardUserDefaults().integerForKey("ConfirmationOfRegistration_Task_1")
+        ConfirmationOfRegistration.Task_2 = NSUserDefaults.standardUserDefaults().integerForKey("ConfirmationOfRegistration_Task_2")
+        
+        MeldezettelTasks.Task_1 = NSUserDefaults.standardUserDefaults().integerForKey("MeldezettelTasks_Task_1")
+        MeldezettelTasks.Task_2 = NSUserDefaults.standardUserDefaults().integerForKey("MeldezettelTasks_Task_2")
+        MeldezettelTasks.Task_3 = NSUserDefaults.standardUserDefaults().integerForKey("MeldezettelTasks_Task_3")
+
+        SendVisaTasks.Task_1 = NSUserDefaults.standardUserDefaults().integerForKey("SendVisaTasks_Task_1")
+        SendVisaTasks.Task_2 = NSUserDefaults.standardUserDefaults().integerForKey("SendVisaTasks_Task_2")
+        
+        StudentUnionFeeTasks.Task_1 = NSUserDefaults.standardUserDefaults().integerForKey("StudentUnionFeeTasks_Task_1")
+
+        ResidencePermitTasks.Task_1 = NSUserDefaults.standardUserDefaults().integerForKey("ResidencePermitTasks_Task_1")
+        ResidencePermitTasks.Task_2 = NSUserDefaults.standardUserDefaults().integerForKey("ResidencePermitTasks_Task_2")
+        
+        MustDoVariables.Meldezettel = NSUserDefaults.standardUserDefaults().integerForKey("MustDoVariables_Meldezettel")
+        MustDoVariables.ResidencePermit = NSUserDefaults.standardUserDefaults().integerForKey("MustDoVariables_ResidencePermit")
+        MustDoVariables.ConfirmationOfRegistration = NSUserDefaults.standardUserDefaults().integerForKey("MustDoVariables_ConfirmationOfRegistration")
+        MustDoVariables.SendVisa = NSUserDefaults.standardUserDefaults().integerForKey("MustDoVariables_SendVisa")
+        MustDoVariables.ValidateStudentID = NSUserDefaults.standardUserDefaults().integerForKey("MustDoVariables_ValidateStudentID")
+        MustDoVariables.StudentUnionFee = NSUserDefaults.standardUserDefaults().integerForKey("MustDoVariables_StudentUnionFee")
+        MustDoVariables.sumTotal = NSUserDefaults.standardUserDefaults().integerForKey("MustDoVariables_sumTotal")
+        
+        SettingOption.longstay = NSUserDefaults.standardUserDefaults().boolForKey("SettingOption_longstay")
+        SettingOption.donepressed = NSUserDefaults.standardUserDefaults().boolForKey("SettingOption_donepressed")
+        SettingOption.nationality = NSUserDefaults.standardUserDefaults().stringForKey("SettingOption_nationality")!
         
     }
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
+        
+        print(NSUserDefaults.standardUserDefaults().dictionaryRepresentation());
+
         
         if(SettingOption.nationality == "EU Countries" || SettingOption.nationality == "Iceland/Norway" || SettingOption.nationality == "Switzerland"){
             //MustDoVariables.sumTotal = 8

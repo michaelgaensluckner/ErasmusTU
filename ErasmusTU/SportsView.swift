@@ -16,7 +16,7 @@ class SportsView: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     @IBOutlet var descrpLabel: UILabel!
     let sportType = ["Biking","Running","Swimming"]
     let imageArray = [UIImage(named: "s1.jpg"), UIImage(named: "s2.jpg"), UIImage(named: "s3.jpg")]
-    let information = ["There are many beatiful places in and aurround Graz to ride your bicycle. The most famous bikeway in Styria is the Murrrad-Weg. Starting in Muhr the bikeway goes along the river through, also through the center of Graz and further on to Slowenia and Croatia. For mountainbiking hills and mountains next to Graz are worth a trip.","Running along the river Mur is one of the most beautiful ways to explore Graz. On hot summer days running in the Leechwald can be a little bit cooler and is also a piece of nature in the middle of Graz. ... ","swimmin text"]
+    let information = ["There are many beatiful places in and aurround Graz to ride your bicycle. The most famous bikeway in Styria is the Murrrad-Weg. Starting in Muhr the bikeway goes along the river through, also through the center of Graz and further on to Slowenia and Croatia. \nFor mountainbiking hills and mountains next to Graz are worth a trip.","Running along the river Mur is one of the most beautiful ways to explore Graz. On hot summer days running in the Leechwald can be a little bit cooler and is also a piece of nature in the middle of Graz. ... ","swimmin \n text"]
     let link = ["http://www.radland.steiermark.at","http://www.graz.at/cms/beitrag/10021980/316259/","http://www.graz.at/cms/beitrag/10021934/316259"]
     
     
@@ -44,7 +44,6 @@ class SportsView: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        print(indexPath.row)
         passedSport = sportType[indexPath.row]
         passedDes = information[indexPath.row]
         passedLink = link[indexPath.row]

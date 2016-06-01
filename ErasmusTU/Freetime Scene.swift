@@ -18,6 +18,8 @@ class FreetimeScene: UIViewController{
     @IBOutlet var SportButton: UIButton!
     @IBOutlet var RestButton: UIButton!
     
+    @IBOutlet var esnBlueLabel: UILabel!
+    @IBOutlet var esnButton: UIButton!
     override func viewDidLoad() {
         
         TitleLabel.layer.cornerRadius = 5
@@ -32,6 +34,11 @@ class FreetimeScene: UIViewController{
 
         RestBlueLabel.layer.cornerRadius = 5
         RestBlueLabel.layer.masksToBounds = true
+        
+        esnButton.layer.cornerRadius = 5
+        
+        esnBlueLabel.layer.cornerRadius = 5
+        esnBlueLabel.layer.masksToBounds = true
         
     }
 }

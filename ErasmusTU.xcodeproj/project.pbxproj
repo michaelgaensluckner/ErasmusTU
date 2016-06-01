@@ -27,6 +27,15 @@
 		995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */; };
 		995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995E76B01CC3CC70004C2C85 /* Freetime.swift */; };
 		997928131CFB224E00141BCB /* icon-locatie-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 997928121CFB224E00141BCB /* icon-locatie-small.png */; };
+		99D338E31CFDDC1600C49FA2 /* App_Erasmus_TU.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338DB1CFDDC1600C49FA2 /* App_Erasmus_TU.png */; };
+		99D338E41CFDDC1600C49FA2 /* App_ERasmus_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338DC1CFDDC1600C49FA2 /* App_ERasmus_Logo.png */; };
+		99D338E51CFDDC1600C49FA2 /* App_Erasmus_Free_Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338DD1CFDDC1600C49FA2 /* App_Erasmus_Free_Time.png */; };
+		99D338E61CFDDC1600C49FA2 /* App_Erasmus_MAp.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338DE1CFDDC1600C49FA2 /* App_Erasmus_MAp.png */; };
+		99D338E71CFDDC1600C49FA2 /* App_Erasmus_Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338DF1CFDDC1600C49FA2 /* App_Erasmus_Home.png */; };
+		99D338E81CFDDC1600C49FA2 /* App_Erasmus_Information.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338E01CFDDC1600C49FA2 /* App_Erasmus_Information.png */; };
+		99D338E91CFDDC1600C49FA2 /* Icon_Trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338E11CFDDC1600C49FA2 /* Icon_Trash.png */; };
+		99D338EA1CFDDC1600C49FA2 /* Icon_X.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338E21CFDDC1600C49FA2 /* Icon_X.png */; };
+		99D338EE1CFDE33E00C49FA2 /* Settings-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D338ED1CFDE33E00C49FA2 /* Settings-50.png */; };
 		99FBEB621CBFCEC1001E5946 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FBEB611CBFCEC1001E5946 /* MapViewController.swift */; };
 		99FCDA2A1CF308150094D373 /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCDA291CF308150094D373 /* MapOptions.swift */; };
 		99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */; };
@@ -77,6 +86,15 @@
 		995E76AE1CC3B0B2004C2C85 /* TUMapAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TUMapAnnotations.plist; path = ../TUMapAnnotations.plist; sourceTree = "<group>"; };
 		995E76B01CC3CC70004C2C85 /* Freetime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Freetime.swift; sourceTree = "<group>"; };
 		997928121CFB224E00141BCB /* icon-locatie-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-locatie-small.png"; sourceTree = "<group>"; };
+		99D338DB1CFDDC1600C49FA2 /* App_Erasmus_TU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Erasmus_TU.png; sourceTree = "<group>"; };
+		99D338DC1CFDDC1600C49FA2 /* App_ERasmus_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_ERasmus_Logo.png; sourceTree = "<group>"; };
+		99D338DD1CFDDC1600C49FA2 /* App_Erasmus_Free_Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Erasmus_Free_Time.png; sourceTree = "<group>"; };
+		99D338DE1CFDDC1600C49FA2 /* App_Erasmus_MAp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Erasmus_MAp.png; sourceTree = "<group>"; };
+		99D338DF1CFDDC1600C49FA2 /* App_Erasmus_Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Erasmus_Home.png; sourceTree = "<group>"; };
+		99D338E01CFDDC1600C49FA2 /* App_Erasmus_Information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Erasmus_Information.png; sourceTree = "<group>"; };
+		99D338E11CFDDC1600C49FA2 /* Icon_Trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Trash.png; sourceTree = "<group>"; };
+		99D338E21CFDDC1600C49FA2 /* Icon_X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_X.png; sourceTree = "<group>"; };
+		99D338ED1CFDE33E00C49FA2 /* Settings-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-50.png"; sourceTree = "<group>"; };
 		99FBEB611CBFCEC1001E5946 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		99FCDA291CF308150094D373 /* MapOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
 		99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FreetimeAnnotations.plist; sourceTree = "<group>"; };
@@ -177,6 +195,15 @@
 		D06436841CEB41E300AEAE1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				99D338ED1CFDE33E00C49FA2 /* Settings-50.png */,
+				99D338DB1CFDDC1600C49FA2 /* App_Erasmus_TU.png */,
+				99D338DC1CFDDC1600C49FA2 /* App_ERasmus_Logo.png */,
+				99D338DD1CFDDC1600C49FA2 /* App_Erasmus_Free_Time.png */,
+				99D338DE1CFDDC1600C49FA2 /* App_Erasmus_MAp.png */,
+				99D338DF1CFDDC1600C49FA2 /* App_Erasmus_Home.png */,
+				99D338E01CFDDC1600C49FA2 /* App_Erasmus_Information.png */,
+				99D338E11CFDDC1600C49FA2 /* Icon_Trash.png */,
+				99D338E21CFDDC1600C49FA2 /* Icon_X.png */,
 				D0CDDE021CEE749D0015E19A /* phone-call.png */,
 				D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */,
 				D0CDDD9A1CEDBAFA0015E19A /* email1.png */,
@@ -277,24 +304,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				D06436961CEB788100AEAE1E /* anja.png in Resources */,
+				99D338E91CFDDC1600C49FA2 /* Icon_Trash.png in Resources */,
 				D06436941CEB786C00AEAE1E /* maria.png in Resources */,
 				D06436921CEB785700AEAE1E /* Barbara.png in Resources */,
+				99D338E41CFDDC1600C49FA2 /* App_ERasmus_Logo.png in Resources */,
 				D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */,
+				99D338E81CFDDC1600C49FA2 /* App_Erasmus_Information.png in Resources */,
 				D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */,
+				99D338EA1CFDDC1600C49FA2 /* Icon_X.png in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
 				99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */,
 				990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */,
+				99D338E51CFDDC1600C49FA2 /* App_Erasmus_Free_Time.png in Resources */,
 				D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */,
 				D06436901CEB781F00AEAE1E /* Gitte.png in Resources */,
+				99D338E61CFDDC1600C49FA2 /* App_Erasmus_MAp.png in Resources */,
 				D06436861CEB427100AEAE1E /* Alte.gif in Resources */,
 				995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */,
 				D06436981CEB807800AEAE1E /* call.png in Resources */,
+				99D338E31CFDDC1600C49FA2 /* App_Erasmus_TU.png in Resources */,
 				D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */,
+				99D338EE1CFDE33E00C49FA2 /* Settings-50.png in Resources */,
 				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
 				D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */,
 				D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */,
 				997928131CFB224E00141BCB /* icon-locatie-small.png in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
+				99D338E71CFDDC1600C49FA2 /* App_Erasmus_Home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

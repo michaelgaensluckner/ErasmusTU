@@ -70,27 +70,23 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         let cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("FreetimeCell", forIndexPath: indexPath) as UITableViewCell!
 
         cell.layer.cornerRadius = 5
-        cell.layer.borderWidth = 1
         cell.layer.borderColor = UIColor.clearColor().CGColor
         cell.layer.backgroundColor = UIColor.clearColor().CGColor
         cell.layer.masksToBounds = true
         cell.textLabel?.backgroundColor = UIColor.clearColor()
-        cell.layer.shadowColor = UIColor.blackColor().CGColor
         
         let cellHeight: CGFloat = 42.0
-        let greenLabel = UILabel(frame: CGRectMake(40, 60, 30, 42))
-        greenLabel.center = CGPoint(x: view.bounds.width, y: cellHeight / 2.0)
+        let blueLabel = UILabel(frame: CGRectMake(40, 60, 30, 42))
+        blueLabel.center = CGPoint(x: view.bounds.width, y: cellHeight / 2.0)
         let myColor = UIColor(red: 21/255.0, green: 96/255.0, blue: 132/255.0, alpha: 1.0)
-        greenLabel.backgroundColor = myColor
-        cell.addSubview(greenLabel)
+        blueLabel.backgroundColor = myColor
+        cell.addSubview(blueLabel)
         
         
         let whiteLabel = UILabel(frame: CGRectMake(40, 60, view.bounds.width - 20, 42))
         whiteLabel.backgroundColor = UIColor.whiteColor()
         whiteLabel.center = CGPoint(x: view.bounds.width / 2.0, y: cellHeight / 2.0)
         whiteLabel.layer.cornerRadius = 5
-        whiteLabel.layer.borderWidth = 1
-        whiteLabel.layer.borderColor = UIColor.clearColor().CGColor
         whiteLabel.clipsToBounds = true
         cell.addSubview(whiteLabel)
 

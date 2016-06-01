@@ -2907,16 +2907,26 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <viewControllerLayoutGuide type="bottom" id="gfA-OY-IQx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IjD-3S-0A9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXA-oS-jck">
-                                <rect key="frame" x="174" y="159" width="252" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YdT-Iw-1cP">
+                                <rect key="frame" x="142" y="273" width="144" height="70"/>
+                                <color key="backgroundColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ru4-Ka-JlP">
+                                <rect key="frame" x="142" y="181" width="144" height="70"/>
+                                <color key="backgroundColor" red="0.082352941176470587" green="0.37647058823529411" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXA-oS-jck">
+                                <rect key="frame" x="34" y="181" width="238" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="252" id="fmh-37-f0M"/>
-                                    <constraint firstAttribute="height" constant="70" id="peS-X5-qSD"/>
-                                </constraints>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Restaurants/Bars">
@@ -2926,66 +2936,32 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                                     <segue destination="X5x-tY-6g2" kind="show" id="PrQ-j0-RvK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Juk-3u-vJA">
-                                <rect key="frame" x="174" y="251" width="252" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Juk-3u-vJA">
+                                <rect key="frame" x="34" y="273" width="238" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="252" id="R3U-uB-HHs"/>
-                                    <constraint firstAttribute="height" constant="70" id="pCw-Sa-RSP"/>
-                                </constraints>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Sports">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EyO-8z-Vgo">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                                <items>
-                                    <navigationItem title="Freetime" id="IL6-jg-m3m"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ru4-Ka-JlP">
-                                <rect key="frame" x="412" y="159" width="14" height="70"/>
-                                <color key="backgroundColor" red="0.082352941176470587" green="0.37647058823529411" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="14" id="oLb-cT-qBN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YdT-Iw-1cP">
-                                <rect key="frame" x="412" y="251" width="14" height="70"/>
-                                <color key="backgroundColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="14" id="fDB-rD-7r9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Free Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBN-R5-tgF">
+                                <rect key="frame" x="34" y="120" width="238" height="34"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="EXA-oS-jck" firstAttribute="trailing" secondItem="ru4-Ka-JlP" secondAttribute="trailing" id="4A8-B5-8bS"/>
-                            <constraint firstItem="EXA-oS-jck" firstAttribute="top" secondItem="ru4-Ka-JlP" secondAttribute="top" id="6BH-i9-6Zg"/>
-                            <constraint firstItem="EXA-oS-jck" firstAttribute="centerX" secondItem="IjD-3S-0A9" secondAttribute="centerX" id="Dqk-qN-l3V"/>
-                            <constraint firstItem="EXA-oS-jck" firstAttribute="bottom" secondItem="ru4-Ka-JlP" secondAttribute="bottom" id="Fzf-MQ-4VP"/>
-                            <constraint firstItem="EXA-oS-jck" firstAttribute="centerX" secondItem="EyO-8z-Vgo" secondAttribute="centerX" id="Jok-uE-d6u"/>
-                            <constraint firstItem="Juk-3u-vJA" firstAttribute="top" secondItem="ru4-Ka-JlP" secondAttribute="bottom" constant="22" id="Ocb-6A-dui"/>
-                            <constraint firstItem="Juk-3u-vJA" firstAttribute="centerX" secondItem="EyO-8z-Vgo" secondAttribute="centerX" id="Rdn-wB-fby"/>
-                            <constraint firstItem="Juk-3u-vJA" firstAttribute="top" secondItem="YdT-Iw-1cP" secondAttribute="top" id="S3S-16-zPe"/>
-                            <constraint firstItem="gfA-OY-IQx" firstAttribute="top" secondItem="EXA-oS-jck" secondAttribute="bottom" constant="322" id="XQz-9V-vZR"/>
-                            <constraint firstItem="Juk-3u-vJA" firstAttribute="bottom" secondItem="YdT-Iw-1cP" secondAttribute="bottom" id="kZ4-iD-MSg"/>
-                            <constraint firstItem="Juk-3u-vJA" firstAttribute="trailing" secondItem="YdT-Iw-1cP" secondAttribute="trailing" id="ydv-zk-l8Z"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dph-wT-SWx"/>
                     <connections>
                         <outlet property="RestBlueLabel" destination="ru4-Ka-JlP" id="lOr-sd-yrI"/>
-                        <outlet property="RestButton" destination="EXA-oS-jck" id="qlu-af-pCQ"/>
+                        <outlet property="RestButton" destination="EXA-oS-jck" id="2Uz-AE-YKs"/>
+                        <outlet property="SportBlueLabel" destination="YdT-Iw-1cP" id="2ya-Kk-JtY"/>
                         <outlet property="SportButton" destination="Juk-3u-vJA" id="3am-Y3-ObR"/>
+                        <outlet property="TitleLabel" destination="hBN-R5-tgF" id="dRd-CP-v3D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IfW-3E-bKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3005,7 +2981,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Useful" image="second" id="H78-D2-OZV"/>
+                    <tabBarItem key="tabBarItem" title="Useful" image="second" selectedImage="second" id="H78-D2-OZV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKQ-zC-A5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3016,7 +2992,7 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
             <objects>
                 <tableViewController id="eXM-b4-zeV" customClass="FreetimeViewController" customModule="ErasmusTU" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="center" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="4" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vXW-9M-ctX">
-                        <rect key="frame" x="0.0" y="0.0" width="442" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="442" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -3056,11 +3032,11 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <viewControllerLayoutGuide type="bottom" id="Xn1-aU-hhz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="p6v-69-TZS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibZ-VJ-Vvc">
-                                <rect key="frame" x="15" y="0.0" width="442" height="600"/>
+                                <rect key="frame" x="15" y="0.0" width="442" height="536"/>
                                 <connections>
                                     <segue destination="eXM-b4-zeV" kind="embed" id="TuB-Xs-UUK"/>
                                 </connections>
@@ -3102,67 +3078,83 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <viewControllerLayoutGuide type="bottom" id="vnP-ao-FBW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1mY-QS-8Gr">
-                        <rect key="frame" x="0.0" y="0.0" width="442" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="442" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcZ-3U-Cme">
-                                <rect key="frame" x="204" y="61" width="34" height="21"/>
-                                <accessibility key="accessibilityConfiguration" identifier="Title"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omo-s5-Tpj">
-                                <rect key="frame" x="192" y="90" width="59" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Adress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phS-WF-EOJ">
-                                <rect key="frame" x="195" y="289" width="53" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phS-WF-EOJ">
+                                <rect key="frame" x="20" y="164" width="53" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="q3i-vF-ut3"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DxL-yw-D9r">
-                                <rect key="frame" x="11" y="354" width="422" height="226"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DxL-yw-D9r">
+                                <rect key="frame" x="11" y="292" width="422" height="256"/>
                                 <connections>
                                     <outlet property="delegate" destination="LuI-Zm-4aS" id="d0G-FP-nGV"/>
                                 </connections>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5T-Aq-9AW">
-                                <rect key="frame" x="197" y="314" width="50" height="33"/>
-                                <state key="normal" image="icon-locatie-small.png"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5T-Aq-9AW">
+                                <rect key="frame" x="205" y="251" width="32" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="0Mz-yk-rbp"/>
+                                    <constraint firstAttribute="height" constant="33" id="vgs-P9-j0x"/>
+                                </constraints>
+                                <state key="normal" image="App_Erasmus_MAp.png"/>
                                 <connections>
                                     <action selector="adressButton:" destination="LuI-Zm-4aS" eventType="touchUpInside" id="63E-sT-TLB"/>
                                     <segue destination="H2l-fU-91c" kind="show" id="fac-3d-L5L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8T-CN-9W6">
-                                <rect key="frame" x="199" y="193" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8T-CN-9W6">
+                                <rect key="frame" x="20" y="124" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonLinkPress:" destination="LuI-Zm-4aS" eventType="touchUpInside" id="y3G-H5-aEk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcZ-3U-Cme">
+                                <rect key="frame" x="20" y="38" width="53" height="35"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Title"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="eYG-NQ-KQ2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omo-s5-Tpj">
+                                <rect key="frame" x="20" y="81" width="59" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="EBU-em-aZb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="omo-s5-Tpj" firstAttribute="top" secondItem="pcZ-3U-Cme" secondAttribute="bottom" constant="8" symbolic="YES" id="B8S-0p-Wcf"/>
-                            <constraint firstItem="Y5T-Aq-9AW" firstAttribute="top" secondItem="phS-WF-EOJ" secondAttribute="bottom" constant="4" id="FBr-dm-liQ"/>
-                            <constraint firstItem="phS-WF-EOJ" firstAttribute="centerX" secondItem="DxL-yw-D9r" secondAttribute="centerX" id="Fwg-XU-a9R"/>
-                            <constraint firstItem="vnP-ao-FBW" firstAttribute="top" secondItem="DxL-yw-D9r" secondAttribute="bottom" constant="10" id="PJL-Ne-A02"/>
-                            <constraint firstItem="phS-WF-EOJ" firstAttribute="top" secondItem="J8T-CN-9W6" secondAttribute="bottom" constant="66" id="QMX-rW-aqe"/>
-                            <constraint firstItem="J8T-CN-9W6" firstAttribute="centerX" secondItem="omo-s5-Tpj" secondAttribute="centerX" id="Qt3-vi-bHE"/>
-                            <constraint firstItem="phS-WF-EOJ" firstAttribute="centerY" secondItem="1mY-QS-8Gr" secondAttribute="centerY" id="Roe-rS-1Ea"/>
-                            <constraint firstItem="Y5T-Aq-9AW" firstAttribute="centerX" secondItem="phS-WF-EOJ" secondAttribute="centerX" id="S6Y-Qg-jdu"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="DxL-yw-D9r" secondAttribute="trailing" constant="-10" id="Wh8-wi-b1K"/>
-                            <constraint firstItem="J8T-CN-9W6" firstAttribute="centerX" secondItem="phS-WF-EOJ" secondAttribute="centerX" id="cjh-R9-cqg"/>
-                            <constraint firstItem="DxL-yw-D9r" firstAttribute="leading" secondItem="1mY-QS-8Gr" secondAttribute="leadingMargin" constant="-10" id="cnW-GB-0L1"/>
-                            <constraint firstItem="DxL-yw-D9r" firstAttribute="top" secondItem="phS-WF-EOJ" secondAttribute="bottom" constant="44" id="nAd-ci-bsL"/>
-                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="top" secondItem="Rpc-DZ-gZw" secondAttribute="bottom" constant="61" id="ppw-UH-djf"/>
-                            <constraint firstItem="omo-s5-Tpj" firstAttribute="centerX" secondItem="pcZ-3U-Cme" secondAttribute="centerX" id="xvg-ak-vye"/>
+                            <constraint firstItem="Y5T-Aq-9AW" firstAttribute="centerX" secondItem="1mY-QS-8Gr" secondAttribute="centerX" id="3av-1H-lW9"/>
+                            <constraint firstItem="phS-WF-EOJ" firstAttribute="leading" secondItem="1mY-QS-8Gr" secondAttribute="leadingMargin" id="Bft-4N-RYQ"/>
+                            <constraint firstItem="J8T-CN-9W6" firstAttribute="top" secondItem="omo-s5-Tpj" secondAttribute="bottom" constant="8" id="Jd3-5c-rG9"/>
+                            <constraint firstItem="omo-s5-Tpj" firstAttribute="top" secondItem="pcZ-3U-Cme" secondAttribute="bottom" constant="8" id="NIw-4O-Zb2"/>
+                            <constraint firstItem="DxL-yw-D9r" firstAttribute="leading" secondItem="1mY-QS-8Gr" secondAttribute="leadingMargin" constant="-9" id="NY0-UQ-Vf2"/>
+                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="top" secondItem="Rpc-DZ-gZw" secondAttribute="bottom" constant="38" id="Rsp-EK-Jbg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DxL-yw-D9r" secondAttribute="trailing" constant="-11" id="Wih-xP-enB"/>
+                            <constraint firstItem="Y5T-Aq-9AW" firstAttribute="centerY" secondItem="1mY-QS-8Gr" secondAttribute="centerY" id="YeQ-XK-YU0"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="DxL-yw-D9r" secondAttribute="bottom" constant="-12" id="ZMH-HH-2qS"/>
+                            <constraint firstItem="omo-s5-Tpj" firstAttribute="leading" secondItem="J8T-CN-9W6" secondAttribute="leading" id="aPS-WU-A98"/>
+                            <constraint firstItem="phS-WF-EOJ" firstAttribute="top" secondItem="J8T-CN-9W6" secondAttribute="bottom" constant="10" id="bah-xc-u3f"/>
+                            <constraint firstItem="omo-s5-Tpj" firstAttribute="leading" secondItem="pcZ-3U-Cme" secondAttribute="leading" id="ch3-Ub-BJh"/>
+                            <constraint firstItem="phS-WF-EOJ" firstAttribute="leading" secondItem="J8T-CN-9W6" secondAttribute="leading" id="jHf-ar-g0c"/>
+                            <constraint firstItem="DxL-yw-D9r" firstAttribute="top" secondItem="Y5T-Aq-9AW" secondAttribute="bottom" constant="8" symbolic="YES" id="uIU-0k-eTi"/>
                         </constraints>
                     </view>
                     <connections>
@@ -3765,16 +3757,20 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <viewControllerLayoutGuide type="bottom" id="1qM-Kn-9Y4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7h2-Yo-sPo">
-                        <rect key="frame" x="0.0" y="0.0" width="442" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="442" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
-                                <rect key="frame" x="0.0" y="0.0" width="442" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="442" height="536"/>
                                 <gestureRecognizers/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Xf-9hD">
-                                <rect key="frame" x="393" y="502" width="36" height="37"/>
-                                <state key="normal" image="first"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Xf-9hD">
+                                <rect key="frame" x="403" y="462" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="b59-up-bfh"/>
+                                    <constraint firstAttribute="height" constant="20" id="m4b-9i-Msm"/>
+                                </constraints>
+                                <state key="normal" image="Settings-50.png"/>
                                 <connections>
                                     <segue destination="RbT-Io-y3K" kind="popoverPresentation" identifier="showPopover" popoverAnchorView="xdO-Xf-9hD" id="qpL-dH-q3i">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
@@ -3785,13 +3781,13 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uYf-al-c90" firstAttribute="width" secondItem="7h2-Yo-sPo" secondAttribute="width" id="1Se-Eb-g88"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xdO-Xf-9hD" secondAttribute="trailing" constant="-7" id="FbB-B5-La0"/>
-                            <constraint firstItem="1qM-Kn-9Y4" firstAttribute="top" secondItem="xdO-Xf-9hD" secondAttribute="bottom" constant="12" id="Kn1-l1-BVs"/>
-                            <constraint firstItem="xdO-Xf-9hD" firstAttribute="leading" secondItem="uYf-al-c90" secondAttribute="trailing" constant="-49" id="Kzn-3C-f6o"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xdO-Xf-9hD" secondAttribute="trailing" constant="-1" id="FbB-B5-La0"/>
+                            <constraint firstItem="1qM-Kn-9Y4" firstAttribute="top" secondItem="xdO-Xf-9hD" secondAttribute="bottom" constant="54" id="Kn1-l1-BVs"/>
+                            <constraint firstItem="xdO-Xf-9hD" firstAttribute="leading" secondItem="uYf-al-c90" secondAttribute="trailing" constant="-39" id="Kzn-3C-f6o"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="centerY" secondItem="7h2-Yo-sPo" secondAttribute="centerY" id="Vfj-BI-sOI"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="height" secondItem="7h2-Yo-sPo" secondAttribute="height" id="Z90-pu-ZTX"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="centerX" secondItem="7h2-Yo-sPo" secondAttribute="centerX" id="kFu-pa-WP6"/>
-                            <constraint firstItem="xdO-Xf-9hD" firstAttribute="top" secondItem="uYf-al-c90" secondAttribute="bottom" constant="-98" id="x0y-D9-a3M"/>
+                            <constraint firstItem="xdO-Xf-9hD" firstAttribute="top" secondItem="uYf-al-c90" secondAttribute="bottom" constant="-74" id="x0y-D9-a3M"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="second" id="NOw-cE-L8s"/>
@@ -3946,11 +3942,12 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
         <scene sceneID="Q5V-ol-ggV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B97-6a-CmK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Freetime" id="B57-Ey-4ll"/>
+                    <tabBarItem key="tabBarItem" title="Freetime" selectedImage="App_Erasmus_Free_Time.png" id="B57-Ey-4ll"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="apF-Ac-GQs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="apF-Ac-GQs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -3998,11 +3995,12 @@ Address: Mandellstraße 15/II, A-8010 Graz  </string>
     </scenes>
     <resources>
         <image name="Alte.gif" width="800" height="600"/>
+        <image name="App_Erasmus_Free_Time.png" width="595" height="595"/>
+        <image name="App_Erasmus_MAp.png" width="595" height="595"/>
         <image name="Infeldgasse.gif" width="1000" height="600"/>
         <image name="Neue.gif" width="800" height="600"/>
+        <image name="Settings-50.png" width="50" height="50"/>
         <image name="email1.png" width="256" height="256"/>
-        <image name="first" width="30" height="30"/>
-        <image name="icon-locatie-small.png" width="50" height="33"/>
         <image name="icon-locatie.png" width="300" height="196"/>
         <image name="phone-call.png" width="256" height="256"/>
         <image name="second" width="30" height="30"/>

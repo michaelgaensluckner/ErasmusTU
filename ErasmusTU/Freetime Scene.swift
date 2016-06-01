@@ -12,15 +12,25 @@ import UIKit
 
 class FreetimeScene: UIViewController{
     
-    
+    @IBOutlet var TitleLabel: UILabel!
+    @IBOutlet var SportBlueLabel: UILabel!
     @IBOutlet var RestBlueLabel: UILabel!
     @IBOutlet var SportButton: UIButton!
     @IBOutlet var RestButton: UIButton!
     
     override func viewDidLoad() {
+        
+        TitleLabel.layer.cornerRadius = 5
         SportButton.layer.cornerRadius = 5
+        
+        SportBlueLabel.layer.cornerRadius = 5
+        SportBlueLabel.layer.masksToBounds = true
+
+        
         RestButton.layer.cornerRadius = 5
+
         RestBlueLabel.layer.cornerRadius = 5
+        RestBlueLabel.layer.masksToBounds = true
         
     }
 }

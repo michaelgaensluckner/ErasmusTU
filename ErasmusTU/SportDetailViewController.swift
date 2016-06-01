@@ -8,6 +8,8 @@
 
 import UIKit
 var passedSport = ""
+var passedDes = ""
+var passedLink = ""
 
 class SportDetailViewController: UIViewController {
     @IBOutlet var descrLabel: UILabel!
@@ -16,10 +18,16 @@ class SportDetailViewController: UIViewController {
     
     
     @IBAction func linkPressed(sender: AnyObject) {
-        
+        if let url = NSURL(string: passedLink){
+            UIApplication.sharedApplication().openURL(url)
+        }
     }
     
     override func viewDidLoad() {
+        titleLabel.text = passedSport
+        descrLabel.text = passedDes
+        descrLabel.layer.cornerRadius = 5
+        descrLabel.clipsToBounds = true
         
     }
 }

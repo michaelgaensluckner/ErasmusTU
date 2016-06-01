@@ -45,7 +45,9 @@ class SportsView: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         print(indexPath.row)
-        SportDetailViewController.passedSport = sportType[indexPath.row]
+        passedSport = sportType[indexPath.row]
+        passedDes = information[indexPath.row]
+        passedLink = link[indexPath.row]
     }
     
     

@@ -9,18 +9,7 @@
 import UIKit
 
 class SportCollectionViewCell: UICollectionViewCell {
-    var Item: SportItem!{
-        didSet{
-            updateUI()
-        }
-    }
-    
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    
-    
-    func updateUI(){
-        titleLabel?.text! = Item.title
-        imageView?.image! = Item.image
-    }
+
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var titleLabel: UILabel!
 }

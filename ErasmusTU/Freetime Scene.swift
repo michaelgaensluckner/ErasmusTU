@@ -21,6 +21,7 @@ class FreetimeScene: UIViewController{
     override func viewDidLoad() {
         
         TitleLabel.layer.cornerRadius = 5
+        TitleLabel.clipsToBounds = true
         SportButton.layer.cornerRadius = 5
         
         SportBlueLabel.layer.cornerRadius = 5

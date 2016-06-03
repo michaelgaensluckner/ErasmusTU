@@ -7,6 +7,7 @@
 //
 import Foundation
 import UIKit
+import MapKit
 
 
 struct freetimeItem{
@@ -16,11 +17,11 @@ struct freetimeItem{
     var longitude = 0.0
     var latitude = 0.0
     var link = ""
+    var image = ""
 }
 
-class FreetimeViewController: UITableViewController {
+class FreetimeViewController: UITableViewController, MKMapViewDelegate {
     
-
     var freetimeArray = [freetimeItem]()
     var tmp = freetimeItem()
     var valueToPass = freetimeItem()
@@ -42,7 +43,8 @@ class FreetimeViewController: UITableViewController {
             let lat = item.valueForKey("latitude") as! Double
             let lon = item.valueForKey("longitude")as! Double
             let lin = item.valueForKey("link") as! String
-            tmp = freetimeItem(title: tit, subtitle: sub, adress: adr, longitude: lon, latitude: lat, link: lin)
+            let img = item.valueForKey("image") as! String
+            tmp = freetimeItem(title: tit, subtitle: sub, adress: adr, longitude: lon, latitude: lat, link: lin, image: img)
             freetimeArray.append(tmp)
         }
         
@@ -53,7 +55,8 @@ class FreetimeViewController: UITableViewController {
     
     
     override func viewDidLoad() {
-     getItems()
+      getItems()
+      self.tableView.backgroundColor = UIColor.clearColor()
     }
     
     
@@ -64,15 +67,34 @@ class FreetimeViewController: UITableViewController {
         return freetimeArray.count
     }
     
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-       // var cell = tableView.dequeueReusableCellWithIdentifier("FreetimeCell", forIndexPath: indexPath) as! UITableViewCell
         let cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("FreetimeCell", forIndexPath: indexPath) as UITableViewCell!
 
-        cell.layer.cornerRadius = 10
-        cell.layer.borderWidth = 1
-        cell.layer.backgroundColor = UIColor.whiteColor().CGColor
+        cell.layer.cornerRadius = 5
+        cell.layer.borderColor = UIColor.clearColor().CGColor
+        cell.layer.backgroundColor = UIColor.clearColor().CGColor
         cell.layer.masksToBounds = true
         cell.textLabel?.backgroundColor = UIColor.clearColor()
+        
+        let cellHeight: CGFloat = 42.0
+        let blueLabel = UILabel(frame: CGRectMake(40, 60, 30, 42))
+        blueLabel.center = CGPoint(x: view.bounds.width, y: cellHeight / 2.0)
+        let myColor = UIColor(red: 21/255.0, green: 96/255.0, blue: 132/255.0, alpha: 1.0)
+        blueLabel.backgroundColor = myColor
+        cell.addSubview(blueLabel)
+        
+        
+        let whiteLabel = UILabel(frame: CGRectMake(40, 60, view.bounds.width - 20, 42))
+        whiteLabel.backgroundColor = UIColor.whiteColor()
+        whiteLabel.center = CGPoint(x: view.bounds.width / 2.0, y: cellHeight / 2.0)
+        whiteLabel.layer.cornerRadius = 5
+        whiteLabel.clipsToBounds = true
+        cell.addSubview(whiteLabel)
+        
+
+
+        
         
         var tableArray = [String]()
         
@@ -82,17 +104,16 @@ class FreetimeViewController: UITableViewController {
           tableArray.append(title)
         }
         
-        cell.textLabel?.text = tableArray[indexPath.section]
-        
+        whiteLabel.text = tableArray[indexPath.section]
         return cell
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 60.0
+        return 42.0
     }
     
     override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 5
+        return 10
     }
 
     
@@ -105,6 +126,9 @@ class FreetimeViewController: UITableViewController {
         viewController.passedValue = valueToPass
         
     }
+    
+
+
     
     
 

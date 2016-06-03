@@ -13,8 +13,9 @@ struct SettingOption{
     static var nationality = ""
     static var longstay = false
     static var donepressed = false
-}
+    static var openApp = 0
 
+}
 class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
 
     @IBOutlet var NationalitySelect: UITextField!
@@ -33,12 +34,30 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        for key in Array(NSUserDefaults.standardUserDefaults().dictionaryRepresentation().keys) {
+            //NSUserDefaults.standardUserDefaults().removeObjectForKey(key)
+        }
+        
+        print(NSUserDefaults.standardUserDefaults().dictionaryRepresentation());
+
         
         if (SettingOption.nationality != ""){
             NationalitySelect.text = SettingOption.nationality
         }
         if(SettingOption.donepressed == true){
             DoneButton.hidden = true
+        }
+        
+        if(NSUserDefaults.standardUserDefaults().boolForKey("SettingOption_donepressed")){
+            print(SettingOption.openApp)
+            if(SettingOption.openApp == 0){
+                SettingOption.openApp = 1
+                //SettingOption.nationality = NSUserDefaults.standardUserDefaults().stringForKey("SettingOption_nationality")!
+                dispatch_async(dispatch_get_main_queue()) {
+                    [unowned self] in
+                    self.performSegueWithIdentifier("toTabSegue", sender: self)
+                }
+            }
         }
         LongstaySwitch.on = SettingOption.longstay
         
@@ -94,9 +113,23 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     }
     func donePicker(){
         NationalitySelect.resignFirstResponder()
+        NSUserDefaults.standardUserDefaults().setBool(SettingOption.longstay, forKey: "SettingOption_longstay")
+        NSUserDefaults.standardUserDefaults().setBool(SettingOption.donepressed, forKey: "SettingOption_donepressed")
+        NSUserDefaults.standardUserDefaults().setValue(SettingOption.nationality, forKey: "SettingOption_nationality")
+        
+        
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
     @IBAction func LongstaySwitch(sender: AnyObject) {
         SettingOption.longstay = (LongstaySwitch.on)
+        NSUserDefaults.standardUserDefaults().setBool(SettingOption.longstay, forKey: "SettingOption_longstay")
+        NSUserDefaults.standardUserDefaults().setBool(SettingOption.donepressed, forKey: "SettingOption_donepressed")
+        NSUserDefaults.standardUserDefaults().setValue(SettingOption.nationality, forKey: "SettingOption_nationality")
+        
+        
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
    
     @IBAction func DonePressed(sender: AnyObject) {
@@ -106,12 +139,40 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
             alert.message = "You must select Nationality"
             alert.addButtonWithTitle("OK")
             alert.show()
-            
             return;
         }
-        
-        
         SettingOption.donepressed = true
+        SettingOption.openApp = 1
+
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "ValidateStudentIDTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "ValidateStudentIDTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "ConfirmationOfRegistration_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "ConfirmationOfRegistration_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "MeldezettelTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "MeldezettelTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "MeldezettelTasks_Task_3")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "SendVisaTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "SendVisaTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "StudentUnionFeeTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "ResidencePermitTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "ResidencePermitTasks_Task_2")
+
+        NSUserDefaults.standardUserDefaults().setInteger(3, forKey: "MustDoVariables_Meldezettel")
+        NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "MustDoVariables_ResidencePermit")
+        NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "MustDoVariables_ConfirmationOfRegistration")
+        NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "MustDoVariables_SendVisa")
+        NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "MustDoVariables_ValidateStudentID")
+        NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "MustDoVariables_StudentUnionFee")
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "MustDoVariables_sumTotal")
+        
+        
+        NSUserDefaults.standardUserDefaults().setBool(SettingOption.longstay, forKey: "SettingOption_longstay")
+        NSUserDefaults.standardUserDefaults().setBool(SettingOption.donepressed, forKey: "SettingOption_donepressed")
+        NSUserDefaults.standardUserDefaults().setValue(SettingOption.nationality, forKey: "SettingOption_nationality")
+
+        
+        NSUserDefaults.standardUserDefaults().synchronize()
+        
         performSegueWithIdentifier("toTabSegue", sender: self)
     }
 }

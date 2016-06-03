@@ -11,15 +11,16 @@ import MapKit
 import UIKit
 import CoreLocation
 
-var OptionsArray = [true,false,false]
-
+var OptionsArray = [true,false]
+var valueToPass = ""
+var showAnnotation = freetimeItem()
+var segueMap = false
 
 class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UIPopoverPresentationControllerDelegate {
     
     @IBOutlet weak var tabBar: UITabBarItem!
     @IBOutlet weak var Map: MKMapView!
     
-    @IBOutlet var LongPress: UILongPressGestureRecognizer!
     
     
     func popoverPresentationControllerDidDismissPopover(popoverPresentationController: UIPopoverPresentationController) {
@@ -34,17 +35,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             let annotationsFree = getFreeAnnotations()
             Map.addAnnotations(annotationsFree)
         }
-        if OptionsArray[2] == true
-        {
-            //let annotations = getUseAnnotations()
-            //Map.addAnnotations(annotations)
-        }
         
     }
-    
-    
-    @IBOutlet weak var OptionContainer: UIView!
-    
 
     
     let locationManager = CLLocationManager()
@@ -63,14 +55,20 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             // Fallback on earlier versions
         }
     
-                
-        // get Annotations from plist
-        let annotations = getUniAnnotations()
-
         
-       // annotations.pinTintColor = UIColor.greenColor()
-        // Add mappoints to Map
-        Map.addAnnotations(annotations)
+        
+        if (segueMap == true){
+            let singleAnnotation = Annotation(latitude: showAnnotation.latitude, longitude: showAnnotation.longitude)
+            singleAnnotation.title = showAnnotation.title
+            singleAnnotation.subtitle = showAnnotation.subtitle
+            Map.addAnnotation(singleAnnotation)
+        }
+        else{
+          let annotations = getUniAnnotations()
+            Map.addAnnotations(annotations)
+        }
+        segueMap = false
+        
 
 
     }
@@ -108,11 +106,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         print("Error in map: " + error.localizedDescription)
-    }
-    
-    
-    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
-        print("Annotation slected")
     }
     
     
@@ -191,6 +184,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         
         return annotations
     }
+    
     
     
 }

@@ -17,16 +17,26 @@ class DepartmentCoordViewController: UIViewController {
     @IBOutlet var label5: UILabel!
     @IBOutlet var label6: UILabel!
     @IBOutlet var label7: UILabel!
-    
     @IBOutlet var label8: UILabel!
-    
     @IBOutlet var label9: UILabel!
-    
     @IBOutlet var label10: UILabel!
-    
     @IBOutlet var label11: UILabel!
-    
     @IBOutlet var lable12: UILabel!
+    
+    @IBOutlet var button1: UIButton!
+    @IBOutlet var button2: UIButton!
+    @IBOutlet var button3: UIButton!
+    @IBOutlet var button4: UIButton!
+    @IBOutlet var button5: UIButton!
+    @IBOutlet var button6: UIButton!
+    @IBOutlet var button7: UIButton!
+    @IBOutlet var button8: UIButton!
+    @IBOutlet var button9: UIButton!
+    @IBOutlet var button10: UIButton!
+    @IBOutlet var button11: UIButton!
+    @IBOutlet var button12: UIButton!
+    
+
     
     var  dataToTransfer: String = ""
     
@@ -148,9 +158,31 @@ class DepartmentCoordViewController: UIViewController {
         
         
         
+        label1.layer.masksToBounds=true
+        label2.layer.masksToBounds=true
+        label3.layer.masksToBounds=true
+        label4.layer.masksToBounds=true
+        label5.layer.masksToBounds=true
+        label6.layer.masksToBounds=true
+        label7.layer.masksToBounds=true
+        label8.layer.masksToBounds=true
+        label9.layer.masksToBounds=true
+        label10.layer.masksToBounds=true
+        label11.layer.masksToBounds=true
+        lable12.layer.masksToBounds=true
         
-        
-        
+        button1.layer.cornerRadius = 5
+        button2.layer.cornerRadius = 5
+        button3.layer.cornerRadius = 5
+        button4.layer.cornerRadius = 5
+        button5.layer.cornerRadius = 5
+        button6.layer.cornerRadius = 5
+        button7.layer.cornerRadius = 5
+        button8.layer.cornerRadius = 5
+        button9.layer.cornerRadius = 5
+        button10.layer.cornerRadius = 5
+        button11.layer.cornerRadius = 5
+        button12.layer.cornerRadius = 5
         
         
         // Do any additional setup after loading the view.

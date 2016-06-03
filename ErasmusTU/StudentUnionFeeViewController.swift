@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import MapKit
 struct StudentUnionFeeTasks{
     static var Task_1 = 0
     
@@ -17,9 +17,47 @@ class StudentUnionFeeViewController: UIViewController {
 
     @IBOutlet var Task_1: UIButton!
     @IBOutlet var Task_1_Done: UILabel!
+    @IBOutlet var MapView: MKMapView!
     
+    
+    let initialLocation = CLLocation(latitude: 47.068275 , longitude: 15.439096)
+    
+    let regionRadius: CLLocationDistance = 1000
+    func centerMapOnLocation(location: CLLocation) {
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
+            regionRadius * 1.0, regionRadius * 1.0)
+        MapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    
+    @IBAction func MapbuttonTapped(sender: AnyObject) {
+        
+        openMapForPlace()
+    }
+    
+    func openMapForPlace() {
+        let latitute:CLLocationDegrees =  47.068275
+        let longitute:CLLocationDegrees =  15.439096
+        
+        let regionDistance:CLLocationDistance = 10000
+        let coordinates = CLLocationCoordinate2DMake(latitute, longitute)
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(MKCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(MKCoordinateSpan: regionSpan.span)
+        ]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "Graz City Service Center"
+        mapItem.openInMapsWithLaunchOptions(options)
+        
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        centerMapOnLocation(initialLocation)
+        let annotation = Station(latitude: 47.068275, longitude: 15.439096)
+        MapView.addAnnotation(annotation)
 
         // Do any additional setup after loading the view.
         Task_1.layer.masksToBounds = true
@@ -57,6 +95,11 @@ class StudentUnionFeeViewController: UIViewController {
             Task_1.alpha = 1
             Task_1_Done.hidden = true
         }
+        NSUserDefaults.standardUserDefaults().setInteger(StudentUnionFeeTasks.Task_1, forKey: "StudentUnionFeeTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(StudentUnionFeeTasks.Task_1, forKey: "StudentUnionFeeTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.StudentUnionFee, forKey: "MustDoVariables_StudentUnionFee")
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
 
     /*

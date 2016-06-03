@@ -90,7 +90,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         whiteLabel.clipsToBounds = true
         cell.addSubview(whiteLabel)
         ////alex
-        whiteLabel.font = UIFont(name: "HelveticaNeue", size: 12)
+        whiteLabel.font = UIFont(name: "HelveticaNeue", size: 14)
         /////
         
         

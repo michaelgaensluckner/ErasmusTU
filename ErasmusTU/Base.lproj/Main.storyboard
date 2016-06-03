@@ -3470,7 +3470,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
             </objects>
             <point key="canvasLocation" x="1622" y="-497"/>
         </scene>
-        <!--Sports View-->
+        <!--Sports-->
         <scene sceneID="jzA-au-jGH">
             <objects>
                 <viewController id="Bh6-dS-nlF" customClass="SportsView" customModule="ErasmusTU" sceneMemberID="viewController">
@@ -3594,6 +3594,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <constraint firstItem="F9X-zP-hCn" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leadingMargin" id="xl1-ii-TCY"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Sports" id="f3q-Oy-AqQ">
+                        <barButtonItem key="backBarButtonItem" title=" " id="K2b-xC-w2n"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="Y9a-W8-bKM" id="xLd-Yq-Gh7"/>
                         <outlet property="descrpLabel" destination="F9X-zP-hCn" id="X3O-vX-foJ"/>
@@ -3670,7 +3673,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
             </objects>
             <point key="canvasLocation" x="2328" y="289"/>
         </scene>
-        <!--View-->
+        <!--ESN-->
         <scene sceneID="LpR-F7-TB9">
             <objects>
                 <viewController id="wIf-Dv-3Hf" customClass="ENSView" customModule="ErasmusTU" sceneMemberID="viewController">
@@ -3753,6 +3756,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <constraint firstItem="zng-K1-6mI" firstAttribute="leading" secondItem="8dm-0a-1js" secondAttribute="leading" id="wco-go-kPl"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="ESN" id="kJe-wN-QJH">
+                        <barButtonItem key="backBarButtonItem" title=" " id="hCI-Dg-1pB"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="descLabel" destination="aHA-73-l0y" id="629-iW-iCR"/>
                         <outlet property="infoLabel" destination="zng-K1-6mI" id="ACw-Dn-k2z"/>
@@ -3799,7 +3805,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
             </objects>
             <point key="canvasLocation" x="3022" y="-525"/>
         </scene>
-        <!--View Controller-->
+        <!--Restaurants-->
         <scene sceneID="gjG-Qs-gEs">
             <objects>
                 <viewController id="X5x-tY-6g2" sceneMemberID="viewController">
@@ -3841,8 +3847,8 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="p0K-S8-QSK">
-                        <barButtonItem key="backBarButtonItem" title=" " id="ZaQ-si-VMq"/>
+                    <navigationItem key="navigationItem" title="Restaurants" id="p0K-S8-QSK">
+                        <barButtonItem key="backBarButtonItem" title="  " id="ZaQ-si-VMq"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bn2-iC-rZR" userLabel="First Responder" sceneMemberID="firstResponder"/>

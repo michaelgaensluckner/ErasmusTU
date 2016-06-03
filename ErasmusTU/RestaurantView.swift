@@ -51,7 +51,7 @@ class RestaurantView: UIViewController,  MKMapViewDelegate {
         self.labelSubtitle.text = passedValue.subtitle
         self.labelSubtitle.layer.cornerRadius = 5
         self.labelSubtitle.clipsToBounds = true
-        self.buttonLink.setTitle("Website", forState: .Normal)
+        self.buttonLink.setTitle("show Website...", forState: .Normal)
         self.labelAdress.text = passedValue.adress
         self.labelAdress.layer.cornerRadius = 5
         self.labelAdress.clipsToBounds = true

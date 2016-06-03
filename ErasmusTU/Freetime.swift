@@ -17,6 +17,7 @@ struct freetimeItem{
     var longitude = 0.0
     var latitude = 0.0
     var link = ""
+    var image = ""
 }
 
 class FreetimeViewController: UITableViewController, MKMapViewDelegate {
@@ -42,7 +43,8 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
             let lat = item.valueForKey("latitude") as! Double
             let lon = item.valueForKey("longitude")as! Double
             let lin = item.valueForKey("link") as! String
-            tmp = freetimeItem(title: tit, subtitle: sub, adress: adr, longitude: lon, latitude: lat, link: lin)
+            let img = item.valueForKey("image") as! String
+            tmp = freetimeItem(title: tit, subtitle: sub, adress: adr, longitude: lon, latitude: lat, link: lin, image: img)
             freetimeArray.append(tmp)
         }
         
@@ -89,6 +91,8 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         whiteLabel.layer.cornerRadius = 5
         whiteLabel.clipsToBounds = true
         cell.addSubview(whiteLabel)
+        
+
 
         
         

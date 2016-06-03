@@ -12,7 +12,7 @@ import UIKit
 
 class FreetimeScene: UIViewController{
     
-    @IBOutlet var TitleLabel: UILabel!
+    //@IBOutlet var TitleLabel: UILabel!
     @IBOutlet var SportBlueLabel: UILabel!
     @IBOutlet var RestBlueLabel: UILabel!
     @IBOutlet var SportButton: UIButton!
@@ -22,8 +22,8 @@ class FreetimeScene: UIViewController{
     @IBOutlet var esnButton: UIButton!
     override func viewDidLoad() {
         
-        TitleLabel.layer.cornerRadius = 5
-        TitleLabel.clipsToBounds = true
+        //TitleLabel.layer.cornerRadius = 5
+        //TitleLabel.clipsToBounds = true
         SportButton.layer.cornerRadius = 5
         
         SportBlueLabel.layer.cornerRadius = 5
@@ -40,5 +40,11 @@ class FreetimeScene: UIViewController{
         esnBlueLabel.layer.cornerRadius = 5
         esnBlueLabel.layer.masksToBounds = true
         
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
+        
     }
+    override func  preferredStatusBarStyle()-> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
+
 }

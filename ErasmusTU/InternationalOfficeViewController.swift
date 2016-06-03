@@ -53,7 +53,7 @@ class InternationalOfficeViewController: UIViewController,  MFMailComposeViewCon
         
             email.mailComposeDelegate = self
             email.setSubject("My subject")
-            email.setToRecipients(["juliamf94@gmail.com"])
+            email.setToRecipients(["international@TUGraz.at"])
             email.setMessageBody("Some example text", isHTML: false) // or true, if you prefer
         
             self.presentViewController(email , animated: true, completion: nil)

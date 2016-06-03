@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -3654,9 +3654,11 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <constraint firstItem="gjr-Dp-c5J" firstAttribute="top" secondItem="3J8-qX-qMY" secondAttribute="bottom" constant="69" id="yNc-08-Cy6"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Ptq-qp-zPO"/>
                     <connections>
                         <outlet property="descrLabel" destination="m8f-fj-ZGQ" id="iFF-Af-gJe"/>
                         <outlet property="linkButton" destination="3J8-qX-qMY" id="aT1-xL-LS6"/>
+                        <outlet property="navItem" destination="Ptq-qp-zPO" id="176-bv-ST2"/>
                         <outlet property="titleLabel" destination="wk8-vK-2Pn" id="sMm-J2-gju"/>
                     </connections>
                 </viewController>
@@ -4563,7 +4565,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <gestureRecognizers/>
                             </mapView>

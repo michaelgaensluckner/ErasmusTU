@@ -16,6 +16,7 @@ class SportDetailViewController: UIViewController {
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var linkButton: UIButton!
     
+    @IBOutlet var navItem: UINavigationItem!
     
     @IBAction func linkPressed(sender: AnyObject) {
         if let url = NSURL(string: passedLink){
@@ -28,6 +29,7 @@ class SportDetailViewController: UIViewController {
         descrLabel.text = passedDes
         descrLabel.layer.cornerRadius = 5
         descrLabel.clipsToBounds = true
+        navItem.title = passedSport
         
     }
 }

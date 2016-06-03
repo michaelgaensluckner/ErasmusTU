@@ -59,6 +59,7 @@
 		D06436981CEB807800AEAE1E /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436971CEB807800AEAE1E /* call.png */; };
 		D064369A1CEB818300AEAE1E /* call1.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436991CEB818300AEAE1E /* call1.png */; };
 		D0776A811D01AC100085BDF8 /* mapinfeld.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0776A801D01AC100085BDF8 /* mapinfeld.gif */; };
+		D0ABF8CD1D01FB730074EFA1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ABF8CC1D01FB730074EFA1 /* MessageUI.framework */; };
 		D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */; };
 		D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */; };
 		D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */; };
@@ -131,6 +132,7 @@
 		D06436991CEB818300AEAE1E /* call1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call1.png; sourceTree = "<group>"; };
 		D064369C1CEB82C000AEAE1E /* email */ = {isa = PBXFileReference; explicitFileType = image.png; path = email; sourceTree = "<group>"; };
 		D0776A801D01AC100085BDF8 /* mapinfeld.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mapinfeld.gif; sourceTree = "<group>"; };
+		D0ABF8CC1D01FB730074EFA1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternationalOfficeViewController.swift; sourceTree = "<group>"; };
 		D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUOnlineViewController.swift; sourceTree = "<group>"; };
 		D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseRegistrationViewController.swift; path = ../CourseRegistrationViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ABF8CD1D01FB730074EFA1 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +164,7 @@
 		990C6D411CBF94D70085F70E = {
 			isa = PBXGroup;
 			children = (
+				D0ABF8CC1D01FB730074EFA1 /* MessageUI.framework */,
 				990C6D4C1CBF94D70085F70E /* ErasmusTU */,
 				990C6D4B1CBF94D70085F70E /* Products */,
 			);

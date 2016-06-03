@@ -49,13 +49,14 @@ class InternationalOfficeViewController: UIViewController,  MFMailComposeViewCon
         if( MFMailComposeViewController.canSendMail() ) {
             
             
-            let mailComposer = MFMailComposeViewController()
-            mailComposer.mailComposeDelegate = self
-            
-            //Set the subject and message of the email
-            mailComposer.setSubject("Have you heard a swift?")
-            mailComposer.setMessageBody("This is what they sound like.", isHTML: false)
-            
+            let email = MFMailComposeViewController()
+        
+            email.mailComposeDelegate = self
+            email.setSubject("My subject")
+            email.setToRecipients(["juliamf94@gmail.com"])
+            email.setMessageBody("Some example text", isHTML: false) // or true, if you prefer
+        
+            self.presentViewController(email , animated: true, completion: nil)
 
     }
         }

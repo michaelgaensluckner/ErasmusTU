@@ -48,9 +48,6 @@
 		99FCDA2A1CF308150094D373 /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCDA291CF308150094D373 /* MapOptions.swift */; };
 		99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */; };
 		99FCDA2E1CF44A9E0094D373 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */; };
-		D00C40A91D0179000049B641 /* PhoneInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C40A81D0178FF0049B641 /* PhoneInfoViewController.swift */; };
-		D00C40AB1D017EB80049B641 /* BankInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C40AA1D017EB80049B641 /* BankInfoViewController.swift */; };
-		D00C40AD1D01869B0049B641 /* HousingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C40AC1D01869B0049B641 /* HousingInfoViewController.swift */; };
 		D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */; };
 		D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */; };
 		D06436861CEB427100AEAE1E /* Alte.gif in Resources */ = {isa = PBXBuildFile; fileRef = D06436851CEB427100AEAE1E /* Alte.gif */; };
@@ -122,9 +119,6 @@
 		99FCDA291CF308150094D373 /* MapOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
 		99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FreetimeAnnotations.plist; sourceTree = "<group>"; };
 		99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
-		D00C40A81D0178FF0049B641 /* PhoneInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneInfoViewController.swift; sourceTree = "<group>"; };
-		D00C40AA1D017EB80049B641 /* BankInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankInfoViewController.swift; sourceTree = "<group>"; };
-		D00C40AC1D01869B0049B641 /* HousingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingInfoViewController.swift; sourceTree = "<group>"; };
 		D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TUMainViewController.swift; path = ../TUMainViewController.swift; sourceTree = "<group>"; };
 		D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentCoordViewController.swift; sourceTree = "<group>"; };
 		D06436851CEB427100AEAE1E /* Alte.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Alte.gif; sourceTree = "<group>"; };
@@ -197,9 +191,6 @@
 				99D9F5301CFED35D003A837E /* SportsView.swift */,
 				0B5DB7401CFE29B100E85B99 /* HomeNavigationViewController.swift */,
 				0B5DB73E1CFE175300E85B99 /* AchievmentsViewController.swift */,
-				D00C40AC1D01869B0049B641 /* HousingInfoViewController.swift */,
-				D00C40AA1D017EB80049B641 /* BankInfoViewController.swift */,
-				D00C40A81D0178FF0049B641 /* PhoneInfoViewController.swift */,
 				D0CF055B1CFF6A10000E1C0F /* HousingViewController.swift */,
 				D0CF05571CFF6830000E1C0F /* PhoneViewController.swift */,
 				D0E529F51CFF4DF200672D03 /* UsefulViewController.swift */,
@@ -394,8 +385,6 @@
 				99FCDA2E1CF44A9E0094D373 /* RestaurantView.swift in Sources */,
 				9937C4D01CFDB87300F6FF8B /* Freetime Scene.swift in Sources */,
 				0B64ECF21CEF90A3007330A5 /* ResidencePermitViewController.swift in Sources */,
-				D00C40A91D0179000049B641 /* PhoneInfoViewController.swift in Sources */,
-				D00C40AD1D01869B0049B641 /* HousingInfoViewController.swift in Sources */,
 				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
 				D0E529F61CFF4DF200672D03 /* UsefulViewController.swift in Sources */,
 				D0DE5F9E1CF4542C004FA3A2 /* DepartmentInfoViewController.swift in Sources */,
@@ -414,7 +403,6 @@
 				D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */,
 				99FCDA2A1CF308150094D373 /* MapOptions.swift in Sources */,
 				D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */,
-				D00C40AB1D017EB80049B641 /* BankInfoViewController.swift in Sources */,
 				0BE6FE601CDFA25900A5849A /* MustDoViewController.swift in Sources */,
 				D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */,
 				995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */,

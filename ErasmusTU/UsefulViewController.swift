@@ -17,7 +17,10 @@ class UsefulViewController: UIViewController {
     @IBOutlet var label1: UILabel!
     @IBOutlet var label2: UILabel!
     @IBOutlet var label3: UILabel!
-    
+    let dpath: String = "http://unigraz.esnaustria.org/banks-graz"
+    @IBAction func BankButton(sender: UIButton) {
+         let url = NSURL (string: dpath );
+        UIApplication.sharedApplication().openURL(url!)    }
     
     
     override func viewDidLoad() {

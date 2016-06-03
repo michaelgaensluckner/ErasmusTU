@@ -1251,7 +1251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qe-zB-RZL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1636" y="-4079"/>
+            <point key="canvasLocation" x="1512" y="-3555"/>
         </scene>
         <!--Registration with Graz-->
         <scene sceneID="nvO-ma-lMo">
@@ -2596,7 +2596,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6YG-xE-Rm0" kind="show" identifier="TuToCampus" id="cSG-7M-hog"/>
+                                    <segue destination="6YG-xE-Rm0" kind="show" id="ZUF-Ns-PAr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg7-C9-BkN">
@@ -2702,7 +2702,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1470" y="-2429"/>
+            <point key="canvasLocation" x="1282" y="-2441"/>
         </scene>
         <!--International Office-->
         <scene sceneID="nZA-dI-lnv">
@@ -4799,7 +4799,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <outlet property="label2" destination="rdd-8R-DTg" id="yh6-rJ-78z"/>
                         <outlet property="label3" destination="5aT-LE-18H" id="syh-bp-GM4"/>
                         <outlet property="label4" destination="Qq9-5l-qfH" id="z0I-8b-tC4"/>
-                        <segue destination="0Zn-70-wtX" kind="show" identifier="HousingToInfo" id="bK6-lo-Ha3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XP0-0b-bLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -5114,56 +5113,11 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <outlet property="label6" destination="egk-eR-D1h" id="Qw6-5w-rei"/>
                         <outlet property="label7" destination="CXu-Dm-cNw" id="H2A-g6-djc"/>
                         <outlet property="label8" destination="aBD-pV-NbW" id="epq-Sj-zZV"/>
-                        <segue destination="irn-lC-eTx" kind="show" identifier="PhoneToWeb" id="ya6-G3-xNo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y1R-OO-rWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-944" y="3135"/>
-        </scene>
-        <!--Phone Info View Controller-->
-        <scene sceneID="RVk-Qe-J2W">
-            <objects>
-                <viewController id="irn-lC-eTx" customClass="PhoneInfoViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ewj-fJ-IX7"/>
-                        <viewControllerLayoutGuide type="bottom" id="AVq-ih-a29"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hqU-ga-Viu">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WdW-kj-0Dv">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <subviews>
-                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0aN-Ec-mya">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                    </webView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="0aN-Ec-mya" firstAttribute="centerX" secondItem="WdW-kj-0Dv" secondAttribute="centerX" id="dft-i6-SAR"/>
-                                    <constraint firstItem="0aN-Ec-mya" firstAttribute="centerY" secondItem="WdW-kj-0Dv" secondAttribute="centerY" id="gEG-Gl-TOt"/>
-                                    <constraint firstItem="0aN-Ec-mya" firstAttribute="height" secondItem="WdW-kj-0Dv" secondAttribute="height" id="nOc-HF-L29"/>
-                                    <constraint firstItem="0aN-Ec-mya" firstAttribute="width" secondItem="WdW-kj-0Dv" secondAttribute="width" id="q8t-nf-RCQ"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="WdW-kj-0Dv" firstAttribute="centerX" secondItem="hqU-ga-Viu" secondAttribute="centerX" id="NBE-Wf-mg6"/>
-                            <constraint firstItem="WdW-kj-0Dv" firstAttribute="height" secondItem="hqU-ga-Viu" secondAttribute="height" id="nlJ-dO-T3Z"/>
-                            <constraint firstItem="WdW-kj-0Dv" firstAttribute="centerY" secondItem="hqU-ga-Viu" secondAttribute="centerY" id="pSc-cF-lbS"/>
-                            <constraint firstItem="WdW-kj-0Dv" firstAttribute="width" secondItem="hqU-ga-Viu" secondAttribute="width" id="wTs-im-AfV"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="webView" destination="0aN-Ec-mya" id="9dh-qU-O5d"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XGs-OC-a5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-112" y="3163"/>
         </scene>
         <!--Map Option-->
         <scene sceneID="wMG-CA-17Q">
@@ -5395,7 +5349,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EcL-Jp-yqv" kind="show" identifier="UsefulToBank" id="trh-dO-GuR"/>
+                                    <action selector="BankButton:" destination="SXU-Td-ErU" eventType="touchUpInside" id="yRr-Mj-bht"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -5467,67 +5421,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p5b-WU-EJx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1142" y="2223"/>
-        </scene>
-        <!--Bank Info-->
-        <scene sceneID="P5W-Zg-HEM">
-            <objects>
-                <viewController title="Bank Info" id="EcL-Jp-yqv" customClass="BankInfoViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
-                    <webView key="view" contentMode="scaleToFill" id="hZJ-Ij-CPa">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                    </webView>
-                    <connections>
-                        <outlet property="webView" destination="hZJ-Ij-CPa" id="wAF-sc-S7s"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Pwz-Yb-1hd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-731" y="2365"/>
-        </scene>
-        <!--Housing Info-->
-        <scene sceneID="Neu-Dh-Tjk">
-            <objects>
-                <viewController title="Housing Info" id="0Zn-70-wtX" customClass="HousingInfoViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6S2-G8-by2"/>
-                        <viewControllerLayoutGuide type="bottom" id="nxq-Ms-bnP"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="DGz-rG-aXx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Rj-kS-Hz7">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <subviews>
-                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xZH-vO-Gub">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                    </webView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="xZH-vO-Gub" firstAttribute="width" secondItem="6Rj-kS-Hz7" secondAttribute="width" id="8Ja-io-RQd"/>
-                                    <constraint firstItem="xZH-vO-Gub" firstAttribute="centerX" secondItem="6Rj-kS-Hz7" secondAttribute="centerX" id="8L1-Ap-rph"/>
-                                    <constraint firstItem="xZH-vO-Gub" firstAttribute="centerY" secondItem="6Rj-kS-Hz7" secondAttribute="centerY" id="MAC-Ux-sXC"/>
-                                    <constraint firstItem="xZH-vO-Gub" firstAttribute="height" secondItem="6Rj-kS-Hz7" secondAttribute="height" id="kq7-Xh-bjW"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="6Rj-kS-Hz7" firstAttribute="centerY" secondItem="DGz-rG-aXx" secondAttribute="centerY" id="8I4-1J-hOe"/>
-                            <constraint firstItem="6Rj-kS-Hz7" firstAttribute="width" secondItem="DGz-rG-aXx" secondAttribute="width" id="Jy1-aN-rQ2"/>
-                            <constraint firstItem="6Rj-kS-Hz7" firstAttribute="height" secondItem="DGz-rG-aXx" secondAttribute="height" id="ShG-gg-LQV"/>
-                            <constraint firstItem="6Rj-kS-Hz7" firstAttribute="centerX" secondItem="DGz-rG-aXx" secondAttribute="centerX" id="vVg-0r-AUI"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="webView" destination="xZH-vO-Gub" id="8d0-Pg-D7z"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="96V-dQ-Yxz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1904" y="3669"/>
         </scene>
     </scenes>
     <resources>

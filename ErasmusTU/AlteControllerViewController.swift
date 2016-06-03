@@ -59,35 +59,35 @@ class AlteControllerViewController: UIViewController {
      var  dataToTransfer = freetimeItem()
     
     @IBAction func MapAlte(sender: UIButton) {
-        dataToTransfer.title = "Alte"
+    /*dataToTransfer.title = "Alte"
         dataToTransfer.latitude = 47.069267
         dataToTransfer.longitude = 15.450321
         showAnnotation = dataToTransfer
         segueMap=true
         self.performSegueWithIdentifier("CampusToMap", sender: self)
-        
+        */
     }
     
     
     @IBAction func MapNeue(sender: UIButton) {
-        dataToTransfer.title = "Neue"
+       /* dataToTransfer.title = "Neue"
         dataToTransfer.latitude = 47.064952
         dataToTransfer.longitude = 15.452515
         showAnnotation = dataToTransfer
         segueMap=true
         self.performSegueWithIdentifier("CampusToMap", sender: self)
-        
+       */
     }
     
     
     @IBAction func MapInfeld(sender: UIButton) {
-        dataToTransfer.title = "Inffeldgasse"
+        /*dataToTransfer.title = "Inffeldgasse"
         dataToTransfer.latitude = 47.058465
         dataToTransfer.longitude = 15.458775
         showAnnotation = dataToTransfer
         segueMap=true
         self.performSegueWithIdentifier("CampusToMap", sender: self)
-        
+        */
     }
     private func updateMinZoomScaleForSize(size: CGSize) {
         let widthScale = size.width / imageView.bounds.width

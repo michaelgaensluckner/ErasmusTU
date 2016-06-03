@@ -24,22 +24,27 @@ var  dataToTransfer: String = ""
     @IBAction func TuInfo(sender: UIButton) {
        
     dataToTransfer="http://portal.tugraz.at/portal/page/portal/Internationale_Beziehungen/Incomings/IncomingExchangeStudents/Vorbereitung"
-    self.performSegueWithIdentifier("HousingToInfo", sender: self)
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)
+    
      }
     
     @IBAction func EsnInfo(sender: UIButton) {
         dataToTransfer="http://unigraz.esnaustria.org/living-graz"
-        self.performSegueWithIdentifier("HousingToInfo", sender: self)
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)
     }
     @IBAction func Oaed(sender: UIButton) {
         dataToTransfer="http://housing.oead.at/de/unterkuenfte/graz-de/haeuser-de?view=application&city=graz"
-        self.performSegueWithIdentifier("HousingToInfo", sender: self)
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)
         
     }
     
     @IBAction func Wist(sender: UIButton) {
         dataToTransfer="http://www.wist.vc-graz.ac.at/wordpress/"
-        self.performSegueWithIdentifier("HousingToInfo", sender: self)
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)
     }
     
     override func viewDidLoad() {

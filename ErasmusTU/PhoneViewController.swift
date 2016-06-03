@@ -29,50 +29,62 @@ class PhoneViewController: UIViewController {
     
     @IBAction func phoneInfo(sender: UIButton) {
         dataToTransfer = "http://unigraz.esnaustria.org/mobile-phone-information"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)
+
 
     }
     
     @IBAction func freeSim(sender: UIButton) {
         dataToTransfer = "http://unigraz.esnaustria.org/free-sim-card"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)
     }
     @IBAction func comparator(sender: UIButton) {
         dataToTransfer = "https://www.tarife.at/telefon-internet/handytarife"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)
     }
     
     @IBAction func A1(sender: UIButton) {
         dataToTransfer = "https://www.a1.net/"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)
-    }
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)    }
+    
     @IBAction func Hot(sender: UIButton) {
         dataToTransfer = "https://www.hot.at/"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)    }
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)    }
     
     @IBAction func Tmobile(sender: UIButton) {
         dataToTransfer = "http://www.t-mobile.at/"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)    }
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)    }
     
     @IBAction func Drei(sender: UIButton) {
         dataToTransfer = "https://www.drei.at/portal/de/privat/index.html"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)    }
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)    }
     
     @IBAction func Telering(sender: UIButton) {
         dataToTransfer = "http://www.telering.at/"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)    }
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)    }
     
     @IBAction func Tele2(sender: UIButton) {
         dataToTransfer = "https://www.tele2.at/"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)    }
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)   }
     
     @IBAction func Yesss(sender: UIButton) {
         dataToTransfer = "https://www.yesss.at/"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)    }
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)    }
     
     @IBAction func Bob(sender: UIButton) {
         dataToTransfer = "http://www.bob.at/"
-        self.performSegueWithIdentifier("PhoneToWeb", sender: self)    }
+        let url = NSURL (string: dataToTransfer );
+        UIApplication.sharedApplication().openURL(url!)    }
     
     
     

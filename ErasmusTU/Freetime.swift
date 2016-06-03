@@ -74,7 +74,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         cell.layer.backgroundColor = UIColor.clearColor().CGColor
         cell.layer.masksToBounds = true
         cell.textLabel?.backgroundColor = UIColor.clearColor()
-        
+
         let cellHeight: CGFloat = 42.0
         let blueLabel = UILabel(frame: CGRectMake(40, 60, 30, 42))
         blueLabel.center = CGPoint(x: view.bounds.width, y: cellHeight / 2.0)
@@ -83,13 +83,15 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         cell.addSubview(blueLabel)
         
         
-        let whiteLabel = UILabel(frame: CGRectMake(40, 60, view.bounds.width - 20, 42))
+        let whiteLabel = UILabel(frame: CGRectMake(40, 60, view.bounds.width - 12, 42))
         whiteLabel.backgroundColor = UIColor.whiteColor()
         whiteLabel.center = CGPoint(x: view.bounds.width / 2.0, y: cellHeight / 2.0)
         whiteLabel.layer.cornerRadius = 5
         whiteLabel.clipsToBounds = true
         cell.addSubview(whiteLabel)
-
+        ////alex
+        whiteLabel.font = UIFont(name: "HelveticaNeue", size: 12)
+        /////
         
         
         var tableArray = [String]()
@@ -100,7 +102,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
           tableArray.append(title)
         }
         
-        whiteLabel.text = tableArray[indexPath.section]
+        whiteLabel.text = "      "+tableArray[indexPath.section]
         return cell
     }
     
@@ -109,7 +111,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
     }
     
     override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 10
+        return 8
     }
 
     

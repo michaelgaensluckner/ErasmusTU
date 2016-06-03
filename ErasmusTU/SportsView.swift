@@ -25,7 +25,7 @@ class SportsView: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     
        descrpLabel.layer.cornerRadius = 5
         descrpLabel.clipsToBounds = true
-        
+        descrpLabel.sizeToFit()
         
     }
     

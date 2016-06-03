@@ -191,6 +191,12 @@
 				D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */,
 				D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
+				99C0D9D31CFF3A840020FD5F /* ESNView.swift */,
+				99D9F5321CFED6DE003A837E /* SportCollectionViewCell.swift */,
+				99D9F5341CFED733003A837E /* SportDetailViewController.swift */,
+				99D9F5301CFED35D003A837E /* SportsView.swift */,
+				0B5DB7401CFE29B100E85B99 /* HomeNavigationViewController.swift */,
+				0B5DB73E1CFE175300E85B99 /* AchievmentsViewController.swift */,
 				D00C40AC1D01869B0049B641 /* HousingInfoViewController.swift */,
 				D00C40AA1D017EB80049B641 /* BankInfoViewController.swift */,
 				D00C40A81D0178FF0049B641 /* PhoneInfoViewController.swift */,
@@ -230,6 +236,15 @@
 		D06436841CEB41E300AEAE1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				99D338ED1CFDE33E00C49FA2 /* Settings-50.png */,
+				99D338DB1CFDDC1600C49FA2 /* App_Erasmus_TU.png */,
+				99D338DC1CFDDC1600C49FA2 /* App_ERasmus_Logo.png */,
+				99D338DD1CFDDC1600C49FA2 /* App_Erasmus_Free_Time.png */,
+				99D338DE1CFDDC1600C49FA2 /* App_Erasmus_MAp.png */,
+				99D338DF1CFDDC1600C49FA2 /* App_Erasmus_Home.png */,
+				99D338E01CFDDC1600C49FA2 /* App_Erasmus_Information.png */,
+				99D338E11CFDDC1600C49FA2 /* Icon_Trash.png */,
+				99D338E21CFDDC1600C49FA2 /* Icon_X.png */,
 				D0CDDE021CEE749D0015E19A /* phone-call.png */,
 				99D9F5361CFED8E0003A837E /* s2.jpg */,
 				99D9F5371CFED8E0003A837E /* s1.jpg */,
@@ -340,10 +355,12 @@
 				99D9F5381CFED8E0003A837E /* s2.jpg in Resources */,
 				99D338E81CFDDC1600C49FA2 /* App_Erasmus_Information.png in Resources */,
 				D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */,
+				99D338EA1CFDDC1600C49FA2 /* Icon_X.png in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
 				99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */,
 				D0776A811D01AC100085BDF8 /* mapinfeld.gif in Resources */,
 				990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */,
+				99D338E51CFDDC1600C49FA2 /* App_Erasmus_Free_Time.png in Resources */,
 				D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */,
 				D06436901CEB781F00AEAE1E /* Gitte.png in Resources */,
 				99D338E61CFDDC1600C49FA2 /* App_Erasmus_MAp.png in Resources */,
@@ -359,6 +376,7 @@
 				99D9F5391CFED8E0003A837E /* s1.jpg in Resources */,
 				99D9F53B1CFEDF77003A837E /* s3.jpg in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
+				99D338E71CFDDC1600C49FA2 /* App_Erasmus_Home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

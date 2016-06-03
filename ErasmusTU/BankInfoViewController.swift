@@ -11,12 +11,14 @@ import UIKit
 class BankInfoViewController: UIViewController {
 
     @IBOutlet var webView: UIWebView!
-    var incomingData: String = "http://unigraz.esnaustria.org/banks-graz"
     
-    override func viewDidLoad() {
+    let path: String = "https://online.tugraz.at/tug_online/webnav.ini"
+    
+    
+      override func viewDidLoad() {
         super.viewDidLoad()
 
-        let url = NSURL (string: incomingData );
+        let url = NSURL (string: path );
         let requestObj = NSURLRequest(URL: url!);
         webView.loadRequest(requestObj);        // Do any additional setup after loading the view.
     }

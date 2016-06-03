@@ -56,24 +56,36 @@ class AlteControllerViewController: UIViewController {
     @IBOutlet weak var imageViewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var imageViewTrailingConstraint: NSLayoutConstraint!
     
-     var  dataToTransfer: String = ""
+     var  dataToTransfer = freetimeItem()
     
     @IBAction func MapAlte(sender: UIButton) {
-        dataToTransfer = "https://online.tugraz.at/tug_online/visitenkarte.show_vcard?pPersonenId=350B71F79FC31B56&pPersonenGruppe=3"
+        dataToTransfer.title = "Alte"
+        dataToTransfer.latitude = 47.069267
+        dataToTransfer.longitude = 15.450321
+        showAnnotation = dataToTransfer
+        segueMap=true
         self.performSegueWithIdentifier("CampusToMap", sender: self)
         
     }
     
     
     @IBAction func MapNeue(sender: UIButton) {
-        dataToTransfer = "https://online.tugraz.at/tug_online/visitenkarte.show_vcard?pPersonenId=350B71F79FC31B56&pPersonenGruppe=3"
+        dataToTransfer.title = "Neue"
+        dataToTransfer.latitude = 47.064952
+        dataToTransfer.longitude = 15.452515
+        showAnnotation = dataToTransfer
+        segueMap=true
         self.performSegueWithIdentifier("CampusToMap", sender: self)
         
     }
     
     
     @IBAction func MapInfeld(sender: UIButton) {
-        dataToTransfer = "https://online.tugraz.at/tug_online/visitenkarte.show_vcard?pPersonenId=350B71F79FC31B56&pPersonenGruppe=3"
+        dataToTransfer.title = "Inffeldgasse"
+        dataToTransfer.latitude = 47.058465
+        dataToTransfer.longitude = 15.458775
+        showAnnotation = dataToTransfer
+        segueMap=true
         self.performSegueWithIdentifier("CampusToMap", sender: self)
         
     }

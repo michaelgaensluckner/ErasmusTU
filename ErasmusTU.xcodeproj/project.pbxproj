@@ -29,6 +29,9 @@
 		99FCDA2A1CF308150094D373 /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCDA291CF308150094D373 /* MapOptions.swift */; };
 		99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */; };
 		99FCDA2E1CF44A9E0094D373 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */; };
+		D00C40A91D0179000049B641 /* PhoneInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C40A81D0178FF0049B641 /* PhoneInfoViewController.swift */; };
+		D00C40AB1D017EB80049B641 /* BankInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C40AA1D017EB80049B641 /* BankInfoViewController.swift */; };
+		D00C40AD1D01869B0049B641 /* HousingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C40AC1D01869B0049B641 /* HousingInfoViewController.swift */; };
 		D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */; };
 		D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */; };
 		D06436861CEB427100AEAE1E /* Alte.gif in Resources */ = {isa = PBXBuildFile; fileRef = D06436851CEB427100AEAE1E /* Alte.gif */; };
@@ -39,6 +42,7 @@
 		D06436961CEB788100AEAE1E /* anja.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436951CEB788100AEAE1E /* anja.png */; };
 		D06436981CEB807800AEAE1E /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436971CEB807800AEAE1E /* call.png */; };
 		D064369A1CEB818300AEAE1E /* call1.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436991CEB818300AEAE1E /* call1.png */; };
+		D0776A811D01AC100085BDF8 /* mapinfeld.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0776A801D01AC100085BDF8 /* mapinfeld.gif */; };
 		D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */; };
 		D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */; };
 		D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */; };
@@ -47,10 +51,12 @@
 		D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD9A1CEDBAFA0015E19A /* email1.png */; };
 		D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */; };
 		D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CDDE021CEE749D0015E19A /* phone-call.png */; };
+		D0CF05581CFF6830000E1C0F /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CF05571CFF6830000E1C0F /* PhoneViewController.swift */; };
+		D0CF055C1CFF6A10000E1C0F /* HousingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CF055B1CFF6A10000E1C0F /* HousingViewController.swift */; };
 		D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D0CF34991CEF79BB0080F784 /* registerCourse.pdf */; };
-		D0DE5F9A1CF45247004FA3A2 /* Infeldgasse.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0DE5F991CF45247004FA3A2 /* Infeldgasse.gif */; };
 		D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0DE5F9B1CF45269004FA3A2 /* Neue.gif */; };
 		D0DE5F9E1CF4542C004FA3A2 /* DepartmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE5F9D1CF4542C004FA3A2 /* DepartmentInfoViewController.swift */; };
+		D0E529F61CFF4DF200672D03 /* UsefulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E529F51CFF4DF200672D03 /* UsefulViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +84,9 @@
 		99FCDA291CF308150094D373 /* MapOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
 		99FCDA2B1CF322BB0094D373 /* FreetimeAnnotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FreetimeAnnotations.plist; sourceTree = "<group>"; };
 		99FCDA2D1CF44A9E0094D373 /* RestaurantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		D00C40A81D0178FF0049B641 /* PhoneInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneInfoViewController.swift; sourceTree = "<group>"; };
+		D00C40AA1D017EB80049B641 /* BankInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankInfoViewController.swift; sourceTree = "<group>"; };
+		D00C40AC1D01869B0049B641 /* HousingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingInfoViewController.swift; sourceTree = "<group>"; };
 		D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TUMainViewController.swift; path = ../TUMainViewController.swift; sourceTree = "<group>"; };
 		D015B7F91CEF6A5F00CBE874 /* DepartmentCoordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentCoordViewController.swift; sourceTree = "<group>"; };
 		D06436851CEB427100AEAE1E /* Alte.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Alte.gif; sourceTree = "<group>"; };
@@ -89,6 +98,7 @@
 		D06436971CEB807800AEAE1E /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
 		D06436991CEB818300AEAE1E /* call1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call1.png; sourceTree = "<group>"; };
 		D064369C1CEB82C000AEAE1E /* email */ = {isa = PBXFileReference; explicitFileType = image.png; path = email; sourceTree = "<group>"; };
+		D0776A801D01AC100085BDF8 /* mapinfeld.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mapinfeld.gif; sourceTree = "<group>"; };
 		D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternationalOfficeViewController.swift; sourceTree = "<group>"; };
 		D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUOnlineViewController.swift; sourceTree = "<group>"; };
 		D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseRegistrationViewController.swift; path = ../CourseRegistrationViewController.swift; sourceTree = "<group>"; };
@@ -97,10 +107,12 @@
 		D0CDDD9A1CEDBAFA0015E19A /* email1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email1.png; sourceTree = "<group>"; };
 		D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-locatie.png"; sourceTree = "<group>"; };
 		D0CDDE021CEE749D0015E19A /* phone-call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-call.png"; sourceTree = "<group>"; };
+		D0CF05571CFF6830000E1C0F /* PhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		D0CF055B1CFF6A10000E1C0F /* HousingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingViewController.swift; sourceTree = "<group>"; };
 		D0CF34991CEF79BB0080F784 /* registerCourse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = registerCourse.pdf; sourceTree = "<group>"; };
-		D0DE5F991CF45247004FA3A2 /* Infeldgasse.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Infeldgasse.gif; sourceTree = "<group>"; };
 		D0DE5F9B1CF45269004FA3A2 /* Neue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Neue.gif; sourceTree = "<group>"; };
 		D0DE5F9D1CF4542C004FA3A2 /* DepartmentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentInfoViewController.swift; sourceTree = "<group>"; };
+		D0E529F51CFF4DF200672D03 /* UsefulViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsefulViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +153,12 @@
 				D06436891CEB6C0D00AEAE1E /* AlteControllerViewController.swift */,
 				D015B7F71CEF339D00CBE874 /* TUMainViewController.swift */,
 				990C6D531CBF94D80085F70E /* Main.storyboard */,
+				D00C40AC1D01869B0049B641 /* HousingInfoViewController.swift */,
+				D00C40AA1D017EB80049B641 /* BankInfoViewController.swift */,
+				D00C40A81D0178FF0049B641 /* PhoneInfoViewController.swift */,
+				D0CF055B1CFF6A10000E1C0F /* HousingViewController.swift */,
+				D0CF05571CFF6830000E1C0F /* PhoneViewController.swift */,
+				D0E529F51CFF4DF200672D03 /* UsefulViewController.swift */,
 				0BB6E3AB1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift */,
 				0BB6E3A91CF0B4EA00203411 /* ConfirmationOfRegistrationViewController.swift */,
 				0B64ECFF1CF070BA007330A5 /* SettingViewController.swift */,
@@ -173,16 +191,11 @@
 		D06436841CEB41E300AEAE1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D0CDDDEC1CEE0E750015E19A /* Biologuy.png */,
-				D0CDDDED1CEE0E750015E19A /* Maths.png */,
-				D0CDDDEE1CEE0E750015E19A /* Chemistry.png */,
-				D0CDDDEF1CEE0E750015E19A /* Informatics.png */,
-				D0CDDDF01CEE0E750015E19A /* Civil.png */,
 				D0CDDE021CEE749D0015E19A /* phone-call.png */,
 				D0CDDD9C1CEDBBA30015E19A /* icon-locatie.png */,
 				D0CDDD9A1CEDBAFA0015E19A /* email1.png */,
+				D0776A801D01AC100085BDF8 /* mapinfeld.gif */,
 				D0DE5F9B1CF45269004FA3A2 /* Neue.gif */,
-				D0DE5F991CF45247004FA3A2 /* Infeldgasse.gif */,
 				D06436971CEB807800AEAE1E /* call.png */,
 				D06436991CEB818300AEAE1E /* call1.png */,
 				D064369C1CEB82C000AEAE1E /* email */,
@@ -281,29 +294,20 @@
 				D06436921CEB785700AEAE1E /* Barbara.png in Resources */,
 				D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */,
 				D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */,
-				D0CDDDFE1CEE0E750015E19A /* Biomedical.png in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
-				D0CDDDF81CEE0E750015E19A /* Maths.png in Resources */,
 				99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */,
+				D0776A811D01AC100085BDF8 /* mapinfeld.gif in Resources */,
 				990C6D571CBF94D80085F70E /* Assets.xcassets in Resources */,
-				D0CDDDEB1CEE05990015E19A /* Arquitectura.png in Resources */,
-				D0CDDDFA1CEE0E750015E19A /* Informatics.png in Resources */,
-				D0CDDE001CEE0E750015E19A /* Chemical.png in Resources */,
-				D0CDDDFC1CEE0E750015E19A /* Enviromental.png in Resources */,
-				D0CDDE011CEE0E750015E19A /* Fisics.png in Resources */,
 				D0CDDD9D1CEDBBA30015E19A /* icon-locatie.png in Resources */,
 				D06436901CEB781F00AEAE1E /* Gitte.png in Resources */,
 				D06436861CEB427100AEAE1E /* Alte.gif in Resources */,
 				995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */,
-				D0CDDDF71CEE0E750015E19A /* Biologuy.png in Resources */,
-				D0CDDDF91CEE0E750015E19A /* Chemistry.png in Resources */,
 				D06436981CEB807800AEAE1E /* call.png in Resources */,
 				D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */,
 				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
 				D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */,
 				D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
-				D0CDDDFD1CEE0E750015E19A /* Mechanical.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,9 +323,13 @@
 				0BB6E3AC1CF0CF3F00203411 /* ValidatteStudentIDViewController.swift in Sources */,
 				99FCDA2E1CF44A9E0094D373 /* RestaurantView.swift in Sources */,
 				0B64ECF21CEF90A3007330A5 /* ResidencePermitViewController.swift in Sources */,
+				D00C40A91D0179000049B641 /* PhoneInfoViewController.swift in Sources */,
+				D00C40AD1D01869B0049B641 /* HousingInfoViewController.swift in Sources */,
 				D064368A1CEB6C0D00AEAE1E /* AlteControllerViewController.swift in Sources */,
+				D0E529F61CFF4DF200672D03 /* UsefulViewController.swift in Sources */,
 				D0DE5F9E1CF4542C004FA3A2 /* DepartmentInfoViewController.swift in Sources */,
 				990C6D4E1CBF94D70085F70E /* AppDelegate.swift in Sources */,
+				D0CF05581CFF6830000E1C0F /* PhoneViewController.swift in Sources */,
 				0BE6FE621CDFAAD100A5849A /* RegistrationWithGrazViewController.swift in Sources */,
 				D015B7FA1CEF6A5F00CBE874 /* DepartmentCoordViewController.swift in Sources */,
 				0B64ECFE1CF00789007330A5 /* KDCircularProgress.swift in Sources */,
@@ -333,9 +341,11 @@
 				D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */,
 				99FCDA2A1CF308150094D373 /* MapOptions.swift in Sources */,
 				D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */,
+				D00C40AB1D017EB80049B641 /* BankInfoViewController.swift in Sources */,
 				0BE6FE601CDFA25900A5849A /* MustDoViewController.swift in Sources */,
 				D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */,
 				995E76B11CC3CC70004C2C85 /* Freetime.swift in Sources */,
+				D0CF055C1CFF6A10000E1C0F /* HousingViewController.swift in Sources */,
 				D015B7F81CEF339D00CBE874 /* TUMainViewController.swift in Sources */,
 				D0CDDD971CEDA2FB0015E19A /* TUTutorialViewController.swift in Sources */,
 				0B64ECF61CEF927D007330A5 /* SendVisaViewController.swift in Sources */,

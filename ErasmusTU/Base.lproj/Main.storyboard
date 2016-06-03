@@ -64,7 +64,7 @@
         <scene sceneID="2JA-bx-bfg">
             <objects>
                 <navigationController id="Akh-ny-wdB" customClass="HomeNavigationViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="second" id="u7J-Lg-ti5" userLabel="Home"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="u7J-Lg-ti5" userLabel="Home"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ERU-Pe-iP5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3303,7 +3303,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
         <scene sceneID="S62-TC-qsx">
             <objects>
                 <navigationController title="TU Graz" id="dQ2-P4-n2x" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="TU" id="Qcc-lB-wYj"/>
+                    <tabBarItem key="tabBarItem" title="TU" image="tu" id="Qcc-lB-wYj"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n0H-wz-NAy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3759,7 +3759,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Useful" image="second" selectedImage="second" id="H78-D2-OZV"/>
+                    <tabBarItem key="tabBarItem" title="Useful" image="info" id="H78-D2-OZV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKQ-zC-A5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4562,7 +4562,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <gestureRecognizers/>
                             </mapView>
@@ -4592,7 +4592,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <constraint firstItem="xdO-Xf-9hD" firstAttribute="top" secondItem="uYf-al-c90" secondAttribute="bottom" constant="-74" id="x0y-D9-a3M"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="second" id="NOw-cE-L8s"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" id="NOw-cE-L8s"/>
                     <navigationItem key="navigationItem" id="a2A-Ln-Rpg"/>
                     <connections>
                         <outlet property="Map" destination="uYf-al-c90" id="C7n-pM-0Xj"/>
@@ -4744,7 +4744,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
         <scene sceneID="Q5V-ol-ggV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B97-6a-CmK" customClass="HomeNavigationViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Freetime" selectedImage="App_Erasmus_Free_Time.png" id="B57-Ey-4ll"/>
+                    <tabBarItem key="tabBarItem" title="Freetime" image="free" id="B57-Ey-4ll"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="apF-Ac-GQs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -4797,14 +4797,18 @@ Address: Mandellstraße 15, 8010 Graz  </string>
     </scenes>
     <resources>
         <image name="Alte.gif" width="800" height="600"/>
-        <image name="App_Erasmus_Free_Time.png" width="595" height="595"/>
         <image name="Infeldgasse.gif" width="1000" height="600"/>
         <image name="Neue.gif" width="800" height="600"/>
         <image name="Settings-50.png" width="50" height="50"/>
         <image name="email1.png" width="256" height="256"/>
+        <image name="free" width="30" height="30"/>
+        <image name="home" width="30" height="30"/>
         <image name="icon-locatie.png" width="300" height="196"/>
+        <image name="info" width="30" height="30"/>
+        <image name="map" width="30" height="30"/>
         <image name="phone-call.png" width="256" height="256"/>
         <image name="second" width="30" height="30"/>
+        <image name="tu" width="30" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Djp-sO-CqV"/>

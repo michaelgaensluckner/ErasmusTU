@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -2672,7 +2672,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="TU" image="tu" id="xed-ry-n3y"/>
-                    <navigationItem key="navigationItem" id="aAT-im-V4w"/>
+                    <navigationItem key="navigationItem" title=" " id="aAT-im-V4w">
+                        <barButtonItem key="backBarButtonItem" title=" " id="8uC-cI-1YW"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="CampusButton" destination="2UU-sx-YfR" id="b2i-g6-dh3"/>
                         <outlet property="CourseButton" destination="wvR-mo-9X7" id="4AM-g2-y5A"/>
@@ -3285,7 +3287,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
         <!--TU Graz-->
         <scene sceneID="S62-TC-qsx">
             <objects>
-                <navigationController title="TU Graz" id="dQ2-P4-n2x" sceneMemberID="viewController">
+                <navigationController title="TU Graz" id="dQ2-P4-n2x" customClass="HomeNavigationViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="TU" image="tu" id="Qcc-lB-wYj"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n0H-wz-NAy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -3482,15 +3484,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sports in Graz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIh-tg-QY3">
-                                <rect key="frame" x="20" y="20" width="127" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Idz-Wp-ErA"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Y9a-W8-bKM">
                                 <rect key="frame" x="0.0" y="201" width="600" height="286"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -3505,7 +3498,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="sportsCell" id="EGq-B2-OfP" customClass="SportCollectionViewCell" customModule="ErasmusTU" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="43" width="250" height="200"/>
+                                        <rect key="frame" x="20" y="50" width="250" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="200"/>
@@ -3562,8 +3555,8 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9X-zP-hCn">
-                                <rect key="frame" x="20" y="54" width="560" height="145"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="20" y="101" width="560" height="145"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Graz is a betautiful city with many opportunities to do different sports. For running or biking the Murradweg is very popular - also many parks and woods provide possibilities to do different sports </string>
@@ -3583,14 +3576,12 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <constraint firstItem="Y9a-W8-bKM" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leading" id="6dN-mB-cLi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="F9X-zP-hCn" secondAttribute="trailing" id="Fya-se-BeL"/>
                             <constraint firstItem="Y9a-W8-bKM" firstAttribute="top" secondItem="F9X-zP-hCn" secondAttribute="bottom" constant="40" id="OCB-mv-pTg"/>
+                            <constraint firstItem="F9X-zP-hCn" firstAttribute="top" secondItem="SIb-QK-Zfs" secondAttribute="bottom" constant="20" id="OIF-m7-5Ym"/>
                             <constraint firstItem="F9X-zP-hCn" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leadingMargin" id="Q4R-JI-zfp"/>
                             <constraint firstItem="F9X-zP-hCn" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leadingMargin" id="TpF-lD-OKW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="F9X-zP-hCn" secondAttribute="trailing" id="Twz-Q1-DE1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="F9X-zP-hCn" secondAttribute="trailing" id="dUn-yd-Obs"/>
                             <constraint firstAttribute="trailing" secondItem="Y9a-W8-bKM" secondAttribute="trailing" id="eci-6R-ShB"/>
-                            <constraint firstItem="F9X-zP-hCn" firstAttribute="top" secondItem="zIh-tg-QY3" secondAttribute="bottom" constant="12" id="gDH-fb-qKD"/>
-                            <constraint firstItem="zIh-tg-QY3" firstAttribute="leading" secondItem="F9X-zP-hCn" secondAttribute="leading" id="icX-E9-3J3"/>
-                            <constraint firstItem="zIh-tg-QY3" firstAttribute="top" secondItem="exR-mO-vwN" secondAttribute="top" constant="20" symbolic="YES" id="oUH-9F-P7r"/>
                             <constraint firstItem="F9X-zP-hCn" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leadingMargin" id="xl1-ii-TCY"/>
                         </constraints>
                     </view>
@@ -3685,16 +3676,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESN Graz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFS-KT-Coe">
-                                <rect key="frame" x="31" y="20" width="112" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="112" id="8Xs-tQ-lmr"/>
-                                    <constraint firstAttribute="height" constant="21" id="zgT-7Q-pAa"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dm-0a-1js">
                                 <rect key="frame" x="31" y="373" width="88" height="30"/>
                                 <constraints>
@@ -3706,14 +3687,14 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zng-K1-6mI">
-                                <rect key="frame" x="31" y="147" width="243" height="80"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="31" y="147" width="410" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="243" id="4PO-r1-2gm"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" id="y2c-5u-TSo"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="Schubertstaße 6a,  8010 Graz  Tu 6.30pm - 8pm  Fr 11am - 12am">
+                                    <fragment content="Schubertstaße 6a,  8010 Graz   Tu 6.30pm - 8pm   Fr 11am - 12am">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="14" name="HelveticaNeue"/>
@@ -3725,7 +3706,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHA-73-l0y">
                                 <rect key="frame" x="31" y="66" width="549" height="60"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" id="g5w-H8-HRL"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" id="iwl-fT-WqE"/>
@@ -3745,14 +3726,12 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="aHA-73-l0y" firstAttribute="top" secondItem="RFS-KT-Coe" secondAttribute="bottom" constant="25" id="73g-15-Lfq"/>
                             <constraint firstItem="kfG-XT-mVY" firstAttribute="top" secondItem="8dm-0a-1js" secondAttribute="bottom" constant="84" id="9aN-o1-oLk"/>
-                            <constraint firstItem="RFS-KT-Coe" firstAttribute="leading" secondItem="aHA-73-l0y" secondAttribute="leading" id="Aym-3P-U9N"/>
-                            <constraint firstItem="RFS-KT-Coe" firstAttribute="top" secondItem="PBh-KP-8Ib" secondAttribute="top" constant="20" symbolic="YES" id="IBG-r1-fFI"/>
+                            <constraint firstItem="zng-K1-6mI" firstAttribute="top" secondItem="aHA-73-l0y" secondAttribute="bottom" constant="21" id="Jm1-OJ-BPN"/>
+                            <constraint firstItem="aHA-73-l0y" firstAttribute="top" secondItem="0rE-Ph-KS6" secondAttribute="bottom" constant="20" id="WaZ-H5-OFU"/>
                             <constraint firstItem="zng-K1-6mI" firstAttribute="top" secondItem="aHA-73-l0y" secondAttribute="bottom" constant="21" id="at2-cH-GvA"/>
                             <constraint firstItem="aHA-73-l0y" firstAttribute="trailing" secondItem="PBh-KP-8Ib" secondAttribute="trailingMargin" id="eMG-xh-yiZ"/>
                             <constraint firstItem="zng-K1-6mI" firstAttribute="leading" secondItem="aHA-73-l0y" secondAttribute="leading" id="ftx-7l-ygf"/>
-                            <constraint firstItem="RFS-KT-Coe" firstAttribute="leading" secondItem="PBh-KP-8Ib" secondAttribute="leadingMargin" constant="11" id="wQi-jr-CzK"/>
                             <constraint firstItem="zng-K1-6mI" firstAttribute="leading" secondItem="8dm-0a-1js" secondAttribute="leading" id="wco-go-kPl"/>
                         </constraints>
                     </view>
@@ -3937,7 +3916,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1r-fb-kyw">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1r-fb-kyw">
                                 <rect key="frame" x="397" y="293" width="128" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Show on Map"/>
@@ -3959,6 +3938,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <constraint firstItem="K1r-fb-kyw" firstAttribute="trailing" secondItem="DxL-yw-D9r" secondAttribute="trailing" id="83d-ge-jtc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DxL-yw-D9r" secondAttribute="trailing" constant="10" id="Gdg-6Q-itc"/>
                             <constraint firstItem="J8T-CN-9W6" firstAttribute="top" secondItem="phS-WF-EOJ" secondAttribute="bottom" constant="-5" id="XY0-iI-Kbf"/>
+                            <constraint firstItem="pcZ-3U-Cme" firstAttribute="top" secondItem="Rpc-DZ-gZw" secondAttribute="bottom" constant="20" id="pFp-15-0Li"/>
                             <constraint firstItem="DxL-yw-D9r" firstAttribute="top" secondItem="J8T-CN-9W6" secondAttribute="bottom" constant="20" id="q5F-jS-RJf"/>
                             <constraint firstItem="vnP-ao-FBW" firstAttribute="top" secondItem="DxL-yw-D9r" secondAttribute="bottom" constant="20" id="uZF-pN-VNg"/>
                         </constraints>
@@ -4583,7 +4563,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <gestureRecognizers/>
                             </mapView>
@@ -5247,7 +5227,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
         <!--Freetime-->
         <scene sceneID="COW-xi-eRw">
             <objects>
-                <navigationController title="Freetime" id="gkA-MT-I5h" sceneMemberID="viewController">
+                <navigationController title="Freetime" id="gkA-MT-I5h" customClass="HomeNavigationViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Freetime" image="free" id="mqH-0r-Pgh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vqs-yr-iVl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -5265,11 +5245,12 @@ Address: Mandellstraße 15, 8010 Graz  </string>
         <!--Useful-->
         <scene sceneID="iZ9-RM-9vj">
             <objects>
-                <navigationController title="Useful" id="XwL-sX-wYt" sceneMemberID="viewController">
+                <navigationController title="Useful" id="XwL-sX-wYt" customClass="HomeNavigationViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Useful" image="info" id="lWM-3W-zT3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="F3E-L0-YQn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.32549019610000002" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="SXU-Td-ErU" kind="relationship" relationship="rootViewController" id="bmh-Pe-LUw"/>
@@ -5393,7 +5374,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="KLj-Nj-xG6"/>
+                    <navigationItem key="navigationItem" title=" " id="KLj-Nj-xG6">
+                        <barButtonItem key="backBarButtonItem" title=" " id="EDv-eq-RFg"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="button1" destination="t2f-OD-iBZ" id="uq4-1O-bji"/>
                         <outlet property="button2" destination="rHi-ep-6Cv" id="QjO-VE-Rbo"/>
@@ -5424,6 +5407,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
         <image name="tu" width="30" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Djp-sO-CqV"/>
+        <segue reference="7rL-Kl-mK9"/>
     </inferredMetricsTieBreakers>
 </document>

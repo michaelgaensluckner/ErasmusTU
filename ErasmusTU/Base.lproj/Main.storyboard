@@ -3924,7 +3924,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <state key="normal" title="Show on Map"/>
                                 <connections>
                                     <action selector="adressButton:" destination="LuI-Zm-4aS" eventType="touchUpInside" id="C6c-O2-s1Y"/>
-                                    <action selector="buttonLinkPress:" destination="LuI-Zm-4aS" eventType="touchUpInside" id="BUA-XM-OQF"/>
+                                    <segue destination="H2l-fU-91c" kind="show" id="L4N-bL-87L"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4562,15 +4562,15 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <viewControllerLayoutGuide type="bottom" id="1qM-Kn-9Y4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7h2-Yo-sPo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="535" height="580"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
+                                <rect key="frame" x="0.0" y="0.0" width="535" height="580"/>
                                 <gestureRecognizers/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Xf-9hD">
-                                <rect key="frame" x="561" y="462" width="20" height="20"/>
+                                <rect key="frame" x="496" y="462" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="b59-up-bfh"/>
                                     <constraint firstAttribute="height" constant="20" id="m4b-9i-Msm"/>
@@ -5409,6 +5409,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
         <image name="tu" width="30" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7rL-Kl-mK9"/>
+        <segue reference="L4N-bL-87L"/>
     </inferredMetricsTieBreakers>
 </document>

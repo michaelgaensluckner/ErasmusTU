@@ -2525,6 +2525,24 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg7-C9-BkN">
+                                <rect key="frame" x="521" y="426" width="14" height="65"/>
+                                <color key="backgroundColor" red="0.27450980390000002" green="0.4039215686" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="bCw-K9-BNd"/>
+                                    <constraint firstAttribute="width" constant="14" id="e95-P2-1z9"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="12" id="rYz-J3-cmb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="bCw-K9-BNd"/>
+                                        <exclude reference="rYz-J3-cmb"/>
+                                    </mask>
+                                </variation>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ve6-Bt-wsR">
                                 <rect key="frame" x="521" y="350" width="14" height="66"/>
                                 <color key="backgroundColor" red="0.27450980390000002" green="0.4039215686" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -2599,24 +2617,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                     <segue destination="6YG-xE-Rm0" kind="show" id="ZUF-Ns-PAr"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg7-C9-BkN">
-                                <rect key="frame" x="521" y="426" width="14" height="65"/>
-                                <color key="backgroundColor" red="0.27450980390000002" green="0.4039215686" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="14" id="bCw-K9-BNd"/>
-                                    <constraint firstAttribute="width" constant="14" id="e95-P2-1z9"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="12" id="rYz-J3-cmb"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="bCw-K9-BNd"/>
-                                        <exclude reference="rYz-J3-cmb"/>
-                                    </mask>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>

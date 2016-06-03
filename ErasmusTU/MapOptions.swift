@@ -15,7 +15,7 @@ class MapOption : UITableViewController {
     var Array = [String]()
     
     override func viewDidLoad() {
-        Array = ["University","Freetime","Useful"]
+        Array = ["University","Restaurants/Bars"]
         if (!UIAccessibilityIsReduceTransparencyEnabled()) {
             tableView.backgroundColor = UIColor.clearColor()
             let blurEffect = UIBlurEffect(style: .Light)

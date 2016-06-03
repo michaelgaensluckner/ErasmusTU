@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MapKit
 
 struct ResidencePermitTasks{
     static var Task_1 = 0
@@ -21,8 +22,45 @@ class ResidencePermitViewController: UIViewController {
     @IBOutlet var Task_2_Done: UILabel!
     
     @IBOutlet var Task_2: UIButton!
+    @IBOutlet var MapView: MKMapView!
+    
+    let initialLocation = CLLocation(latitude: 47.074628 , longitude: 15.440566)
+    
+    let regionRadius: CLLocationDistance = 1000
+    func centerMapOnLocation(location: CLLocation) {
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
+            regionRadius * 1.0, regionRadius * 1.0)
+        MapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    
+    @IBAction func MapbuttonTapped(sender: AnyObject) {
+        
+        openMapForPlace()
+    }
+    func openMapForPlace() {
+        let latitute:CLLocationDegrees =  47.074628
+        let longitute:CLLocationDegrees =  15.440566
+        
+        let regionDistance:CLLocationDistance = 10000
+        let coordinates = CLLocationCoordinate2DMake(latitute, longitute)
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(MKCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(MKCoordinateSpan: regionSpan.span)
+        ]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "Referat Aufenthalts und Sicherheitswesen"
+        mapItem.openInMapsWithLaunchOptions(options)
+        
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        centerMapOnLocation(initialLocation)
+        let annotation = Station(latitude: 47.074628, longitude: 15.440566)
+        MapView.addAnnotation(annotation)
 
         // Do any additional setup after loading the view.
         Task_1.layer.masksToBounds = true
@@ -92,6 +130,11 @@ class ResidencePermitViewController: UIViewController {
             }
             
         }
+        NSUserDefaults.standardUserDefaults().setInteger(ResidencePermitTasks.Task_1, forKey: "ResidencePermitTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(ResidencePermitTasks.Task_2, forKey: "ResidencePermitTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.ResidencePermit, forKey: "MustDoVariables_ResidencePermit")
+        NSUserDefaults.standardUserDefaults().synchronize()
+
     }
 
     @IBAction func Task_2_Pressed(sender: UIButton) {
@@ -119,6 +162,10 @@ class ResidencePermitViewController: UIViewController {
             Task_2.alpha = 1
             Task_2_Done.hidden = true
         }
+        NSUserDefaults.standardUserDefaults().setInteger(ResidencePermitTasks.Task_1, forKey: "ResidencePermitTasks_Task_1")
+        NSUserDefaults.standardUserDefaults().setInteger(ResidencePermitTasks.Task_2, forKey: "ResidencePermitTasks_Task_2")
+        NSUserDefaults.standardUserDefaults().setInteger(MustDoVariables.ResidencePermit, forKey: "MustDoVariables_ResidencePermit")
+        NSUserDefaults.standardUserDefaults().synchronize()
         
     }
     /*

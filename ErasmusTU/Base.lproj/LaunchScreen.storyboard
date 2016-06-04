@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -31,7 +31,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYZ-uI-CwB">
                                 <rect key="frame" x="307" y="289" width="14" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="App_ERasmus_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="RSM-Op-8Cj">
@@ -46,11 +46,11 @@
                         <constraints>
                             <constraint firstItem="RSM-Op-8Cj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2hA-kJ-pT9"/>
                             <constraint firstItem="94f-bi-XIg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8zO-Zk-LHI"/>
-                            <constraint firstItem="94f-bi-XIg" firstAttribute="top" secondItem="fYZ-uI-CwB" secondAttribute="bottom" constant="30" id="FOc-MX-l1p"/>
+                            <constraint firstItem="94f-bi-XIg" firstAttribute="top" secondItem="fYZ-uI-CwB" secondAttribute="bottom" constant="15" id="FOc-MX-l1p"/>
                             <constraint firstItem="fYZ-uI-CwB" firstAttribute="top" secondItem="RSM-Op-8Cj" secondAttribute="bottom" constant="-100" id="UAR-Hl-P9b" userLabel=".top = App_ERasmus_Logo.png.bottom - 80"/>
                             <constraint firstItem="fYZ-uI-CwB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UvT-so-e90"/>
                             <constraint firstItem="B4D-AE-xhM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cLR-QL-499"/>
-                            <constraint firstItem="B4D-AE-xhM" firstAttribute="top" secondItem="94f-bi-XIg" secondAttribute="bottom" constant="-11" id="mzC-zO-4c3"/>
+                            <constraint firstItem="B4D-AE-xhM" firstAttribute="top" secondItem="94f-bi-XIg" secondAttribute="bottom" constant="-15" id="mzC-zO-4c3"/>
                         </constraints>
                     </view>
                 </viewController>

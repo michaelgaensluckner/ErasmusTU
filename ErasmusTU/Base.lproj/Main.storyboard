@@ -3566,12 +3566,27 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Y9a-W8-bKM">
-                                <rect key="frame" x="0.0" y="201" width="600" height="286"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9X-zP-hCn">
+                                <rect key="frame" x="20" y="89" width="560" height="145"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="286" id="S5M-TA-NIC"/>
+                                    <constraint firstAttribute="height" constant="145" id="9zA-Yi-2k9"/>
                                 </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Graz is a betautiful city with many opportunities to enjoy sports. For running or biking the Murradweg is very popular - also many parks and woods provide possibilities to do different sports.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" headIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Y9a-W8-bKM">
+                                <rect key="frame" x="0.0" y="242" width="600" height="309"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g79-6g-OXD">
                                     <size key="itemSize" width="250" height="200"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -3580,7 +3595,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="sportsCell" id="EGq-B2-OfP" customClass="SportCollectionViewCell" customModule="ErasmusTU" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="50" width="250" height="200"/>
+                                        <rect key="frame" x="20" y="62" width="250" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="200"/>
@@ -3636,35 +3651,16 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                     <outlet property="delegate" destination="Bh6-dS-nlF" id="Yya-Gk-tGt"/>
                                 </connections>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9X-zP-hCn">
-                                <rect key="frame" x="20" y="101" width="560" height="145"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Graz is a betautiful city with many opportunities to do different sports. For running or biking the Murradweg is very popular - also many parks and woods provide possibilities to do different sports </string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="13" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" headIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Y9a-W8-bKM" firstAttribute="bottom" secondItem="t4v-tz-Bbe" secondAttribute="top" id="1xC-m0-RnN"/>
-                            <constraint firstItem="Y9a-W8-bKM" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leading" id="6dN-mB-cLi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="F9X-zP-hCn" secondAttribute="trailing" id="Fya-se-BeL"/>
-                            <constraint firstItem="Y9a-W8-bKM" firstAttribute="top" secondItem="F9X-zP-hCn" secondAttribute="bottom" constant="40" id="OCB-mv-pTg"/>
-                            <constraint firstItem="F9X-zP-hCn" firstAttribute="top" secondItem="SIb-QK-Zfs" secondAttribute="bottom" constant="20" id="OIF-m7-5Ym"/>
-                            <constraint firstItem="F9X-zP-hCn" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leadingMargin" id="Q4R-JI-zfp"/>
-                            <constraint firstItem="F9X-zP-hCn" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leadingMargin" id="TpF-lD-OKW"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="F9X-zP-hCn" secondAttribute="trailing" id="Twz-Q1-DE1"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="F9X-zP-hCn" secondAttribute="trailing" id="dUn-yd-Obs"/>
-                            <constraint firstAttribute="trailing" secondItem="Y9a-W8-bKM" secondAttribute="trailing" id="eci-6R-ShB"/>
-                            <constraint firstItem="F9X-zP-hCn" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leadingMargin" id="xl1-ii-TCY"/>
+                            <constraint firstItem="F9X-zP-hCn" firstAttribute="centerX" secondItem="exR-mO-vwN" secondAttribute="centerX" id="6RS-0I-e7E"/>
+                            <constraint firstItem="Y9a-W8-bKM" firstAttribute="centerX" secondItem="exR-mO-vwN" secondAttribute="centerX" id="I1q-y8-V3G"/>
+                            <constraint firstItem="F9X-zP-hCn" firstAttribute="top" secondItem="SIb-QK-Zfs" secondAttribute="bottom" constant="25" id="Orr-Xc-qX8"/>
+                            <constraint firstItem="Y9a-W8-bKM" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leading" id="QYS-Ac-Y9x"/>
+                            <constraint firstItem="F9X-zP-hCn" firstAttribute="leading" secondItem="exR-mO-vwN" secondAttribute="leadingMargin" id="TSE-4o-K7y"/>
+                            <constraint firstItem="Y9a-W8-bKM" firstAttribute="top" secondItem="F9X-zP-hCn" secondAttribute="bottom" constant="8" symbolic="YES" id="Ucg-22-83A"/>
+                            <constraint firstItem="t4v-tz-Bbe" firstAttribute="top" secondItem="Y9a-W8-bKM" secondAttribute="bottom" id="yaz-qI-iMI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sports" id="f3q-Oy-AqQ">
@@ -3691,7 +3687,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3J8-qX-qMY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3J8-qX-qMY">
                                 <rect key="frame" x="256" y="388" width="88" height="30"/>
                                 <state key="normal" title="show more..."/>
                                 <connections>
@@ -3701,39 +3697,30 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wk8-vK-2Pn">
                                 <rect key="frame" x="20" y="20" width="182" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="182" id="hHu-tm-dGd"/>
+                                    <constraint firstAttribute="width" constant="182" id="sI2-IK-zSu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8f-fj-ZGQ">
-                                <rect key="frame" x="20" y="49" width="560" height="220"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8f-fj-ZGQ">
+                                <rect key="frame" x="20" y="64" width="560" height="220"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="220" id="hBw-fb-4qy"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="sgs-m0-9lP"/>
+                                    <constraint firstAttribute="height" constant="220" id="4cm-A6-2Us"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Description">
-                                        <attributes>
-                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="13" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="m8f-fj-ZGQ" firstAttribute="trailing" secondItem="JYq-re-QI6" secondAttribute="trailingMargin" id="FIS-J6-Udt"/>
-                            <constraint firstItem="wk8-vK-2Pn" firstAttribute="leading" secondItem="m8f-fj-ZGQ" secondAttribute="leading" id="Q9I-IG-ZPQ"/>
-                            <constraint firstItem="wk8-vK-2Pn" firstAttribute="leading" secondItem="JYq-re-QI6" secondAttribute="leadingMargin" id="UxS-03-cjn"/>
-                            <constraint firstItem="m8f-fj-ZGQ" firstAttribute="centerX" secondItem="3J8-qX-qMY" secondAttribute="centerX" id="djE-go-TDw"/>
-                            <constraint firstItem="m8f-fj-ZGQ" firstAttribute="top" secondItem="wk8-vK-2Pn" secondAttribute="bottom" constant="8" symbolic="YES" id="mVa-xX-aN4"/>
-                            <constraint firstItem="wk8-vK-2Pn" firstAttribute="top" secondItem="JYq-re-QI6" secondAttribute="top" constant="20" symbolic="YES" id="xLk-W7-5AG"/>
-                            <constraint firstItem="gjr-Dp-c5J" firstAttribute="top" secondItem="3J8-qX-qMY" secondAttribute="bottom" constant="69" id="yNc-08-Cy6"/>
+                            <constraint firstItem="m8f-fj-ZGQ" firstAttribute="centerX" secondItem="JYq-re-QI6" secondAttribute="centerX" id="Qct-BT-yxA"/>
+                            <constraint firstItem="m8f-fj-ZGQ" firstAttribute="centerX" secondItem="3J8-qX-qMY" secondAttribute="centerX" id="Sjr-pG-xMk"/>
+                            <constraint firstItem="wk8-vK-2Pn" firstAttribute="top" secondItem="JYq-re-QI6" secondAttribute="top" constant="20" symbolic="YES" id="Y73-31-4Ui"/>
+                            <constraint firstItem="m8f-fj-ZGQ" firstAttribute="top" secondItem="kX4-lz-n7b" secondAttribute="bottom" id="dVJ-Jy-FEh"/>
+                            <constraint firstItem="wk8-vK-2Pn" firstAttribute="leading" secondItem="JYq-re-QI6" secondAttribute="leadingMargin" id="gcB-1T-Ewq"/>
+                            <constraint firstItem="wk8-vK-2Pn" firstAttribute="leading" secondItem="m8f-fj-ZGQ" secondAttribute="leading" id="laY-n1-kzW"/>
+                            <constraint firstItem="gjr-Dp-c5J" firstAttribute="top" secondItem="3J8-qX-qMY" secondAttribute="bottom" constant="133" id="yEf-7e-c1z"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ptq-qp-zPO"/>
@@ -3761,40 +3748,15 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dm-0a-1js">
-                                <rect key="frame" x="31" y="373" width="88" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="lzQ-XE-Lny"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="374" width="88" height="30"/>
                                 <state key="normal" title="show more..."/>
                                 <connections>
                                     <action selector="linkPressed:" destination="wIf-Dv-3Hf" eventType="touchUpInside" id="Kpb-ee-PGG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zng-K1-6mI">
-                                <rect key="frame" x="31" y="147" width="410" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="243" id="4PO-r1-2gm"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="y2c-5u-TSo"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Schubertstaße 6a,  8010 Graz   Tu 6.30pm - 8pm   Fr 11am - 12am">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" headIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHA-73-l0y">
-                                <rect key="frame" x="31" y="66" width="549" height="60"/>
+                                <rect key="frame" x="20" y="79" width="549" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="g5w-H8-HRL"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="iwl-fT-WqE"/>
-                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">The Erasmus Student Network (ESN) is Europe’s biggest student organisation. It is our task to help international students with their social integration in their guest city and university.</string>
@@ -3807,16 +3769,31 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zng-K1-6mI">
+                                <rect key="frame" x="20" y="164" width="410" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Schubertstaße 6a,   8010 Graz    Tu 6.30pm - 8pm    Fr 11am - 12am">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" headIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="kfG-XT-mVY" firstAttribute="top" secondItem="8dm-0a-1js" secondAttribute="bottom" constant="84" id="9aN-o1-oLk"/>
-                            <constraint firstItem="zng-K1-6mI" firstAttribute="top" secondItem="aHA-73-l0y" secondAttribute="bottom" constant="21" id="Jm1-OJ-BPN"/>
-                            <constraint firstItem="aHA-73-l0y" firstAttribute="top" secondItem="0rE-Ph-KS6" secondAttribute="bottom" constant="20" id="WaZ-H5-OFU"/>
-                            <constraint firstItem="zng-K1-6mI" firstAttribute="top" secondItem="aHA-73-l0y" secondAttribute="bottom" constant="21" id="at2-cH-GvA"/>
-                            <constraint firstItem="aHA-73-l0y" firstAttribute="trailing" secondItem="PBh-KP-8Ib" secondAttribute="trailingMargin" id="eMG-xh-yiZ"/>
-                            <constraint firstItem="zng-K1-6mI" firstAttribute="leading" secondItem="aHA-73-l0y" secondAttribute="leading" id="ftx-7l-ygf"/>
-                            <constraint firstItem="zng-K1-6mI" firstAttribute="leading" secondItem="8dm-0a-1js" secondAttribute="leading" id="wco-go-kPl"/>
+                            <constraint firstItem="8dm-0a-1js" firstAttribute="top" secondItem="zng-K1-6mI" secondAttribute="bottom" constant="130" id="DsK-Y4-Wje"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="aHA-73-l0y" secondAttribute="leading" id="LUz-7l-ciK"/>
+                            <constraint firstItem="aHA-73-l0y" firstAttribute="top" secondItem="0rE-Ph-KS6" secondAttribute="bottom" constant="15" id="NRw-F7-Ez3"/>
+                            <constraint firstItem="zng-K1-6mI" firstAttribute="top" secondItem="aHA-73-l0y" secondAttribute="bottom" constant="25" id="Ncw-k8-JaZ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="8dm-0a-1js" secondAttribute="leading" id="QDV-V7-05A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zng-K1-6mI" secondAttribute="trailing" constant="150" id="aD2-8S-1VU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aHA-73-l0y" secondAttribute="trailing" constant="11" id="gw5-k0-Z6H"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="zng-K1-6mI" secondAttribute="leading" id="uxE-P6-J0x"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ESN" id="kJe-wN-QJH">
@@ -3840,6 +3817,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <rect key="frame" x="0.0" y="0.0" width="535" height="580"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -4651,13 +4629,13 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <rect key="frame" x="0.0" y="0.0" width="535" height="580"/>
                                 <gestureRecognizers/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Xf-9hD">
-                                <rect key="frame" x="496" y="462" width="20" height="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Xf-9hD">
+                                <rect key="frame" x="496" y="462" width="30" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="20" id="b59-up-bfh"/>
-                                    <constraint firstAttribute="height" constant="20" id="m4b-9i-Msm"/>
+                                    <constraint firstAttribute="height" constant="30" id="BJK-Nx-Zre"/>
+                                    <constraint firstAttribute="width" constant="30" id="CVx-lb-csw"/>
                                 </constraints>
-                                <state key="normal" image="Settings-50.png"/>
+                                <state key="normal" image="infoblue"/>
                                 <connections>
                                     <segue destination="RbT-Io-y3K" kind="popoverPresentation" identifier="showPopover" popoverAnchorView="xdO-Xf-9hD" id="qpL-dH-q3i">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
@@ -4668,13 +4646,11 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uYf-al-c90" firstAttribute="width" secondItem="7h2-Yo-sPo" secondAttribute="width" id="1Se-Eb-g88"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xdO-Xf-9hD" secondAttribute="trailing" constant="-1" id="FbB-B5-La0"/>
-                            <constraint firstItem="1qM-Kn-9Y4" firstAttribute="top" secondItem="xdO-Xf-9hD" secondAttribute="bottom" constant="54" id="Kn1-l1-BVs"/>
-                            <constraint firstItem="xdO-Xf-9hD" firstAttribute="leading" secondItem="uYf-al-c90" secondAttribute="trailing" constant="-39" id="Kzn-3C-f6o"/>
+                            <constraint firstItem="xdO-Xf-9hD" firstAttribute="top" secondItem="uYf-al-c90" secondAttribute="bottom" constant="-118" id="CBa-Zc-7Qp"/>
+                            <constraint firstItem="xdO-Xf-9hD" firstAttribute="leading" secondItem="uYf-al-c90" secondAttribute="trailing" constant="-39" id="Ora-oh-Qcq"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="centerY" secondItem="7h2-Yo-sPo" secondAttribute="centerY" id="Vfj-BI-sOI"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="height" secondItem="7h2-Yo-sPo" secondAttribute="height" id="Z90-pu-ZTX"/>
                             <constraint firstItem="uYf-al-c90" firstAttribute="centerX" secondItem="7h2-Yo-sPo" secondAttribute="centerX" id="kFu-pa-WP6"/>
-                            <constraint firstItem="xdO-Xf-9hD" firstAttribute="top" secondItem="uYf-al-c90" secondAttribute="bottom" constant="-74" id="x0y-D9-a3M"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" id="NOw-cE-L8s"/>
@@ -5476,12 +5452,12 @@ Address: Mandellstraße 15, 8010 Graz  </string>
     <resources>
         <image name="Alte.gif" width="800" height="600"/>
         <image name="Neue.gif" width="800" height="600"/>
-        <image name="Settings-50.png" width="50" height="50"/>
         <image name="email1.png" width="256" height="256"/>
         <image name="free" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
         <image name="icon-locatie.png" width="300" height="196"/>
         <image name="info" width="30" height="30"/>
+        <image name="infoblue" width="30" height="30"/>
         <image name="map" width="30" height="30"/>
         <image name="mapinfeld.gif" width="1000" height="600"/>
         <image name="phone-call.png" width="256" height="256"/>

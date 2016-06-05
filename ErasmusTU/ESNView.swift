@@ -21,10 +21,13 @@ class ENSView: UIViewController{
     }
     
     override func viewDidLoad() {
+        descLabel.sizeToFit()
+        infoLabel.sizeToFit()
         descLabel.layer.cornerRadius = 5
         descLabel.clipsToBounds = true
         infoLabel.layer.cornerRadius = 5
         infoLabel.clipsToBounds = true
+        
         
     }
     

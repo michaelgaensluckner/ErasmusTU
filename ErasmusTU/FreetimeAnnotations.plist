@@ -32,6 +32,48 @@
 	</dict>
 	<dict>
 		<key>title</key>
+		<string>Sägewerk</string>
+		<key>subtitle</key>
+		<string>Restaurant</string>
+		<key>adress</key>
+		<string>Schlögelgasse 1, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.067858</real>
+		<key>longitude</key>
+		<real>15.446855</real>
+		<key>link</key>
+		<string>http://www.diebausatzlokale.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Posaune</string>
+		<key>subtitle</key>
+		<string>Restaurant</string>
+		<key>adress</key>
+		<string>Zinzendorfgasse 34, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.075973</real>
+		<key>longitude</key>
+		<real>15.450125</real>
+		<key>link</key>
+		<string>http://www.diebausatzlokale.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Grammophon</string>
+		<key>subtitle</key>
+		<string>Restaurant</string>
+		<key>adress</key>
+		<string>Maiffredygasse 12, 8010 Graz</string>
+		<key>latitude</key>
+		<real>47.071564</real>
+		<key>longitude</key>
+		<real>15.448658</real>
+		<key>link</key>
+		<string>http://www.diebausatzlokale.at/</string>
+	</dict>
+	<dict>
+		<key>title</key>
 		<string>Propeller</string>
 		<key>subtitle</key>
 		<string>Restaurant</string>

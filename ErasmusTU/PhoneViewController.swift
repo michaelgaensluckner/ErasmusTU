@@ -20,6 +20,7 @@ class PhoneViewController: UIViewController {
     @IBOutlet var label6: UILabel!
     @IBOutlet var label7: UILabel!
     @IBOutlet var label8: UILabel!
+    @IBOutlet var label9: UILabel!
     
     @IBOutlet var button1: UIButton!
     @IBOutlet var button2: UIButton!
@@ -99,6 +100,7 @@ class PhoneViewController: UIViewController {
         label6.layer.cornerRadius = 5
         label7.layer.cornerRadius = 5
         label8.layer.cornerRadius = 5
+        label9.layer.cornerRadius = 5
         
         label1.layer.masksToBounds=true
         label2.layer.masksToBounds=true
@@ -108,10 +110,11 @@ class PhoneViewController: UIViewController {
         label6.layer.masksToBounds=true
         label7.layer.masksToBounds=true
         label8.layer.masksToBounds=true
+        label9.layer.masksToBounds=true
         
         button1.layer.cornerRadius = 5
         button2.layer.cornerRadius = 5
-
+        button3.layer.cornerRadius = 5
         
         // Do any additional setup after loading the view.
     }

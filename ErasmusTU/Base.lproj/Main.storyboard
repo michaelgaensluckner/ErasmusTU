@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tKk-o4-ltV">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -669,6 +669,173 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ab2-UY-tNz" userLabel="Infeld">
+                                <rect key="frame" x="0.0" y="108" width="600" height="443"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTU-rF-Ojb">
+                                        <rect key="frame" x="586" y="8" width="12" height="26"/>
+                                        <color key="backgroundColor" red="0.41176470590000003" green="0.50196078430000002" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="12" id="9jh-7P-gy8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g81-Ou-2XN">
+                                        <rect key="frame" x="155" y="8" width="12" height="150"/>
+                                        <color key="backgroundColor" red="0.41176470590000003" green="0.50196078430000002" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="12" id="gEt-Xg-9a7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W85-d7-caE">
+                                        <rect key="frame" x="2" y="22" width="157" height="40"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">    ~M-Th 7h to 16h
+    ~F 7h to 15h</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYp-NT-cg0">
+                                        <rect key="frame" x="2" y="118" width="157" height="40"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="157" id="mcN-sS-XPb"/>
+                                            <constraint firstAttribute="height" constant="40" id="tJA-6C-bHm"/>
+                                        </constraints>
+                                        <string key="text">    ~M-Th 08h30 to 16h30
+    ~F 08h30 to 12h30</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8i-SO-SSu">
+                                        <rect key="frame" x="2" y="70" width="157" height="40"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">     ~M-Th 8h to 17h
+     ~F 8h-15h</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copy Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffd-1G-yI2">
+                                        <rect key="frame" x="2" y="56" width="157" height="20"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Fachbibliothek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f61-7r-AXR">
+                                        <rect key="frame" x="2" y="104" width="157" height="20"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Mensa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="us8-C6-1i8">
+                                        <rect key="frame" x="2" y="8" width="157" height="20"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="Viq-7y-I0D"/>
+                                            <constraint firstAttribute="height" constant="20" id="Zrh-AT-fRR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Viq-7y-I0D"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Inffeldgasse                               " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GYB-YY-OB0">
+                                        <rect key="frame" x="508" y="8" width="82" height="26"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="82" id="1to-yl-iNM"/>
+                                            <constraint firstAttribute="height" constant="26" id="ymE-Yp-FwS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                    </textView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yv2-om-cae">
+                                        <rect key="frame" x="25" y="174" width="550" height="261"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapinfeld.gif" translatesAutoresizingMaskIntoConstraints="NO" id="vs8-na-tz2" userLabel="Image View">
+                                                <rect key="frame" x="0.0" y="0.0" width="1000" height="600"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="vs8-na-tz2" firstAttribute="leading" secondItem="yv2-om-cae" secondAttribute="leading" id="28Z-eG-5O0"/>
+                                            <constraint firstAttribute="trailing" secondItem="vs8-na-tz2" secondAttribute="trailing" id="2rW-qO-qN0"/>
+                                            <constraint firstItem="vs8-na-tz2" firstAttribute="top" secondItem="yv2-om-cae" secondAttribute="top" id="Tms-ff-8TN"/>
+                                            <constraint firstAttribute="bottom" secondItem="vs8-na-tz2" secondAttribute="bottom" id="hVM-hk-fgj"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UcN-uY-PXa">
+                                        <rect key="frame" x="543" y="42" width="44" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="9u6-lY-y5z"/>
+                                            <constraint firstAttribute="height" constant="37" id="sAE-AJ-lN1"/>
+                                        </constraints>
+                                        <state key="normal" image="App_Erasmus_MAp.png"/>
+                                        <connections>
+                                            <action selector="MapInfeld:" destination="6YG-xE-Rm0" eventType="touchUpInside" id="wos-fU-xcd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="rYp-NT-cg0" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="0Nn-f6-ldX"/>
+                                    <constraint firstItem="W85-d7-caE" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="5EC-4S-xP6"/>
+                                    <constraint firstItem="W85-d7-caE" firstAttribute="top" secondItem="us8-C6-1i8" secondAttribute="bottom" constant="-6" id="5hb-7v-ALm"/>
+                                    <constraint firstItem="rYp-NT-cg0" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="9RT-O8-Zii"/>
+                                    <constraint firstItem="g81-Ou-2XN" firstAttribute="leading" secondItem="W85-d7-caE" secondAttribute="trailing" constant="-4" id="Bu5-vt-0PM"/>
+                                    <constraint firstItem="W85-d7-caE" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="CUD-cf-Nvm"/>
+                                    <constraint firstItem="G8i-SO-SSu" firstAttribute="height" secondItem="W85-d7-caE" secondAttribute="height" id="CfA-41-zNj"/>
+                                    <constraint firstItem="g81-Ou-2XN" firstAttribute="top" secondItem="us8-C6-1i8" secondAttribute="top" id="DIY-j5-Ofy"/>
+                                    <constraint firstItem="yv2-om-cae" firstAttribute="top" secondItem="Ab2-UY-tNz" secondAttribute="top" constant="20" id="JqI-1P-04n"/>
+                                    <constraint firstItem="g81-Ou-2XN" firstAttribute="bottom" secondItem="rYp-NT-cg0" secondAttribute="bottom" id="KGn-Hb-rdQ"/>
+                                    <constraint firstItem="Ffd-1G-yI2" firstAttribute="top" secondItem="W85-d7-caE" secondAttribute="bottom" constant="-6" id="Kkd-1W-uaR"/>
+                                    <constraint firstAttribute="trailing" secondItem="yv2-om-cae" secondAttribute="trailing" constant="25" id="M2l-li-UfL"/>
+                                    <constraint firstAttribute="trailing" secondItem="wTU-rF-Ojb" secondAttribute="trailing" constant="2" id="Mm2-yv-HuX"/>
+                                    <constraint firstItem="rYp-NT-cg0" firstAttribute="height" secondItem="W85-d7-caE" secondAttribute="height" id="N2b-Ge-15c"/>
+                                    <constraint firstItem="f61-7r-AXR" firstAttribute="height" secondItem="us8-C6-1i8" secondAttribute="height" id="Qjm-VY-7yB"/>
+                                    <constraint firstItem="us8-C6-1i8" firstAttribute="leading" secondItem="Ab2-UY-tNz" secondAttribute="leading" constant="2" id="Tcn-kb-BXN"/>
+                                    <constraint firstItem="rYp-NT-cg0" firstAttribute="top" secondItem="f61-7r-AXR" secondAttribute="bottom" constant="-6" id="Uoe-by-chG"/>
+                                    <constraint firstItem="wTU-rF-Ojb" firstAttribute="leading" secondItem="GYB-YY-OB0" secondAttribute="trailing" constant="-4" id="V00-fB-yQz"/>
+                                    <constraint firstItem="Ffd-1G-yI2" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="XTv-Yn-7K7"/>
+                                    <constraint firstItem="G8i-SO-SSu" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="cGY-pd-9ix"/>
+                                    <constraint firstAttribute="trailing" secondItem="UcN-uY-PXa" secondAttribute="trailing" constant="13" id="cv3-5F-ti4"/>
+                                    <constraint firstItem="f61-7r-AXR" firstAttribute="top" secondItem="G8i-SO-SSu" secondAttribute="bottom" constant="-6" id="f1D-qX-9Uv"/>
+                                    <constraint firstItem="yv2-om-cae" firstAttribute="top" secondItem="rYp-NT-cg0" secondAttribute="bottom" constant="16" id="fCl-c2-Hmk"/>
+                                    <constraint firstItem="G8i-SO-SSu" firstAttribute="top" secondItem="Ffd-1G-yI2" secondAttribute="bottom" constant="-6" id="fro-5V-rKC"/>
+                                    <constraint firstItem="wTU-rF-Ojb" firstAttribute="bottom" secondItem="GYB-YY-OB0" secondAttribute="bottom" id="gUA-mx-ZgT"/>
+                                    <constraint firstItem="us8-C6-1i8" firstAttribute="top" secondItem="Ab2-UY-tNz" secondAttribute="top" constant="8" id="ic5-QL-z5V"/>
+                                    <constraint firstItem="GYB-YY-OB0" firstAttribute="top" secondItem="us8-C6-1i8" secondAttribute="top" id="j4h-yf-bqj"/>
+                                    <constraint firstItem="f61-7r-AXR" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="mC5-wm-PEi"/>
+                                    <constraint firstItem="yv2-om-cae" firstAttribute="leading" secondItem="Ab2-UY-tNz" secondAttribute="leading" constant="25" id="rKR-a8-r84"/>
+                                    <constraint firstItem="wTU-rF-Ojb" firstAttribute="top" secondItem="us8-C6-1i8" secondAttribute="top" id="rW1-07-qb2"/>
+                                    <constraint firstItem="Ffd-1G-yI2" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="rzq-0D-Bpc"/>
+                                    <constraint firstAttribute="bottom" secondItem="yv2-om-cae" secondAttribute="bottom" constant="8" id="uTp-6U-xoS"/>
+                                    <constraint firstItem="Ffd-1G-yI2" firstAttribute="height" secondItem="us8-C6-1i8" secondAttribute="height" id="uaP-Vk-ngu"/>
+                                    <constraint firstItem="UcN-uY-PXa" firstAttribute="top" secondItem="wTU-rF-Ojb" secondAttribute="bottom" constant="8" id="uxZ-vC-prN"/>
+                                    <constraint firstItem="G8i-SO-SSu" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="w04-JL-uLg"/>
+                                    <constraint firstItem="f61-7r-AXR" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="yr3-7i-p7L"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JqI-1P-04n"/>
+                                    </mask>
+                                </variation>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmk-hC-5TZ" userLabel="Alte">
                                 <rect key="frame" x="0.0" y="108" width="600" height="443"/>
                                 <subviews>
@@ -761,7 +928,7 @@
                                             <constraint firstAttribute="height" constant="42" id="2KL-eg-vZs"/>
                                             <constraint firstAttribute="width" constant="45" id="zcV-Sq-e6d"/>
                                         </constraints>
-                                        <state key="normal" image="icon-locatie.png"/>
+                                        <state key="normal" image="App_Erasmus_MAp.png"/>
                                         <connections>
                                             <action selector="MapAlte:" destination="6YG-xE-Rm0" eventType="touchUpInside" id="9QE-9E-yBK"/>
                                         </connections>
@@ -838,6 +1005,17 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHe-ZA-Nw2" userLabel="Neue">
                                 <rect key="frame" x="0.0" y="108" width="600" height="443"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ag7-tV-RRu">
+                                        <rect key="frame" x="535" y="74" width="45" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="9OS-cy-1gJ"/>
+                                            <constraint firstAttribute="width" constant="45" id="oum-vQ-pNj"/>
+                                        </constraints>
+                                        <state key="normal" image="App_Erasmus_MAp.png"/>
+                                        <connections>
+                                            <action selector="MapNeue:" destination="6YG-xE-Rm0" eventType="touchUpInside" id="jqO-rD-4zR"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9T-GZ-iU3">
                                         <rect key="frame" x="147" y="16" width="12" height="130"/>
                                         <color key="backgroundColor" red="0.41176470590000003" green="0.50196078430000002" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -908,10 +1086,6 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Neue.gif" translatesAutoresizingMaskIntoConstraints="NO" id="t4x-Va-r3z">
-                                        <rect key="frame" x="25" y="161" width="550" height="274"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                    </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Neue Technik                                          Stremayrgasse 16                                 " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HxW-hD-cxr">
                                         <rect key="frame" x="465" y="16" width="125" height="42"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -923,10 +1097,27 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Ir-dx-9jD">
+                                        <rect key="frame" x="25" y="161" width="550" height="274"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Neue.gif" translatesAutoresizingMaskIntoConstraints="NO" id="t4x-Va-r3z">
+                                                <rect key="frame" x="0.0" y="0.0" width="550" height="274"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="t4x-Va-r3z" firstAttribute="width" secondItem="7Ir-dx-9jD" secondAttribute="width" id="FEA-ga-iBf"/>
+                                            <constraint firstItem="t4x-Va-r3z" firstAttribute="height" secondItem="7Ir-dx-9jD" secondAttribute="height" id="JZw-sZ-NNx"/>
+                                            <constraint firstItem="t4x-Va-r3z" firstAttribute="centerY" secondItem="7Ir-dx-9jD" secondAttribute="centerY" id="gyr-x8-clK"/>
+                                            <constraint firstItem="t4x-Va-r3z" firstAttribute="centerX" secondItem="7Ir-dx-9jD" secondAttribute="centerX" id="tjz-5A-N5v"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="delegate" destination="6YG-xE-Rm0" id="QbX-zr-Ndk"/>
+                                        </connections>
+                                    </scrollView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="t4x-Va-r3z" firstAttribute="top" secondItem="MRw-S8-GvZ" secondAttribute="bottom" id="1ow-MO-dWE"/>
                                     <constraint firstItem="HxW-hD-cxr" firstAttribute="top" secondItem="oX2-yi-WIR" secondAttribute="top" id="4Im-Is-W87"/>
                                     <constraint firstItem="Rfv-LW-zen" firstAttribute="height" secondItem="oX2-yi-WIR" secondAttribute="height" id="7OP-mr-8JD"/>
                                     <constraint firstItem="ym4-QG-sXF" firstAttribute="trailing" secondItem="oX2-yi-WIR" secondAttribute="trailing" id="7Zc-FY-N5t"/>
@@ -937,13 +1128,13 @@
                                     <constraint firstItem="La8-7L-Inu" firstAttribute="leading" secondItem="oX2-yi-WIR" secondAttribute="leading" id="C15-yp-p3g"/>
                                     <constraint firstItem="a9T-GZ-iU3" firstAttribute="leading" secondItem="MRw-S8-GvZ" secondAttribute="trailing" constant="-4" id="CT2-ge-1kC"/>
                                     <constraint firstItem="La8-7L-Inu" firstAttribute="top" secondItem="ym4-QG-sXF" secondAttribute="bottom" constant="-6" id="ELF-PY-Kfx"/>
-                                    <constraint firstAttribute="trailing" secondItem="t4x-Va-r3z" secondAttribute="trailing" constant="25" id="EP2-sZ-gVd"/>
                                     <constraint firstItem="ym4-QG-sXF" firstAttribute="width" secondItem="oX2-yi-WIR" secondAttribute="width" id="Ehp-FC-Tjh"/>
-                                    <constraint firstItem="t4x-Va-r3z" firstAttribute="top" secondItem="a9T-GZ-iU3" secondAttribute="bottom" constant="15" id="FpU-Dr-aNE"/>
+                                    <constraint firstAttribute="bottom" secondItem="7Ir-dx-9jD" secondAttribute="bottom" constant="8" id="GI8-SF-oFo"/>
                                     <constraint firstItem="MRw-S8-GvZ" firstAttribute="height" secondItem="ym4-QG-sXF" secondAttribute="height" id="GyN-nM-Hmt"/>
+                                    <constraint firstAttribute="trailing" secondItem="ag7-tV-RRu" secondAttribute="trailing" constant="20" id="HeZ-4l-XXP"/>
+                                    <constraint firstItem="7Ir-dx-9jD" firstAttribute="top" secondItem="MRw-S8-GvZ" secondAttribute="bottom" constant="15" id="JA0-my-3Kz"/>
                                     <constraint firstItem="oX2-yi-WIR" firstAttribute="top" secondItem="nHe-ZA-Nw2" secondAttribute="top" constant="16" id="K75-gz-oWy"/>
                                     <constraint firstItem="La8-7L-Inu" firstAttribute="height" secondItem="oX2-yi-WIR" secondAttribute="height" id="KLT-uf-zlj"/>
-                                    <constraint firstAttribute="bottom" secondItem="t4x-Va-r3z" secondAttribute="bottom" constant="8" id="NFU-Aq-5Bq"/>
                                     <constraint firstItem="oX2-yi-WIR" firstAttribute="leading" secondItem="nHe-ZA-Nw2" secondAttribute="leading" constant="2" id="YrK-2p-97J"/>
                                     <constraint firstItem="MRw-S8-GvZ" firstAttribute="bottom" secondItem="a9T-GZ-iU3" secondAttribute="bottom" id="ZxV-MI-Jvs"/>
                                     <constraint firstItem="MRw-S8-GvZ" firstAttribute="top" secondItem="La8-7L-Inu" secondAttribute="bottom" constant="-6" id="a6s-oJ-k3V"/>
@@ -951,11 +1142,11 @@
                                     <constraint firstItem="MRw-S8-GvZ" firstAttribute="width" secondItem="oX2-yi-WIR" secondAttribute="width" id="cS3-5l-nBc"/>
                                     <constraint firstItem="Gj8-gN-9Ue" firstAttribute="width" secondItem="oX2-yi-WIR" secondAttribute="width" id="cb9-VY-ykL"/>
                                     <constraint firstItem="Gj8-gN-9Ue" firstAttribute="top" secondItem="oX2-yi-WIR" secondAttribute="bottom" constant="-6" id="eQk-hU-WRo"/>
+                                    <constraint firstItem="ag7-tV-RRu" firstAttribute="top" secondItem="HxW-hD-cxr" secondAttribute="bottom" constant="16" id="eeN-M2-aOa"/>
                                     <constraint firstItem="Rfv-LW-zen" firstAttribute="top" secondItem="Gj8-gN-9Ue" secondAttribute="bottom" constant="-6" id="fxi-Fs-Lvu"/>
                                     <constraint firstItem="MRw-S8-GvZ" firstAttribute="leading" secondItem="oX2-yi-WIR" secondAttribute="leading" id="gow-ml-fq1"/>
                                     <constraint firstItem="La8-7L-Inu" firstAttribute="width" secondItem="oX2-yi-WIR" secondAttribute="width" id="grx-iS-0Ad"/>
                                     <constraint firstItem="Rfv-LW-zen" firstAttribute="trailing" secondItem="oX2-yi-WIR" secondAttribute="trailing" id="iqa-Bn-rIc"/>
-                                    <constraint firstItem="t4x-Va-r3z" firstAttribute="leading" secondItem="nHe-ZA-Nw2" secondAttribute="leading" constant="25" id="lrK-hL-WDp"/>
                                     <constraint firstItem="MRw-S8-GvZ" firstAttribute="height" secondItem="oX2-yi-WIR" secondAttribute="height" id="m1D-xh-gKY"/>
                                     <constraint firstItem="HzZ-YZ-IcH" firstAttribute="top" secondItem="oX2-yi-WIR" secondAttribute="top" id="m49-Ep-oU3"/>
                                     <constraint firstItem="ym4-QG-sXF" firstAttribute="height" secondItem="oX2-yi-WIR" secondAttribute="height" id="mgr-P1-CgJ"/>
@@ -966,7 +1157,9 @@
                                     <constraint firstItem="La8-7L-Inu" firstAttribute="height" secondItem="oX2-yi-WIR" secondAttribute="height" id="ttn-rE-yjG"/>
                                     <constraint firstItem="Gj8-gN-9Ue" firstAttribute="trailing" secondItem="oX2-yi-WIR" secondAttribute="trailing" id="uBH-XM-ISI"/>
                                     <constraint firstItem="HzZ-YZ-IcH" firstAttribute="width" secondItem="a9T-GZ-iU3" secondAttribute="width" id="uFN-vO-dvd"/>
+                                    <constraint firstItem="7Ir-dx-9jD" firstAttribute="leading" secondItem="nHe-ZA-Nw2" secondAttribute="leading" constant="25" id="v1x-A1-Bnx"/>
                                     <constraint firstAttribute="trailing" secondItem="HzZ-YZ-IcH" secondAttribute="trailing" constant="2" id="wGd-Cv-8Lt"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Ir-dx-9jD" secondAttribute="trailing" constant="25" id="xC0-jI-tBv"/>
                                     <constraint firstItem="ym4-QG-sXF" firstAttribute="top" secondItem="Rfv-LW-zen" secondAttribute="bottom" constant="-6" id="xcf-Ij-cTP"/>
                                     <constraint firstItem="MRw-S8-GvZ" firstAttribute="trailing" secondItem="oX2-yi-WIR" secondAttribute="trailing" id="xgv-5q-uun"/>
                                     <constraint firstItem="a9T-GZ-iU3" firstAttribute="top" secondItem="oX2-yi-WIR" secondAttribute="top" id="xsg-lv-xub"/>
@@ -976,174 +1169,6 @@
                                     <mask key="constraints">
                                         <exclude reference="mgr-P1-CgJ"/>
                                         <exclude reference="m1D-xh-gKY"/>
-                                        <exclude reference="1ow-MO-dWE"/>
-                                    </mask>
-                                </variation>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ab2-UY-tNz" userLabel="Infeld">
-                                <rect key="frame" x="0.0" y="108" width="600" height="443"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTU-rF-Ojb">
-                                        <rect key="frame" x="586" y="8" width="12" height="26"/>
-                                        <color key="backgroundColor" red="0.41176470590000003" green="0.50196078430000002" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="12" id="9jh-7P-gy8"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g81-Ou-2XN">
-                                        <rect key="frame" x="155" y="8" width="12" height="150"/>
-                                        <color key="backgroundColor" red="0.41176470590000003" green="0.50196078430000002" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="12" id="gEt-Xg-9a7"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W85-d7-caE">
-                                        <rect key="frame" x="2" y="22" width="157" height="40"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                        <string key="text">    ~M-Th 7h to 16h
-    ~F 7h to 15h</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYp-NT-cg0">
-                                        <rect key="frame" x="2" y="118" width="157" height="40"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="157" id="mcN-sS-XPb"/>
-                                            <constraint firstAttribute="height" constant="40" id="tJA-6C-bHm"/>
-                                        </constraints>
-                                        <string key="text">    ~M-Th 08h30 to 16h30
-    ~F 08h30 to 12h30</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8i-SO-SSu">
-                                        <rect key="frame" x="2" y="70" width="157" height="40"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                        <string key="text">     ~M-Th 8h to 17h
-     ~F 8h-15h</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copy Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffd-1G-yI2">
-                                        <rect key="frame" x="2" y="56" width="157" height="20"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Fachbibliothek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f61-7r-AXR">
-                                        <rect key="frame" x="2" y="104" width="157" height="20"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Mensa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="us8-C6-1i8">
-                                        <rect key="frame" x="2" y="8" width="157" height="20"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="Viq-7y-I0D"/>
-                                            <constraint firstAttribute="height" constant="20" id="Zrh-AT-fRR"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="Viq-7y-I0D"/>
-                                            </mask>
-                                        </variation>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UcN-uY-PXa">
-                                        <rect key="frame" x="543" y="42" width="44" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="44" id="9u6-lY-y5z"/>
-                                            <constraint firstAttribute="height" constant="37" id="sAE-AJ-lN1"/>
-                                        </constraints>
-                                        <state key="normal" image="icon-locatie.png"/>
-                                        <connections>
-                                            <action selector="MapInfeld:" destination="6YG-xE-Rm0" eventType="touchUpInside" id="wos-fU-xcd"/>
-                                        </connections>
-                                    </button>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Inffeldgasse                               " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GYB-YY-OB0">
-                                        <rect key="frame" x="508" y="8" width="82" height="26"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="82" id="1to-yl-iNM"/>
-                                            <constraint firstAttribute="height" constant="26" id="ymE-Yp-FwS"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                                    </textView>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yv2-om-cae">
-                                        <rect key="frame" x="25" y="174" width="550" height="261"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapinfeld.gif" translatesAutoresizingMaskIntoConstraints="NO" id="vs8-na-tz2" userLabel="Image View">
-                                                <rect key="frame" x="0.0" y="0.0" width="1000" height="600"/>
-                                                <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                            </imageView>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="vs8-na-tz2" firstAttribute="leading" secondItem="yv2-om-cae" secondAttribute="leading" id="28Z-eG-5O0"/>
-                                            <constraint firstAttribute="trailing" secondItem="vs8-na-tz2" secondAttribute="trailing" id="2rW-qO-qN0"/>
-                                            <constraint firstItem="vs8-na-tz2" firstAttribute="top" secondItem="yv2-om-cae" secondAttribute="top" id="Tms-ff-8TN"/>
-                                            <constraint firstAttribute="bottom" secondItem="vs8-na-tz2" secondAttribute="bottom" id="hVM-hk-fgj"/>
-                                        </constraints>
-                                    </scrollView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="rYp-NT-cg0" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="0Nn-f6-ldX"/>
-                                    <constraint firstItem="W85-d7-caE" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="5EC-4S-xP6"/>
-                                    <constraint firstItem="W85-d7-caE" firstAttribute="top" secondItem="us8-C6-1i8" secondAttribute="bottom" constant="-6" id="5hb-7v-ALm"/>
-                                    <constraint firstItem="rYp-NT-cg0" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="9RT-O8-Zii"/>
-                                    <constraint firstItem="g81-Ou-2XN" firstAttribute="leading" secondItem="W85-d7-caE" secondAttribute="trailing" constant="-4" id="Bu5-vt-0PM"/>
-                                    <constraint firstItem="W85-d7-caE" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="CUD-cf-Nvm"/>
-                                    <constraint firstItem="G8i-SO-SSu" firstAttribute="height" secondItem="W85-d7-caE" secondAttribute="height" id="CfA-41-zNj"/>
-                                    <constraint firstItem="g81-Ou-2XN" firstAttribute="top" secondItem="us8-C6-1i8" secondAttribute="top" id="DIY-j5-Ofy"/>
-                                    <constraint firstItem="yv2-om-cae" firstAttribute="top" secondItem="Ab2-UY-tNz" secondAttribute="top" constant="20" id="JqI-1P-04n"/>
-                                    <constraint firstItem="g81-Ou-2XN" firstAttribute="bottom" secondItem="rYp-NT-cg0" secondAttribute="bottom" id="KGn-Hb-rdQ"/>
-                                    <constraint firstItem="Ffd-1G-yI2" firstAttribute="top" secondItem="W85-d7-caE" secondAttribute="bottom" constant="-6" id="Kkd-1W-uaR"/>
-                                    <constraint firstAttribute="trailing" secondItem="yv2-om-cae" secondAttribute="trailing" constant="25" id="M2l-li-UfL"/>
-                                    <constraint firstAttribute="trailing" secondItem="wTU-rF-Ojb" secondAttribute="trailing" constant="2" id="Mm2-yv-HuX"/>
-                                    <constraint firstItem="rYp-NT-cg0" firstAttribute="height" secondItem="W85-d7-caE" secondAttribute="height" id="N2b-Ge-15c"/>
-                                    <constraint firstItem="f61-7r-AXR" firstAttribute="height" secondItem="us8-C6-1i8" secondAttribute="height" id="Qjm-VY-7yB"/>
-                                    <constraint firstItem="us8-C6-1i8" firstAttribute="leading" secondItem="Ab2-UY-tNz" secondAttribute="leading" constant="2" id="Tcn-kb-BXN"/>
-                                    <constraint firstItem="rYp-NT-cg0" firstAttribute="top" secondItem="f61-7r-AXR" secondAttribute="bottom" constant="-6" id="Uoe-by-chG"/>
-                                    <constraint firstItem="wTU-rF-Ojb" firstAttribute="leading" secondItem="GYB-YY-OB0" secondAttribute="trailing" constant="-4" id="V00-fB-yQz"/>
-                                    <constraint firstItem="Ffd-1G-yI2" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="XTv-Yn-7K7"/>
-                                    <constraint firstItem="G8i-SO-SSu" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="cGY-pd-9ix"/>
-                                    <constraint firstAttribute="trailing" secondItem="UcN-uY-PXa" secondAttribute="trailing" constant="13" id="cv3-5F-ti4"/>
-                                    <constraint firstItem="f61-7r-AXR" firstAttribute="top" secondItem="G8i-SO-SSu" secondAttribute="bottom" constant="-6" id="f1D-qX-9Uv"/>
-                                    <constraint firstItem="yv2-om-cae" firstAttribute="top" secondItem="rYp-NT-cg0" secondAttribute="bottom" constant="16" id="fCl-c2-Hmk"/>
-                                    <constraint firstItem="G8i-SO-SSu" firstAttribute="top" secondItem="Ffd-1G-yI2" secondAttribute="bottom" constant="-6" id="fro-5V-rKC"/>
-                                    <constraint firstItem="wTU-rF-Ojb" firstAttribute="bottom" secondItem="GYB-YY-OB0" secondAttribute="bottom" id="gUA-mx-ZgT"/>
-                                    <constraint firstItem="us8-C6-1i8" firstAttribute="top" secondItem="Ab2-UY-tNz" secondAttribute="top" constant="8" id="ic5-QL-z5V"/>
-                                    <constraint firstItem="GYB-YY-OB0" firstAttribute="top" secondItem="us8-C6-1i8" secondAttribute="top" id="j4h-yf-bqj"/>
-                                    <constraint firstItem="f61-7r-AXR" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="mC5-wm-PEi"/>
-                                    <constraint firstItem="yv2-om-cae" firstAttribute="leading" secondItem="Ab2-UY-tNz" secondAttribute="leading" constant="25" id="rKR-a8-r84"/>
-                                    <constraint firstItem="wTU-rF-Ojb" firstAttribute="top" secondItem="us8-C6-1i8" secondAttribute="top" id="rW1-07-qb2"/>
-                                    <constraint firstItem="Ffd-1G-yI2" firstAttribute="trailing" secondItem="us8-C6-1i8" secondAttribute="trailing" id="rzq-0D-Bpc"/>
-                                    <constraint firstAttribute="bottom" secondItem="yv2-om-cae" secondAttribute="bottom" constant="8" id="uTp-6U-xoS"/>
-                                    <constraint firstItem="Ffd-1G-yI2" firstAttribute="height" secondItem="us8-C6-1i8" secondAttribute="height" id="uaP-Vk-ngu"/>
-                                    <constraint firstItem="UcN-uY-PXa" firstAttribute="top" secondItem="wTU-rF-Ojb" secondAttribute="bottom" constant="8" id="uxZ-vC-prN"/>
-                                    <constraint firstItem="G8i-SO-SSu" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="w04-JL-uLg"/>
-                                    <constraint firstItem="f61-7r-AXR" firstAttribute="leading" secondItem="us8-C6-1i8" secondAttribute="leading" id="yr3-7i-p7L"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="JqI-1P-04n"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -1216,6 +1241,7 @@
                         <outlet property="copyStoreAltre" destination="neG-Cg-PfI" id="9Mp-ee-xTG"/>
                         <outlet property="copyStoreInfeld" destination="Ffd-1G-yI2" id="yJY-G8-PgR"/>
                         <outlet property="copyStoreNeue" destination="Rfv-LW-zen" id="Fvo-5W-ZYL"/>
+                        <outlet property="imageNeue" destination="t4x-Va-r3z" id="BXm-yI-PYU"/>
                         <outlet property="imageView" destination="vs8-na-tz2" id="6NI-cP-exo"/>
                         <outlet property="imageViewBottomConstraint" destination="hVM-hk-fgj" id="aMa-KP-qJQ"/>
                         <outlet property="imageViewLeadingConstraint" destination="28Z-eG-5O0" id="QEU-L8-WPF"/>
@@ -1232,6 +1258,7 @@
                         <outlet property="mensaInfeld" destination="us8-C6-1i8" id="sPF-nn-oMk"/>
                         <outlet property="mensaNeue" destination="oX2-yi-WIR" id="ENW-rl-3Mq"/>
                         <outlet property="scrollView" destination="yv2-om-cae" id="cvv-An-rkN"/>
+                        <outlet property="scrollViewNeue" destination="7Ir-dx-9jD" id="Zss-rp-qft"/>
                         <outlet property="textAlte" destination="jbU-ru-Rii" id="sMC-ea-pWp"/>
                         <outlet property="textNeue" destination="GYB-YY-OB0" id="vSI-8O-Qob"/>
                         <outlet property="times1Alte" destination="uLh-zZ-fb6" id="Eh0-gi-3Xg"/>
@@ -2976,25 +3003,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yR-Io-wYL">
-                                <rect key="frame" x="536" y="187" width="44" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="JFV-fd-ZlL"/>
-                                    <constraint firstAttribute="width" constant="50" id="KEv-wC-z4i"/>
-                                    <constraint firstAttribute="height" constant="35" id="Y4w-Jh-Uj7"/>
-                                    <constraint firstAttribute="width" constant="44" id="hVZ-Ja-rQS"/>
-                                </constraints>
-                                <state key="normal" title="Show on the Map" image="icon-locatie.png"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="JFV-fd-ZlL"/>
-                                        <exclude reference="KEv-wC-z4i"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <segue destination="H2l-fU-91c" kind="show" identifier="OfficeToMap" id="7rL-Kl-mK9"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wv5-Pg-Vdp">
                                 <rect key="frame" x="490" y="187" width="44" height="35"/>
                                 <constraints>
@@ -3120,6 +3128,25 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yR-Io-wYL">
+                                <rect key="frame" x="536" y="187" width="44" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="JFV-fd-ZlL"/>
+                                    <constraint firstAttribute="width" constant="50" id="KEv-wC-z4i"/>
+                                    <constraint firstAttribute="height" constant="35" id="Y4w-Jh-Uj7"/>
+                                    <constraint firstAttribute="width" constant="44" id="hVZ-Ja-rQS"/>
+                                </constraints>
+                                <state key="normal" title="Show on the Map" image="App_Erasmus_MAp.png"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JFV-fd-ZlL"/>
+                                        <exclude reference="KEv-wC-z4i"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="H2l-fU-91c" kind="show" identifier="OfficeToMap" id="7rL-Kl-mK9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -3578,7 +3605,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="13" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" headIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" headIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -3595,7 +3622,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="sportsCell" id="EGq-B2-OfP" customClass="SportCollectionViewCell" customModule="ErasmusTU" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="62" width="250" height="200"/>
+                                        <rect key="frame" x="20" y="55" width="250" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="200"/>
@@ -3703,7 +3730,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <color key="textColor" red="0.08235294118" green="0.37647058820000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8f-fj-ZGQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8f-fj-ZGQ">
                                 <rect key="frame" x="20" y="64" width="560" height="220"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="4cm-A6-2Us"/>
@@ -3763,13 +3790,13 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="13" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" headIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="10" headIndent="10" defaultTabInterval="10" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zng-K1-6mI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zng-K1-6mI">
                                 <rect key="frame" x="20" y="164" width="410" height="80"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
@@ -4622,15 +4649,15 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <viewControllerLayoutGuide type="bottom" id="1qM-Kn-9Y4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7h2-Yo-sPo">
-                        <rect key="frame" x="0.0" y="0.0" width="535" height="580"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-al-c90">
-                                <rect key="frame" x="0.0" y="0.0" width="535" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <gestureRecognizers/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Xf-9hD">
-                                <rect key="frame" x="496" y="462" width="30" height="30"/>
+                                <rect key="frame" x="561" y="482" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="BJK-Nx-Zre"/>
                                     <constraint firstAttribute="width" constant="30" id="CVx-lb-csw"/>
@@ -4664,10 +4691,10 @@ Address: Mandellstraße 15, 8010 Graz  </string>
             </objects>
             <point key="canvasLocation" x="692" y="1399"/>
         </scene>
-        <!--Housing-->
+        <!--Accommodation-->
         <scene sceneID="8LB-gD-oIo">
             <objects>
-                <viewController title="Housing" id="fBu-Bx-mTA" customClass="HousingViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Accommodation" id="fBu-Bx-mTA" customClass="HousingViewController" customModule="ErasmusTU" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xkj-Ov-QVT"/>
                         <viewControllerLayoutGuide type="bottom" id="y1A-6f-N6H"/>
@@ -4729,7 +4756,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                     <constraint firstAttribute="width" constant="454" id="CXA-AW-95g"/>
                                 </constraints>
                                 <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="TU Housing Info">
+                                <state key="normal" title="TU Accommodation Info">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -4740,22 +4767,11 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <rect key="frame" x="36" y="248" width="454" height="55"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="ESN Housing Info">
+                                <state key="normal" title="ESN Accomodation Info">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="EsnInfo:" destination="fBu-Bx-mTA" eventType="touchUpInside" id="uBj-PQ-1Gh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agd-sY-gYU">
-                                <rect key="frame" x="36" y="313" width="454" height="54"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="Oead Website">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="Oaed:" destination="fBu-Bx-mTA" eventType="touchUpInside" id="Xiq-KI-i95"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4C-pA-scJ">
@@ -4767,6 +4783,17 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </state>
                                 <connections>
                                     <action selector="Wist:" destination="fBu-Bx-mTA" eventType="touchUpInside" id="VLj-oq-VNH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agd-sY-gYU">
+                                <rect key="frame" x="36" y="313" width="454" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="OeAD Website">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Oaed:" destination="fBu-Bx-mTA" eventType="touchUpInside" id="Xiq-KI-i95"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4895,33 +4922,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other Companies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBs-Yv-vGB">
-                                <rect key="frame" x="36" y="402" width="151" height="29"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="151" id="IB9-px-uP8"/>
-                                    <constraint firstAttribute="width" constant="151" id="gvd-ss-l2d"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="IB9-px-uP8"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0f-cE-a60">
-                                <rect key="frame" x="55" y="306" width="495" height="61"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="Tariff Comparator">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="comparator:" destination="syR-yT-aDT" eventType="touchUpInside" id="wyH-lx-ATt"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yQ-HM-lbq">
                                 <rect key="frame" x="55" y="230" width="495" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -4933,90 +4933,90 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                     <action selector="freeSim:" destination="syR-yT-aDT" eventType="touchUpInside" id="9OD-5R-fgN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YT2-o9-Siz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YT2-o9-Siz">
                                 <rect key="frame" x="234" y="455" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="Ati-mu-x9c"/>
                                     <constraint firstAttribute="height" constant="30" id="fqK-Ul-z8r"/>
                                 </constraints>
-                                <state key="normal" title="A1"/>
+                                <state key="normal" title="A1" image="A1.png"/>
                                 <connections>
                                     <action selector="A1:" destination="syR-yT-aDT" eventType="touchUpInside" id="1Ml-Lc-lS1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dan-xr-IZO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dan-xr-IZO">
                                 <rect key="frame" x="315" y="455" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="Hi7-3f-WcG"/>
                                     <constraint firstAttribute="height" constant="30" id="bgZ-Gc-v75"/>
                                 </constraints>
-                                <state key="normal" title="Hot"/>
+                                <state key="normal" title="Hot" image="hot.png"/>
                                 <connections>
                                     <action selector="Hot:" destination="syR-yT-aDT" eventType="touchUpInside" id="hID-kG-F05"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGg-EF-N66">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGg-EF-N66">
                                 <rect key="frame" x="396" y="455" width="63" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="63" id="H3w-Un-b4h"/>
                                     <constraint firstAttribute="height" constant="30" id="Zf3-Pk-qSC"/>
                                 </constraints>
-                                <state key="normal" title="T-Mobile"/>
+                                <state key="normal" title="T-Mobile" image="tmobile.jpg"/>
                                 <connections>
                                     <action selector="Tmobile:" destination="syR-yT-aDT" eventType="touchUpInside" id="tDI-UF-J3p"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaz-zC-Qk0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaz-zC-Qk0">
                                 <rect key="frame" x="494" y="455" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hll-qL-jnU"/>
                                     <constraint firstAttribute="width" constant="46" id="ktm-iP-oXo"/>
                                 </constraints>
-                                <state key="normal" title="Drei"/>
+                                <state key="normal" title="Drei" image="Drei.png"/>
                                 <connections>
                                     <action selector="Drei:" destination="syR-yT-aDT" eventType="touchUpInside" id="uJc-FQ-ap7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxX-ZU-eKO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxX-ZU-eKO">
                                 <rect key="frame" x="234" y="501" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="HRY-vl-F1C"/>
                                     <constraint firstAttribute="height" constant="30" id="OSQ-oK-kQx"/>
                                 </constraints>
-                                <state key="normal" title="Telering"/>
+                                <state key="normal" title="Telering" image="telering.png"/>
                                 <connections>
                                     <action selector="Telering:" destination="syR-yT-aDT" eventType="touchUpInside" id="1bd-lv-BUN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upF-lH-gsR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upF-lH-gsR">
                                 <rect key="frame" x="315" y="501" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="TCb-iO-tIY"/>
                                     <constraint firstAttribute="width" constant="46" id="qma-Mh-4sM"/>
                                 </constraints>
-                                <state key="normal" title="Tele2"/>
+                                <state key="normal" title="Tele2" image="tele2.jpg"/>
                                 <connections>
                                     <action selector="Tele2:" destination="syR-yT-aDT" eventType="touchUpInside" id="KfV-CR-Lgl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxs-uF-FgE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxs-uF-FgE">
                                 <rect key="frame" x="396" y="501" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="P4u-xJ-Dbl"/>
                                     <constraint firstAttribute="height" constant="30" id="fp3-xp-vIF"/>
                                 </constraints>
-                                <state key="normal" title="Yesss"/>
+                                <state key="normal" title="Yesss" image="yesss.png"/>
                                 <connections>
                                     <action selector="Yesss:" destination="syR-yT-aDT" eventType="touchUpInside" id="BY5-Un-e1W"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTt-KW-VKc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTt-KW-VKc">
                                 <rect key="frame" x="494" y="501" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="V3C-jC-1C1"/>
                                     <constraint firstAttribute="width" constant="46" id="gBk-Bd-Llc"/>
                                 </constraints>
-                                <state key="normal" title="Bob"/>
+                                <state key="normal" title="Bob" image="Bob.jpg"/>
                                 <connections>
                                     <action selector="Bob:" destination="syR-yT-aDT" eventType="touchUpInside" id="31v-d6-Tc1"/>
                                 </connections>
@@ -5041,6 +5041,33 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </state>
                                 <connections>
                                     <action selector="phoneInfo:" destination="syR-yT-aDT" eventType="touchUpInside" id="oYR-Pc-n9m"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Companies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBs-Yv-vGB">
+                                <rect key="frame" x="36" y="402" width="151" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="151" id="IB9-px-uP8"/>
+                                    <constraint firstAttribute="width" constant="151" id="gvd-ss-l2d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="IB9-px-uP8"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0f-cE-a60">
+                                <rect key="frame" x="55" y="306" width="495" height="61"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Tariff Comparator">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="comparator:" destination="syR-yT-aDT" eventType="touchUpInside" id="wyH-lx-ATt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -5140,6 +5167,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         <outlet property="label6" destination="egk-eR-D1h" id="Qw6-5w-rei"/>
                         <outlet property="label7" destination="CXu-Dm-cNw" id="H2A-g6-djc"/>
                         <outlet property="label8" destination="aBD-pV-NbW" id="epq-Sj-zZV"/>
+                        <outlet property="label9" destination="gBs-Yv-vGB" id="vVu-4B-aS0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y1R-OO-rWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -5374,18 +5402,6 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                     <segue destination="syR-yT-aDT" kind="show" id="EQK-nD-clG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2f-OD-iBZ">
-                                <rect key="frame" x="36" y="184" width="454" height="76"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <inset key="contentEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="Housing">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="fBu-Bx-mTA" kind="show" id="I7r-sF-blp"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Csk-yX-BqN">
                                 <rect key="frame" x="36" y="355" width="454" height="76"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -5396,6 +5412,18 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 </state>
                                 <connections>
                                     <action selector="BankButton:" destination="SXU-Td-ErU" eventType="touchUpInside" id="yRr-Mj-bht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2f-OD-iBZ">
+                                <rect key="frame" x="36" y="184" width="454" height="76"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Accommodation">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fBu-Bx-mTA" kind="show" id="I7r-sF-blp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -5450,21 +5478,29 @@ Address: Mandellstraße 15, 8010 Graz  </string>
         </scene>
     </scenes>
     <resources>
+        <image name="A1.png" width="1280" height="811"/>
         <image name="Alte.gif" width="800" height="600"/>
+        <image name="App_Erasmus_MAp.png" width="595" height="595"/>
+        <image name="Bob.jpg" width="150" height="150"/>
+        <image name="Drei.png" width="230" height="280"/>
         <image name="Neue.gif" width="800" height="600"/>
         <image name="email1.png" width="256" height="256"/>
         <image name="free" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
-        <image name="icon-locatie.png" width="300" height="196"/>
+        <image name="hot.png" width="693" height="780"/>
         <image name="info" width="30" height="30"/>
         <image name="infoblue" width="30" height="30"/>
         <image name="map" width="30" height="30"/>
         <image name="mapinfeld.gif" width="1000" height="600"/>
         <image name="phone-call.png" width="256" height="256"/>
         <image name="second" width="30" height="30"/>
+        <image name="tele2.jpg" width="500" height="500"/>
+        <image name="telering.png" width="2000" height="2000"/>
+        <image name="tmobile.jpg" width="2732" height="635"/>
         <image name="tu" width="30" height="24"/>
+        <image name="yesss.png" width="180" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="L4N-bL-87L"/>
+        <segue reference="UXi-53-arb"/>
     </inferredMetricsTieBreakers>
 </document>

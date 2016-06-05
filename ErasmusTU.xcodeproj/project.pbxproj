@@ -63,6 +63,14 @@
 		D064369A1CEB818300AEAE1E /* call1.png in Resources */ = {isa = PBXBuildFile; fileRef = D06436991CEB818300AEAE1E /* call1.png */; };
 		D0776A811D01AC100085BDF8 /* mapinfeld.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0776A801D01AC100085BDF8 /* mapinfeld.gif */; };
 		D0ABF8CD1D01FB730074EFA1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ABF8CC1D01FB730074EFA1 /* MessageUI.framework */; };
+		D0ABF8D71D043C9C0074EFA1 /* A1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ABF8CF1D043C9C0074EFA1 /* A1.png */; };
+		D0ABF8D81D043C9C0074EFA1 /* Bob.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0ABF8D01D043C9C0074EFA1 /* Bob.jpg */; };
+		D0ABF8D91D043C9C0074EFA1 /* Drei.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ABF8D11D043C9C0074EFA1 /* Drei.png */; };
+		D0ABF8DA1D043C9C0074EFA1 /* hot.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ABF8D21D043C9C0074EFA1 /* hot.png */; };
+		D0ABF8DB1D043C9C0074EFA1 /* tele2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0ABF8D31D043C9C0074EFA1 /* tele2.jpg */; };
+		D0ABF8DC1D043C9C0074EFA1 /* telering.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ABF8D41D043C9C0074EFA1 /* telering.png */; };
+		D0ABF8DD1D043C9C0074EFA1 /* tmobile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0ABF8D51D043C9C0074EFA1 /* tmobile.jpg */; };
+		D0ABF8DE1D043C9C0074EFA1 /* yesss.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ABF8D61D043C9C0074EFA1 /* yesss.png */; };
 		D0CDDD8C1CED031C0015E19A /* InternationalOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */; };
 		D0CDDD901CED243D0015E19A /* TUOnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */; };
 		D0CDDD921CED8E650015E19A /* CourseRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */; };
@@ -139,6 +147,14 @@
 		D064369C1CEB82C000AEAE1E /* email */ = {isa = PBXFileReference; explicitFileType = image.png; path = email; sourceTree = "<group>"; };
 		D0776A801D01AC100085BDF8 /* mapinfeld.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mapinfeld.gif; sourceTree = "<group>"; };
 		D0ABF8CC1D01FB730074EFA1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D0ABF8CF1D043C9C0074EFA1 /* A1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A1.png; sourceTree = "<group>"; };
+		D0ABF8D01D043C9C0074EFA1 /* Bob.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bob.jpg; sourceTree = "<group>"; };
+		D0ABF8D11D043C9C0074EFA1 /* Drei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drei.png; sourceTree = "<group>"; };
+		D0ABF8D21D043C9C0074EFA1 /* hot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot.png; sourceTree = "<group>"; };
+		D0ABF8D31D043C9C0074EFA1 /* tele2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tele2.jpg; sourceTree = "<group>"; };
+		D0ABF8D41D043C9C0074EFA1 /* telering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telering.png; sourceTree = "<group>"; };
+		D0ABF8D51D043C9C0074EFA1 /* tmobile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tmobile.jpg; sourceTree = "<group>"; };
+		D0ABF8D61D043C9C0074EFA1 /* yesss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesss.png; sourceTree = "<group>"; };
 		D0CDDD8B1CED031C0015E19A /* InternationalOfficeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternationalOfficeViewController.swift; sourceTree = "<group>"; };
 		D0CDDD8F1CED243D0015E19A /* TUOnlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUOnlineViewController.swift; sourceTree = "<group>"; };
 		D0CDDD911CED8E650015E19A /* CourseRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseRegistrationViewController.swift; path = ../CourseRegistrationViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +253,7 @@
 		D06436841CEB41E300AEAE1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D0ABF8CE1D043C9C0074EFA1 /* PhoneLogos */,
 				99D338ED1CFDE33E00C49FA2 /* Settings-50.png */,
 				99D338DB1CFDDC1600C49FA2 /* App_Erasmus_TU.png */,
 				99D338DC1CFDDC1600C49FA2 /* App_ERasmus_Logo.png */,
@@ -264,6 +281,21 @@
 				D06436851CEB427100AEAE1E /* Alte.gif */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		D0ABF8CE1D043C9C0074EFA1 /* PhoneLogos */ = {
+			isa = PBXGroup;
+			children = (
+				D0ABF8CF1D043C9C0074EFA1 /* A1.png */,
+				D0ABF8D01D043C9C0074EFA1 /* Bob.jpg */,
+				D0ABF8D11D043C9C0074EFA1 /* Drei.png */,
+				D0ABF8D21D043C9C0074EFA1 /* hot.png */,
+				D0ABF8D31D043C9C0074EFA1 /* tele2.jpg */,
+				D0ABF8D41D043C9C0074EFA1 /* telering.png */,
+				D0ABF8D51D043C9C0074EFA1 /* tmobile.jpg */,
+				D0ABF8D61D043C9C0074EFA1 /* yesss.png */,
+			);
+			path = PhoneLogos;
 			sourceTree = "<group>";
 		};
 		D0CDDD931CED9BD60015E19A /* PDF */ = {
@@ -353,6 +385,7 @@
 				D06436961CEB788100AEAE1E /* anja.png in Resources */,
 				99D338E91CFDDC1600C49FA2 /* Icon_Trash.png in Resources */,
 				D06436941CEB786C00AEAE1E /* maria.png in Resources */,
+				D0ABF8DA1D043C9C0074EFA1 /* hot.png in Resources */,
 				D06436921CEB785700AEAE1E /* Barbara.png in Resources */,
 				99D338E41CFDDC1600C49FA2 /* App_ERasmus_Logo.png in Resources */,
 				D0CDDE031CEE749D0015E19A /* phone-call.png in Resources */,
@@ -360,6 +393,7 @@
 				992BD3EE1D041789000773A1 /* infoblue.png in Resources */,
 				99D338E81CFDDC1600C49FA2 /* App_Erasmus_Information.png in Resources */,
 				D0CF349A1CEF79BB0080F784 /* registerCourse.pdf in Resources */,
+				D0ABF8D71D043C9C0074EFA1 /* A1.png in Resources */,
 				99D338EA1CFDDC1600C49FA2 /* Icon_X.png in Resources */,
 				990C6D5A1CBF94D80085F70E /* LaunchScreen.storyboard in Resources */,
 				99FCDA2C1CF322BB0094D373 /* FreetimeAnnotations.plist in Resources */,
@@ -373,15 +407,21 @@
 				995E76AF1CC3B0B2004C2C85 /* TUMapAnnotations.plist in Resources */,
 				D06436981CEB807800AEAE1E /* call.png in Resources */,
 				99D338E31CFDDC1600C49FA2 /* App_Erasmus_TU.png in Resources */,
+				D0ABF8D91D043C9C0074EFA1 /* Drei.png in Resources */,
+				D0ABF8DB1D043C9C0074EFA1 /* tele2.jpg in Resources */,
+				D0ABF8DE1D043C9C0074EFA1 /* yesss.png in Resources */,
 				D0CDDD9B1CEDBAFA0015E19A /* email1.png in Resources */,
 				99D338EE1CFDE33E00C49FA2 /* Settings-50.png in Resources */,
 				D064369A1CEB818300AEAE1E /* call1.png in Resources */,
 				D0DE5F9C1CF45269004FA3A2 /* Neue.gif in Resources */,
 				D0CDDD991CEDA3E30015E19A /* TUonline.pdf in Resources */,
+				D0ABF8DD1D043C9C0074EFA1 /* tmobile.jpg in Resources */,
 				99D9F5391CFED8E0003A837E /* s1.jpg in Resources */,
+				D0ABF8DC1D043C9C0074EFA1 /* telering.png in Resources */,
 				992BD3E91D040FF9000773A1 /* s4.jpg in Resources */,
 				99D9F53B1CFEDF77003A837E /* s3.jpg in Resources */,
 				990C6D551CBF94D80085F70E /* Main.storyboard in Resources */,
+				D0ABF8D81D043C9C0074EFA1 /* Bob.jpg in Resources */,
 				99D338E71CFDDC1600C49FA2 /* App_Erasmus_Home.png in Resources */,
 				992BD3EA1D040FF9000773A1 /* s5.jpg in Resources */,
 			);

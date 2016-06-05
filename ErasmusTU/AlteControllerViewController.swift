@@ -10,7 +10,7 @@ import UIKit
 
 
 
-class AlteControllerViewController: UIViewController {
+class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet var InfeldView: UIView!
     @IBOutlet var AlteView: UIView!
@@ -58,6 +58,17 @@ class AlteControllerViewController: UIViewController {
     
      var  dataToTransfer = freetimeItem()
     
+    @IBOutlet var imageNeue: UIImageView!
+    @IBOutlet var scrollViewNeue: UIScrollView!
+    
+    
+    
+    
+    func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
+        return self.imageNeue
+    }
+    
+    
     @IBAction func MapAlte(sender: UIButton) {
     dataToTransfer.title = "Alte"
         dataToTransfer.latitude = 47.069267
@@ -69,14 +80,15 @@ class AlteControllerViewController: UIViewController {
     }
     
     
+   
     @IBAction func MapNeue(sender: UIButton) {
-       /* dataToTransfer.title = "Neue"
+        dataToTransfer.title = "Neue"
         dataToTransfer.latitude = 47.064952
         dataToTransfer.longitude = 15.452515
         showAnnotation = dataToTransfer
         segueMap=true
         self.performSegueWithIdentifier("CampusToMap", sender: self)
-       */
+       
     }
     
     
@@ -209,7 +221,15 @@ class AlteControllerViewController: UIViewController {
         times2Infeld.layer.masksToBounds=true
         times3Infel.layer.masksToBounds=true
         
-
+        
+        scrollViewNeue.alwaysBounceVertical = false
+        scrollViewNeue.alwaysBounceHorizontal = false
+        scrollViewNeue.showsVerticalScrollIndicator = true
+        scrollViewNeue.flashScrollIndicators()
+        
+        scrollViewNeue.minimumZoomScale = 1.0
+        scrollViewNeue .maximumZoomScale = 10.0
+        
         // Do any additional setup after loading the view.
     }
 
@@ -232,11 +252,3 @@ class AlteControllerViewController: UIViewController {
 }
 
 
-extension AlteControllerViewController: UIScrollViewDelegate {
-    func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
-        return imageView
-    }
-    func scrollViewDidZoom(scrollView: UIScrollView) {
-        updateConstraintsForSize(view.bounds.size)
-    }
-}

@@ -53,6 +53,7 @@ public extension UIDevice {
 
 class FirstViewController: UIViewController {
     let modelName = UIDevice.currentDevice().modelName
+    
     @IBOutlet var MustDoButton: UIButton!
     @IBOutlet var CalenderButton: UIButton!
     @IBOutlet var Button_Background: UILabel!
@@ -66,7 +67,8 @@ class FirstViewController: UIViewController {
     
     @IBOutlet var ThisLabel: UILabel!
     override func viewDidLoad() {
-        
+
+
         
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
 

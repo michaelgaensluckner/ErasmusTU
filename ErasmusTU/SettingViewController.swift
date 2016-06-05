@@ -119,6 +119,7 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         
         
         NSUserDefaults.standardUserDefaults().synchronize()
+        NationalitySelect.text = SettingOption.nationality
 
     }
     @IBAction func LongstaySwitch(sender: AnyObject) {

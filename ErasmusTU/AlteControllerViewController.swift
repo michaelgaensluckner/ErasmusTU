@@ -48,9 +48,7 @@ class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet var times2Infeld: UILabel!
     @IBOutlet var times3Infel: UILabel!
     
-    @IBOutlet weak var scrollView: UIScrollView!
     
-    @IBOutlet var imageView: UIImageView!
     @IBOutlet weak var imageViewBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var imageViewLeadingConstraint: NSLayoutConstraint!
     @IBOutlet weak var imageViewTopConstraint: NSLayoutConstraint!
@@ -61,11 +59,24 @@ class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet var imageNeue: UIImageView!
     @IBOutlet var scrollViewNeue: UIScrollView!
     
+    @IBOutlet var scrollViewInfeld: UIScrollView!
+    @IBOutlet var imageInfeld: UIImageView!
     
+    @IBOutlet var scrollViewAlte: UIScrollView!
+    @IBOutlet var imageAlte: UIImageView!
     
     
     func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
-        return self.imageNeue
+        var image: UIImageView! = self.imageNeue
+        if (scrollView == self.scrollViewAlte){
+            image = self.imageAlte        }
+        if (scrollView == self.scrollViewNeue){
+            image = self.imageNeue
+        }
+        if (scrollView == self.scrollViewInfeld){
+            image = self.imageInfeld
+        }
+        return image
     }
     
     
@@ -101,32 +112,8 @@ class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
         self.performSegueWithIdentifier("CampusToMap", sender: self)
         
     }
-    private func updateMinZoomScaleForSize(size: CGSize) {
-        let widthScale = size.width / imageView.bounds.width
-        let heightScale = size.height / imageView.bounds.height
-        let minScale = min(widthScale, heightScale)
-        
-        scrollView.minimumZoomScale = minScale
-        
-        scrollView.zoomScale = minScale
-    }
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-        updateMinZoomScaleForSize(view.bounds.size)
-    }
-    private func updateConstraintsForSize(size: CGSize) {
-        
-        let yOffset = max(0, (size.height - imageView.frame.height) / 2)
-        imageViewTopConstraint.constant = yOffset
-        imageViewBottomConstraint.constant = yOffset
-        
-        let xOffset = max(0, (size.width - imageView.frame.width) / 2)
-        imageViewLeadingConstraint.constant = xOffset
-        imageViewTrailingConstraint.constant = xOffset
-        
-        view.layoutIfNeeded()
-    }
+ 
+   
     @IBAction func AlteSegment(sender: UISegmentedControl) {
          let selectedIndex: Int = sender.selectedSegmentIndex
         if (selectedIndex == 0){
@@ -230,6 +217,11 @@ class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
         scrollViewNeue.minimumZoomScale = 1.0
         scrollViewNeue .maximumZoomScale = 10.0
         
+        scrollViewAlte.minimumZoomScale = 1.0
+        scrollViewAlte.maximumZoomScale = 10.0
+        
+        scrollViewInfeld.minimumZoomScale = 1.0
+        scrollViewInfeld.maximumZoomScale = 10.0
         // Do any additional setup after loading the view.
     }
 

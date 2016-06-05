@@ -2838,7 +2838,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="TU" image="tu" id="xed-ry-n3y"/>
-                    <navigationItem key="navigationItem" id="5Y1-Ik-x8J">
+                    <navigationItem key="navigationItem" title="TU" id="5Y1-Ik-x8J">
                         <barButtonItem key="backBarButtonItem" title=" " id="rna-lR-h1U"/>
                     </navigationItem>
                     <connections>
@@ -4176,7 +4176,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1v-Eu-hwz">
-                                        <rect key="frame" x="288" y="414" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="414" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="ST1-QW-sSu"/>
@@ -4191,7 +4191,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Lx-hE-SnS">
-                                        <rect key="frame" x="288" y="102" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="102" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="UTD-Hq-UeT"/>
@@ -4206,7 +4206,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCd-V3-BBP">
-                                        <rect key="frame" x="288" y="362" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="362" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="Ngp-Uq-voL"/>
@@ -4221,7 +4221,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9a-gP-pHO">
-                                        <rect key="frame" x="288" y="466" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="466" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="tLi-zj-L7u"/>
@@ -4236,7 +4236,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUZ-y9-5Qf">
-                                        <rect key="frame" x="288" y="518" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="518" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="ud1-YK-9k8"/>
@@ -4251,7 +4251,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZ4-2t-JFH">
-                                        <rect key="frame" x="288" y="310" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="310" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="sJL-Gw-Zn2"/>
@@ -4266,7 +4266,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lud-sy-cIa">
-                                        <rect key="frame" x="288" y="258" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="258" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="jjz-rI-6mT"/>
@@ -4281,7 +4281,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqa-H5-K79">
-                                        <rect key="frame" x="288" y="206" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="206" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="MEy-xG-OfP"/>
@@ -4296,7 +4296,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHg-9I-jdQ">
-                                        <rect key="frame" x="288" y="50" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="50" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="14" id="8q3-kV-Xug"/>
@@ -4306,7 +4306,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXn-AM-RDJ">
-                                        <rect key="frame" x="288" y="570" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="570" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="6Lm-QR-Vvw"/>
@@ -4321,7 +4321,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViI-uS-p0p">
-                                        <rect key="frame" x="288" y="622" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="622" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="NDo-Cb-5w6"/>
@@ -4336,8 +4336,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brc-uF-kYe">
-                                        <rect key="frame" x="5" y="50" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="50" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Mechanical Engineering">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4347,13 +4348,14 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lr-yr-DJn">
-                                        <rect key="frame" x="5" y="102" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="102" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="9Kc-wj-5zX"/>
                                             <constraint firstAttribute="width" constant="289" id="PDY-p6-9OG"/>
                                             <constraint firstAttribute="height" constant="42" id="Xwg-Yb-hIX"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Informatics and Software Development">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4368,8 +4370,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NqI-I0-01o">
-                                        <rect key="frame" x="5" y="206" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="206" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Electrical Engineering">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4379,8 +4382,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wy-UU-pNl">
-                                        <rect key="frame" x="5" y="362" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="362" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Molecular Biology">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4390,8 +4394,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Oc-ln-jtb">
-                                        <rect key="frame" x="5" y="466" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="466" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Biomedical Engineering">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4401,8 +4406,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3e-oX-Sb3">
-                                        <rect key="frame" x="5" y="518" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="518" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Environmental Engineering">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4412,8 +4418,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVf-a4-5ib">
-                                        <rect key="frame" x="5" y="570" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="570" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Technical Physics">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4423,8 +4430,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YiH-vf-atI">
-                                        <rect key="frame" x="5" y="622" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="622" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Mathematics">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4434,8 +4442,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOx-vg-oNa">
-                                        <rect key="frame" x="5" y="258" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="258" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Chemical and Process Engineering">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4445,8 +4454,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BU1-jl-XFQ">
-                                        <rect key="frame" x="5" y="414" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="414" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Chemistry">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4456,7 +4466,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz3-WC-rQ7">
-                                        <rect key="frame" x="288" y="154" width="14" height="42"/>
+                                        <rect key="frame" x="301" y="154" width="14" height="42"/>
                                         <color key="backgroundColor" red="0.36470588240000001" green="0.43921568630000002" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="13" id="id5-K7-CgY"/>
@@ -4471,8 +4481,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wg-1T-jaB">
-                                        <rect key="frame" x="5" y="154" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="154" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Architecture">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4482,8 +4493,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nC-Qz-QyO">
-                                        <rect key="frame" x="5" y="310" width="289" height="42"/>
+                                        <rect key="frame" x="18" y="310" width="289" height="42"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Civil Engineering">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4574,7 +4586,7 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                                     <constraint firstItem="BU1-jl-XFQ" firstAttribute="top" secondItem="7Wy-UU-pNl" secondAttribute="bottom" constant="10" id="flJ-mR-wgW"/>
                                     <constraint firstItem="7Wy-UU-pNl" firstAttribute="leading" secondItem="brc-uF-kYe" secondAttribute="leading" id="fo3-nl-0rX"/>
                                     <constraint firstItem="3Oc-ln-jtb" firstAttribute="width" secondItem="brc-uF-kYe" secondAttribute="width" id="g7s-Il-zPd"/>
-                                    <constraint firstItem="brc-uF-kYe" firstAttribute="leading" secondItem="aLh-M9-jq7" secondAttribute="leading" constant="5" id="gYV-V7-lQu"/>
+                                    <constraint firstItem="brc-uF-kYe" firstAttribute="leading" secondItem="aLh-M9-jq7" secondAttribute="leading" constant="18" id="gYV-V7-lQu"/>
                                     <constraint firstItem="brc-uF-kYe" firstAttribute="top" secondItem="aLh-M9-jq7" secondAttribute="top" constant="103" id="hSG-Du-Goi"/>
                                     <constraint firstItem="MHg-9I-jdQ" firstAttribute="width" secondItem="Dz3-WC-rQ7" secondAttribute="width" id="hgk-ek-DN3"/>
                                     <constraint firstItem="bOx-vg-oNa" firstAttribute="top" secondItem="NqI-I0-01o" secondAttribute="bottom" constant="10" id="hnS-a7-Wnc"/>

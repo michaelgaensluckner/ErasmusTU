@@ -35,8 +35,16 @@ class InternationalOfficeViewController: UIViewController,  MFMailComposeViewCon
     @IBOutlet var label5: UILabel!
     @IBOutlet var label6: UILabel!
     @IBOutlet var label7: UILabel!
-   
     
+    var  dataToTransfer = freetimeItem()
+    
+    @IBAction func goMap(sender: UIButton) {
+        dataToTransfer.title = "International Office"
+        dataToTransfer.latitude =  47.067709
+        dataToTransfer.longitude = 15.44957
+        showAnnotation = dataToTransfer
+        segueMap=true
+        self.performSegueWithIdentifier("InternationalToMap", sender: self)    }
     
     
     

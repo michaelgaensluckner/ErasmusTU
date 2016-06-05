@@ -8,10 +8,17 @@
 
 import UIKit
 
-class CourseRegistrationViewController: UIViewController {
+class CourseRegistrationViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet var pdfView: UIWebView!
     @IBOutlet var youtubeView: UIWebView!
+    
+    
+    @IBOutlet var scroll: UIScrollView!
+    
+    func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
+        return self.pdfView
+    }
     
     var path = ""
     override func viewDidLoad() {
@@ -19,7 +26,7 @@ class CourseRegistrationViewController: UIViewController {
         let YoutubeLink:String = "http://www.youtube.com/embed/-0GyYnlBlOQ"
         let width=300
         let height=200
-        let frame=30
+        let frame=5
         let Code:NSString = "<iframe width=\(width) height=\(height) src=\(YoutubeLink) frameborder=\(frame) allowfullscrenn> </iframe>";
         self.youtubeView.loadHTMLString(Code as String, baseURL: nil)
         
@@ -27,6 +34,9 @@ class CourseRegistrationViewController: UIViewController {
         path = NSBundle.mainBundle().pathForResource("registerCourse", ofType: "pdf")!
         let url = NSURL.fileURLWithPath(path )
         self.pdfView.loadRequest(NSURLRequest (URL: url))
+        
+        scroll.maximumZoomScale = 10.0
+        scroll.minimumZoomScale = 1.0
         // Dispose of any resources that can be recreated.
         // Do any additional setup after loading the view.
     }

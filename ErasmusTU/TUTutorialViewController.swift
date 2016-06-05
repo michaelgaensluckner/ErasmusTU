@@ -8,11 +8,15 @@
 
 import UIKit
 
-class TUTutorialViewController: UIViewController {
+class TUTutorialViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet var tutorialView: UIWebView!
-   
+    @IBOutlet var scroll: UIScrollView!
     var path = ""
+    
+    func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
+        return self.tutorialView
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +24,8 @@ class TUTutorialViewController: UIViewController {
         path = NSBundle.mainBundle().pathForResource("TUonline", ofType: "pdf")!
         let url = NSURL.fileURLWithPath(path )
         self.tutorialView.loadRequest(NSURLRequest (URL: url))
+        scroll.maximumZoomScale = 10.0
+        scroll.minimumZoomScale = 1.0
         // Do any additional setup after loading the view.
     }
 

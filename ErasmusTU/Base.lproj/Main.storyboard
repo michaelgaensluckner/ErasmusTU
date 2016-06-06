@@ -1309,6 +1309,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="Campus" id="vPb-G7-Rcd">
+                        <barButtonItem key="backBarButtonItem" title=" " id="WDQ-rI-f7g"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="AlteView" destination="jmk-hC-5TZ" id="4lT-KZ-dLv"/>
                         <outlet property="InfeldView" destination="Ab2-UY-tNz" id="eNA-2x-iy4"/>
@@ -3572,7 +3575,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <outlet property="delegate" destination="eXM-b4-zeV" id="uHU-3N-pav"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Restaurants/Bars" id="RdS-lC-8ST"/>
+                    <navigationItem key="navigationItem" title="Restaurants/Bars" id="RdS-lC-8ST">
+                        <barButtonItem key="backBarButtonItem" title=" " id="eA1-lg-slr"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyc-MI-sWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3737,6 +3742,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                             <constraint firstItem="vnP-ao-FBW" firstAttribute="top" secondItem="DxL-yw-D9r" secondAttribute="bottom" constant="20" id="uZF-pN-VNg"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ku6-cT-dh7">
+                        <barButtonItem key="backBarButtonItem" title=" " id="oYy-Fi-c4v"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="Map" destination="DxL-yw-D9r" id="nVb-Ug-isi"/>
                         <outlet property="buttonAdress" destination="K1r-fb-kyw" id="ecN-56-VmI"/>
@@ -4416,7 +4424,9 @@ Address: Mandellstraße 15, 8010 Graz  </string>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" id="NOw-cE-L8s"/>
-                    <navigationItem key="navigationItem" id="a2A-Ln-Rpg"/>
+                    <navigationItem key="navigationItem" id="a2A-Ln-Rpg">
+                        <barButtonItem key="backBarButtonItem" title=" " id="wYn-ry-2xF"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="Map" destination="uYf-al-c90" id="C7n-pM-0Xj"/>
                         <outlet property="tabBar" destination="NOw-cE-L8s" id="go1-l7-vZh"/>

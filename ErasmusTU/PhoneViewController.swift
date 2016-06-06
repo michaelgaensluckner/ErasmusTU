@@ -10,17 +10,11 @@ import UIKit
 
 class PhoneViewController: UIViewController {
 
-    @IBOutlet var labelEsn: UILabel!
     
     @IBOutlet var label1: UIView!
     @IBOutlet var label2: UILabel!
     @IBOutlet var label3: UILabel!
-    @IBOutlet var label4: UILabel!
-    @IBOutlet var label5: UILabel!
     @IBOutlet var label6: UILabel!
-    @IBOutlet var label7: UILabel!
-    @IBOutlet var label8: UILabel!
-    @IBOutlet var label9: UILabel!
     
     @IBOutlet var button1: UIButton!
     @IBOutlet var button2: UIButton!
@@ -95,22 +89,13 @@ class PhoneViewController: UIViewController {
         label1.layer.cornerRadius = 5
         label2.layer.cornerRadius = 5
         label3.layer.cornerRadius = 5
-        label4.layer.cornerRadius = 5
-        label5.layer.cornerRadius = 5
         label6.layer.cornerRadius = 5
-        label7.layer.cornerRadius = 5
-        label8.layer.cornerRadius = 5
-        label9.layer.cornerRadius = 5
+       
         
         label1.layer.masksToBounds=true
         label2.layer.masksToBounds=true
         label3.layer.masksToBounds=true
-        label4.layer.masksToBounds=true
-        label5.layer.masksToBounds=true
         label6.layer.masksToBounds=true
-        label7.layer.masksToBounds=true
-        label8.layer.masksToBounds=true
-        label9.layer.masksToBounds=true
         
         button1.layer.cornerRadius = 5
         button2.layer.cornerRadius = 5

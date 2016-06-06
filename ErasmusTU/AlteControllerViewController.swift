@@ -145,7 +145,6 @@ class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
         
         labelAlte1.layer.cornerRadius=5
         internationalAlte.layer.cornerRadius=5
-        //textAlte.layer.cornerRadius=5
         libraryAlte.layer.cornerRadius=5
         copyStoreAltre.layer.cornerRadius=5
         times1Alte.layer.cornerRadius=5
@@ -161,12 +160,10 @@ class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
         times3Neue.layer.cornerRadius=5
         labelNeue1.layer.cornerRadius=5
         labelNeue2.layer.cornerRadius=5
-        //textNeue.layer.cornerRadius=5
         
         
         mensaInfeld.layer.cornerRadius=5
         times1Infeld.layer.cornerRadius=5
-        //textInfeld.layer.cornerRadius=5
         biblioInfeld.layer.cornerRadius=5
         copyStoreInfeld.layer.cornerRadius=5
         labelInfeld1.layer.cornerRadius=5
@@ -179,7 +176,6 @@ class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
         
         labelAlte1.layer.masksToBounds=true
         internationalAlte.layer.masksToBounds=true
-        //textAlte.layer.masksToBounds=true
         libraryAlte.layer.masksToBounds=true
         copyStoreAltre.layer.masksToBounds=true
         times1Alte.layer.masksToBounds=true
@@ -195,12 +191,10 @@ class AlteControllerViewController: UIViewController, UIScrollViewDelegate {
         times3Neue.layer.masksToBounds=true
         labelNeue1.layer.masksToBounds=true
         labelNeue2.layer.masksToBounds=true
-        // textNeue.layer.masksToBounds=true
         
         
         mensaInfeld.layer.masksToBounds=true
         times1Infeld.layer.masksToBounds=true
-       // textInfeld.layer.masksToBounds=true
         biblioInfeld.layer.masksToBounds=true
         copyStoreInfeld.layer.masksToBounds=true
         labelInfeld1.layer.masksToBounds=true

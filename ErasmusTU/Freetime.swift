@@ -47,9 +47,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         
     }
     
-    
-    
-    
+
     
     override func viewDidLoad() {
       getItems()
@@ -87,9 +85,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         whiteLabel.layer.cornerRadius = 5
         whiteLabel.clipsToBounds = true
         cell.addSubview(whiteLabel)
-        ////alex
         whiteLabel.font = UIFont(name: "HelveticaNeue", size: 14)
-        /////
 
         
         var tableArray = [String]()

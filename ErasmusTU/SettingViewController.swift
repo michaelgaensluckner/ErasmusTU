@@ -34,10 +34,7 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        for key in Array(NSUserDefaults.standardUserDefaults().dictionaryRepresentation().keys) {
-            //NSUserDefaults.standardUserDefaults().removeObjectForKey(key)
-        }
-        
+
         print(NSUserDefaults.standardUserDefaults().dictionaryRepresentation());
 
         
@@ -52,7 +49,6 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
             print(SettingOption.openApp)
             if(SettingOption.openApp == 0){
                 SettingOption.openApp = 1
-                //SettingOption.nationality = NSUserDefaults.standardUserDefaults().stringForKey("SettingOption_nationality")!
                 dispatch_async(dispatch_get_main_queue()) {
                     [unowned self] in
                     self.performSegueWithIdentifier("toTabSegue", sender: self)
@@ -136,8 +132,7 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     @IBAction func DonePressed(sender: AnyObject) {
         if(SettingOption.nationality == ""){
             let alert = UIAlertView()
-            //alert.title = "Alert"
-            alert.message = "You must select Nationality"
+            alert.message = "Please select your Nationality"
             alert.addButtonWithTitle("OK")
             alert.show()
             return;

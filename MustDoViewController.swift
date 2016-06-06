@@ -61,10 +61,6 @@ class MustDoViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
-        //static var nationality = ""
-        //static var longstay = false
-        //static var donepressed = false
-        //"EU Countries","Iceland/Norway","Switzerland","Other Countries"]
         
 
     }

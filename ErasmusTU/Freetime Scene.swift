@@ -12,7 +12,6 @@ import UIKit
 
 class FreetimeScene: UIViewController{
     
-    //@IBOutlet var TitleLabel: UILabel!
     @IBOutlet var SportBlueLabel: UILabel!
     @IBOutlet var RestBlueLabel: UILabel!
     @IBOutlet var SportButton: UIButton!
@@ -22,8 +21,7 @@ class FreetimeScene: UIViewController{
     @IBOutlet var esnButton: UIButton!
     override func viewDidLoad() {
         
-        //TitleLabel.layer.cornerRadius = 5
-        //TitleLabel.clipsToBounds = true
+
         SportButton.layer.cornerRadius = 5
         
         SportBlueLabel.layer.cornerRadius = 5

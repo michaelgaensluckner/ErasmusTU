@@ -34,7 +34,6 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
             itemArray = NSArray(contentsOfFile: path)
         }
         
-        //var counter = 0
         for item in itemArray!{
             let tit = item.valueForKey("title") as! String
             let sub = item.valueForKey("subtitle") as! String
@@ -55,7 +54,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
     override func viewDidLoad() {
       getItems()
       self.tableView.backgroundColor = UIColor.clearColor()
-    }
+       }
     
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -68,7 +67,6 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("FreetimeCell", forIndexPath: indexPath) as UITableViewCell!
-
         cell.layer.cornerRadius = 5
         cell.layer.borderColor = UIColor.clearColor().CGColor
         cell.layer.backgroundColor = UIColor.clearColor().CGColor
@@ -92,7 +90,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         ////alex
         whiteLabel.font = UIFont(name: "HelveticaNeue", size: 14)
         /////
-        
+
         
         var tableArray = [String]()
         
@@ -113,7 +111,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
     override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 8
     }
-
+    
     
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -124,6 +122,7 @@ class FreetimeViewController: UITableViewController, MKMapViewDelegate {
         viewController.passedValue = valueToPass
         
     }
+
     
 
 

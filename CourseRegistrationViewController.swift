@@ -17,16 +17,16 @@ class CourseRegistrationViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet var scroll: UIScrollView!
     
     func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
-        return self.pdfView
-    }
+       return self.pdfView
+   }
     
     var path = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        let YoutubeLink:String = "http://www.youtube.com/embed/-0GyYnlBlOQ"
+        let YoutubeLink:String = "https://www.youtube.com/embed/-0GyYnlBlOQ"
         let width=300
         let height=200
-        let frame=5
+        let frame=30
         let Code:NSString = "<iframe width=\(width) height=\(height) src=\(YoutubeLink) frameborder=\(frame) allowfullscrenn> </iframe>";
         self.youtubeView.loadHTMLString(Code as String, baseURL: nil)
         

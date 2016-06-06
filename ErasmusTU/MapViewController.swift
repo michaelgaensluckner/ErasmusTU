@@ -138,13 +138,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     {
         var annotations:Array = [Annotation]()
         
-        //load plist file
         var anno_array: NSArray?
         if let path = NSBundle.mainBundle().pathForResource("FreetimeAnnotations", ofType: "plist") {
             anno_array = NSArray(contentsOfFile: path)
         }
 
-        //iterate and create annotations
         if let items = anno_array {
             for item in items {
                 let lat = item.valueForKey("latitude") as! Double
@@ -164,13 +162,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     {
         var annotations:Array = [Annotation]()
         
-        //load plist file
         var anno_array: NSArray?
         if let path = NSBundle.mainBundle().pathForResource("UsefulAnnotations", ofType: "plist") {
             anno_array = NSArray(contentsOfFile: path)
         }
-        
-        //iterate and create annotations
+
         if let items = anno_array {
             for item in items {
                 let lat = item.valueForKey("latitude") as! Double

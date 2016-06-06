@@ -21,8 +21,6 @@ class MapOption : UITableViewController {
             let blurEffect = UIBlurEffect(style: .Light)
             let blurEffectView = UIVisualEffectView(effect: blurEffect)
             tableView.backgroundView = blurEffectView
-            
-            //if you want translucent vibrant table view separator lines
             tableView.separatorEffect = UIVibrancyEffect(forBlurEffect: blurEffect)
         }
     }
